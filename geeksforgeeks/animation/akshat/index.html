@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ESSCI</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+
+
+</head>
+
+
+
+
+<!-----=============================================================================---->
+<!-----=============================================================================---->
+<!-----=============================================================================---->
+<!-----=============================================================================---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body style="margin:0; font-family: verdana;" >
+
+    <div id="simscreen" style="">
+
+        <div id="title"><h3>Network Architecture and Fiber Splicing</h3></div>
+
+
+
+         <!-- Scene 0 -->
+
+
+
+        <div class="simsubscreen" id="canvas0" ></br>
+
+<!--             <a href="indexhindi.html" style="position:absolute; left:15px; top:15px;font-size: 20px;">हिंदी</a>
+			
+           <strong class="incanvas">STEP</strong>
+
+            <span class="circlebg">&nbsp;1&nbsp;</span--->
+            <div id="transwhite" style="width: 700px; height: 310px; margin-left: 50px; position: absolute; top: 70px; overflow-x: hidden; overflow-y: auto;" ><br>
+			<span class="incanvas" style="font-size:16px; position: absolute; left: 0px; top: 15px;  "><strong>Sector:</strong> Electronics</span><br>
+            <span class="incanvas" style="font-size:16px;  position: absolute; left: 300px; top: 15px;"><strong>Subsector:</strong> Comunication and Broadcasting</span><br>
+
+            <p class="incanvas" style="font-size:16px; "><strong>Job Role:</strong></p><br>
+
+            <p class="incanvas" style="font-size:16px;">ELE/Q7106 - Digital Cable Technician</p><br>
+
+            <p class="incanvas" style="font-size:16px;"><strong>Task:</strong></p><br>
+
+            <p class="incanvas" style="font-size:16px;">To Splice (Join) the two end of aptical fiber using Fusion Splice Machine.</p><br>
+
+            <p class="incanvas" style="font-size:16px;"><strong>Overview</strong></p><br>
+
+            <p class="incanvas" style="font-size:16px;">This Experiment includes Three Task:</p>
+            <ol>
+                <li>Placement</li>
+                <li>Arrangement</li>
+                <li>Splicing</li>
+            </ol>
+</div>
+            <!--img src="images/ctm.jpg" style="position:absolute; left:50px; top:200px;" title="CTM" />
+
+            <img src="images/man.png" style="position:absolute; left:422px; top:130px;" height="370px" title="Man" /--->
+
+
+            <p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:200px; top:430px;"><strong>Start Exeperiment</strong></p>
+
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px; left:410px; top:420px; color: ; visibility: visible;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <input type="button" id="nextButton1" style="position:absolute; left:462px; top:420px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Click Here&nbsp;" onclick="navNext0()"/>
+
+        </div>
+
+
+
+
+</div>
+<!-----Scene 0b-------->
+
+<div class="simsubscreen" id="canvas0b" style="visibility:hidden;background-image: url(images/bgwhite.jpg);" ></br>
+
+            <div id="transwhite" style="width: 750px; height: 40px;visibility: ; margin-left: 20px; position: absolute; top:30px;  border: solid red; " >
+
+              <p class="incanvas" style="font-size:px; position: absolute;visibility: ; left:30px; top: 15px;"><strong>TASK 1: The placement of each component and cable as per below diagram.</strong> </p>
+
+              
+
+
+
+            </div>
+<!-------
+            <input type="button" id="addwire" style="position:absolute; left:660px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="addwire1()"/>
+--------->
+            <img src="images/main.png" id="main1" style="position: absolute;  height: 400px;width: 750px;left: 20px;top: 120px; ">
+
+
+
+           
+
+
+
+
+
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            
+
+            <i class="fa fa-hand-o-right" id="nextButton1" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: ;" onclick="navNext0b()"></i>
+
+           </div>
+
+<!-----scene 0c------>
+
+<div class="simsubscreen" id="canvas0c" style="visibility:hidden; background-image: url(images/bgwhite.jpg);" ></br>
+
+            <div id="transwhite" style="width: 720px; height: 60px; visibility: ; margin-left: 30px; position: absolute; top:30px;  border: solid red; " >
+
+              <p class="incanvas" id="step1" style="font-size:px; position: absolute; visibility: ; left:0px; top: 15px;"><strong>STEP 1:</strong> Click on Add button to bring Optical Line Terminal (OLT) on screen. </p>
+
+               <p class="incanvas" id="step2" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 2:</strong> Click on Add button to bring Joint Closure and Splitter on screen. </p>
+
+                <p class="incanvas" id="step3" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 3:</strong> Click on Optical Line Terminal to joint feeder cable with Joint Closure and Splitter. </p>
+
+                 <p class="incanvas" id="step4" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 4:</strong> Click on Add button to bring Home Terminal Box (HTB) on screen. </p>
+
+                 <p class="incanvas" id="step5" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 5:</strong> Click on Joint closure to place distribution Cable from Joint closure to Home Terminal Box (HTB) and other area of city. </p>
+
+                 <p class="incanvas" id="step6" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 6:</strong> Click on Add button to bring Optical Network Unit (ONU) on screen. </p>
+
+                 <p class="incanvas" id="step7" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 7:</strong> Click on Home Terminal Box (HTB) to joint Patch cord with optical Network Unit (ONU) . </p>
+
+                 <p class="incanvas" id="step8" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 8:</strong> Click on Add button to bring Wifi user device on screen. </p>
+
+                  <p class="incanvas" id="step9" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 9:</strong> Click on Add button to bring Set-Top Box on screen. </p>
+
+
+                  <p class="incanvas" id="step10" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 10:</strong> Click on Optical Network Unit (ONU) to share wifi signal with Set-Top Box and wifi user device. </p>
+
+                   <p class="incanvas" id="step11" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 11:</strong> Click on Add button to bring television (T.V.) on screen. </p>
+
+                    <p class="incanvas" id="step12" style="font-size:px; position: absolute; visibility: hidden ; left:0px; top: 15px;"><strong>STEP 12:</strong> Click on Set-Top Box to joint wire with Television (T.V.). </p>
+
+
+
+
+            </div>
+
+            <input type="button" id="addolt11" style="position:absolute; left:698px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="addolt1()"/>
+
+            <img src="images/OLT.png" id="olt1" style="position: absolute; visibility: hidden;  height: 160px;width: 100px;left: 80px;top: 250px;  " onclick="olts1()"/>
+
+
+
+            <input type="button" id="adds1" style="position:absolute; left:695px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="adds1()"/>
+
+             <img src="images/wirecoverr.png" id="wire21" style="position: absolute; visibility: hidden;  height: 0px;width: 9px;left: 271px;top: 370px; ; " onclick=""/> 
+
+            <img src="images/joint closure.jpg" id="s1" style="position: absolute; visibility: hidden;  height: 100px;width: 100px; " onclick="s1htb()">
+
+            <img src="images/city.png" id="city1" style="position: absolute; visibility: hidden;  height: 100px; left:188px;top: 415px; ">
+
+            <img src="images/wirecover.png" id="wire1" style="position: absolute; visibility: hidden;  height: 11px;width: 0px;left: 154px;top: 334px;  " onclick=""/>
+
+            <input type="button" id="addhtb" style="position:absolute; left:695px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="addhtb1()"/>
+
+            <img src="images/HTB.png" id="htb1" style="position: absolute; visibility: hidden;  height: 72px;width: 122px;left: 410px;top: 308px; " onclick="htbonu()"/>
+
+            <img src="images/wirecover.png" id="wire2" style="position: absolute; visibility: hidden;  height: 11px;width: 0px;left: 312px;top: 334px;  " onclick=""/>  
+
+           
+
+            <input type="button" id="addonu" style="position:absolute; left:695px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="addonu1()"/> 
+
+             <img src="images/ONU.png" id="onu1" style="position: absolute; visibility: hidden;  height: 72px;width: 122px;left: 612px;top: 308px; " onclick="onulptpstb1()"/>   
+
+              <img src="images/wirecover.png" id="wire3" style="position: absolute; visibility: visible;  height: 11px;width: 0px;left: 534px;top: 334px;  " onclick=""/>  
+
+              <input type="button" id="addwud" style="position:absolute; left:695px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="addwud1()"/>
+
+              <img src="images/laptop.jpg" id="lptp1" style="position: absolute; visibility: hidden;  height: 72px;width: 122px;left: 612px;top: 435px; "> 
+
+              <input type="button" id="addstb" style="position:absolute; left:695px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="addstb1()"/>
+
+              <img src="images/Settopbox.png" id="stb1" style="position: absolute; visibility: hidden;  height: 67px;width: 110px;left: 614px;top: 196px; " onclick="stbtv1()"/> 
+
+              <img src="images/wifi.png" id="wifi1" style="position: absolute; visibility:hidden;  height: 30px;width: 40px;left: 649px;top: 274px; "> 
+
+
+              <img src="images/wifi.png" id="wifi2" style="position: absolute; visibility: hidden;  height: 30px;width: 40px;left: 646px;top: 389px; ">
+
+              <input type="button" id="addtv" style="position:absolute; left:695px; top:40px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="addtv1()"/>
+
+              <img src="images/Television.png" id="tv1" style="position: absolute; visibility: hidden;  height: 67px;width: 110px;left: 621px;top: 98px; "> 
+
+               <img src="images/wirecoverr.png" id="wire22" style="position: absolute; visibility: visible;  height: 0px;width: 9px;left: 676px;top: 163px; " onclick=""/> 
+
+                <span class="blink_me" id="arrows1" style="position:absolute; font-size: 30px; left:663px; top:32px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> 
+
+                <span class="blink_me" id="arrows2" style="position:absolute; font-size: 30px; left:663px; top:32px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+                <span class="blink_me" id="arrows3" style="position:absolute; font-size: 30px; left:105px; top:200px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+                <span class="blink_me" id="arrows4" style="position:absolute; font-size: 30px; left:658px; top:32px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+                <span class="blink_me" id="arrows5" style="position:absolute; font-size: 30px; left:270px; top:265px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+                <span class="blink_me" id="arrows6" style="position:absolute; font-size: 30px; left:658px; top:32px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+                <span class="blink_me" id="arrows7" style="position:absolute; font-size: 30px; left:465px; top:265px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+                 <span class="blink_me" id="arrows8" style="position:absolute; font-size: 30px; left:658px; top:32px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+                  <span class="blink_me" id="arrows9" style="position:absolute; font-size: 30px; left:658px; top:32px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+                  <span class="blink_me" id="arrows10" style="position:absolute; font-size: 30px; left:750px; top:333px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+                  <span class="blink_me" id="arrows11" style="position:absolute; font-size: 30px; left:658px; top:32px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+                   <span class="blink_me" id="arrows12" style="position:absolute; font-size: 30px; left:750px; top:220px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+
+                   <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowcuboxconn1" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            
+
+            <i class="fa fa-hand-o-right" id="nextButtonconn1" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext0c()"></i>
+
+           </div>
+
+           
+
+
+
+
+
+            
+
+           </div>
+
+<!-- Scene 2 -->
+
+
+
+        <div class="simsubscreen" id="canvas0d" style="visibility:hidden;background-image: url(images/bgwhite.jpg); "></br>
+            
+<!---- ---->            <strong class="incanvas"></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: 80px; margin-left: 50px; position: absolute; top: 30px;" ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px"><strong>TASK 2: Arrange fibers according to Optical Fiber Colour Code Scheme</strong> <br><br>
+			<strong>Step 1:</strong> Click on colored fibers to arrange according to OFCC scheme.
+            </p>
+           
+            
+            
+            
+            </br>
+            </div>
+
+             <img src="images/tableblank.png" style="position:absolute; left:50px; top:135px; " height="400px"; id="" onclick="" />
+<!--------11----------->             
+             <span class="blink_me" id="arcode11" style="position:absolute; font-size: 25px; left:600px; top:165px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+             
+             <img src="images/code11.png" id="codemove11" style="position: absolute; left: 500px; top: 170px; height: 20px">
+             <img src="images/transbox.png" id="transcode11" style="position: absolute; left: 500px; top: 170px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode11()">
+<!--------4----------->
+             <span class="blink_me" id="arcode4" style="position:absolute; font-size: 25px; left:600px; top:195px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code4.png" id="codemove4" style="position: absolute; left: 500px; top: 200px; height: 20px">
+             <img src="images/transbox.png" id="transcode4" style="position: absolute; left: 500px; top: 200px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode4()">
+<!--------1----------->
+             <span class="blink_me" id="arcode1" style="position:absolute; font-size: 25px; left:600px; top:225px;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code1.png" id="codemove1" style="position: absolute; left: 500px; top: 230px; height: 20px">
+             <img src="images/transbox.png" id="transcode1" style="position: absolute; left: 500px; top: 230px; height: 20px; width: 90px;" onclick="addcode1()">
+<!--------5----------->
+             <span class="blink_me" id="arcode5" style="position:absolute; font-size: 25px; left:600px; top:255px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code5.png" id="codemove5" style="position: absolute; left: 500px; top: 260px; height: 20px">
+             <img src="images/transbox.png" id="transcode5" style="position: absolute; left: 500px; top: 260px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode5()">
+<!--------9----------->
+             <span class="blink_me" id="arcode9" style="position:absolute; font-size: 25px; left:600px; top:285px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code9.png" id="codemove9" style="position: absolute; left: 500px; top: 290px; height: 20px">
+             <img src="images/transbox.png" id="transcode9" style="position: absolute; left: 500px; top: 290px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode9()">
+<!--------2----------->
+             <span class="blink_me" id="arcode2" style="position:absolute; font-size: 25px; left:600px; top:315px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code2.png" id="codemove2" style="position: absolute; left: 500px; top: 320px; height: 20px">
+             <img src="images/transbox.png" id="transcode2" style="position: absolute; left: 500px; top: 320px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode2()">
+<!--------8----------->
+             <span class="blink_me" id="arcode8" style="position:absolute; font-size: 25px; left:600px; top:345px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code8.png" id="codemove8" style="position: absolute; left: 500px; top: 350px; height: 20px">
+             <img src="images/transbox.png" id="transcode8" style="position: absolute; left: 500px; top: 350px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode8()">
+<!--------6----------->
+             <span class="blink_me" id="arcode6" style="position:absolute; font-size: 25px; left:600px; top:375px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code6.png" id="codemove6" style="position: absolute; left: 500px; top: 380px; height: 20px">
+             <img src="images/transbox.png" id="transcode6" style="position: absolute; left: 500px; top: 380px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode6()">
+<!--------3----------->
+             <span class="blink_me" id="arcode3" style="position:absolute; font-size: 25px; left:600px; top:405px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code3.png" id="codemove3" style="position: absolute; left: 500px; top: 410px; height: 20px">
+             <img src="images/transbox.png" id="transcode3" style="position: absolute; left: 500px; top: 410px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode3()">
+<!-------12---------->
+             <span class="blink_me" id="arcode12" style="position:absolute; font-size: 25px; left:600px; top:435px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code12.png" id="codemove12" style="position: absolute; left: 500px; top: 440px; height: 20px">
+             <img src="images/transbox.png" id="transcode12" style="position: absolute; left: 500px; top: 440px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode12()">
+<!--------7----------->
+             <span class="blink_me" id="arcode7" style="position:absolute; font-size: 25px; left:600px; top:465px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code7.png" id="codemove7" style="position: absolute; left: 500px; top: 470px; height: 20px">
+             <img src="images/transbox.png" id="transcode7" style="position: absolute; left: 500px; top: 470px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode7()">
+<!--------10----------->
+             <span class="blink_me" id="arcode10" style="position:absolute; font-size: 25px; left:600px; top:495px; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/code10.png" id="codemove10" style="position: absolute; left: 500px; top: 500px; height: 20px">
+             <img src="images/transbox.png" id="transcode10" style="position: absolute; left: 500px; top: 500px; height: 20px; width: 90px; visibility: hidden;" onclick="addcode10()">
+<!------------------->
+
+            <img src="images/colorcoderound.jpg" id="lastcodefit" style="position: absolute; left: 450px; top: 186px; height: 270px; visibility: hidden;">
+
+            <!--<p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:270px; top:415px;"><strong>Start Task</strong></p>--->
+
+            <!--Blinking arrowcubox  
+            <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px; left:410px; top:420px; color: ; visibility: visible;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <input type="button" id="nextButton1" style="position:absolute; left:462px; top:420px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Click Here&nbsp;" onclick="navNex"/>-->
+
+            <!--Blinking arrowcubox---->  
+            <span class="blink_me" id="arrowcolorcode1" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButtoncolorcode1" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext0d()"></i>
+
+        </div>
+
+
+<!-- Scene 1 -->
+
+
+
+        <div class="simsubscreen" id="canvas1" style="visibility:hidden;" ></br>
+      
+<!--            <strong class="incanvas">STEP</strong>
+
+            ---->
+            <div id="transwhite" style="width: 700px; height: 120px; margin-left: 50px; position: absolute; top: 30px;" ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px; top: 20px;"><strong>TASK 3: Splicing two optical fibers end to end using Splicer.</strong> <br><br>
+            <strong>STEP 1:</strong> a) Click Wear button to wear safety goggles. </p><br>
+            <p class="incanvas" id="step1b" style="font-size:px; position: absolute; left: 85px; top: 80px; visibility: hidden;"> b) Click on Cloth to cleanup table surface.</p><br>
+            <p class="incanvas" id="step1c" style="font-size:px; position: absolute; left: 85px; visibility:hidden;top: 100px;"> c) Click Add button to take Safety Mat on the table.</p>
+      
+<!--             <span class="blink_me" id="selectprocessor" style="position:absolute; font-size: 30px; left:10px; top:90px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>-->
+ 
+
+            </br>
+</div>
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="weararrow" style="position:absolute; font-size: 30px; left: 135px; top:475px; color: ;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+            <input type="button" id="WearButton1" style="position:absolute; left:60px; top:480px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Wear&nbsp;" onclick="wearg1()"/>
+
+            <img src="images/man.png" style="position:absolute; left:10px; top:270px;" height="200px"; width="160px"; id="" onclick="()" />
+
+            <input type="button" id="matbutton1" style="position:absolute; visibility: hidden; height: 23px; width: 50; left:620px; top:125px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 2px; color: #FFF; padding-bottom: 2px;" value="&nbsp;Add&nbsp;" onclick="addmat1()"/>
+
+            <img src="images/mat.png" id="mat1" style="position:absolute; left:650px; top:270px; visibility: hidden;" height="50px"; width="250px"; id="" onclick="()" />
+
+            <span class="blink_me" id="addmat" style="position:absolute; font-size: 30px; left: 490px; top: 80px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <span class="blink_me" id="arrowcloth" style="position:absolute; font-size: 30px; left: 740px; top:420px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+            <img src="images/cloth.png" style="position:absolute; left:650px; top:400px;" height="60px"; width="80px"; id="cloth" onclick="movecloth()" />
+
+            <img src="images/goggle.png" style="position:absolute; left:40px; top:200px;" height="60px"; width="100px"; id="goggle" onclick="movegoggle1()"/>
+
+            <span class="blink_me" id="arrow1" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton2" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext1()"></i>
+
+        </div>
+
+
+        <!------meenakshi------->
+
+
+
+ <!-- Scene 2 -->
+
+
+
+        <div class="simsubscreen" id="canvas2" style="visibility:hidden; background-image:url(images/tabletop.jpg);"></br>
+            
+<!------>            <strong class="incanvas"></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: 100px; margin-left: 50px; position: absolute; top: 30px;" ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px"><strong>STEP 2:</strong> a) Click Add button to bring cable on the table.</p><br>
+            <p class="incanvas" id="step2b" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> b) Click on cable at given mark to cut it with desire length.</p><br>
+
+            <p class="incanvas" id="step2c" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> c) Use Round Cutter to make circular cut in the cable at 1m length from the end.</p><br>
+            
+            
+            
+            </br>
+            </div>
+
+             <img src="images/topmat.png" style="position:absolute; left:100px; top:200px; opacity: 0.6; " height="300px"; width="600px"; id="" onclick="" />
+
+              <input type="button" id="addwireButton1" style="position:absolute;visibility: hidden; left:600px; top:47px; height: 23px; width: 50; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 2px; color: #FFF; padding-bottom: 2px;" value="&nbsp;ADD&nbsp;" onclick="addwire()"/>
+
+            <img src="images/wire.png" id="addwire" style="position:absolute; visibility: hidden; left:150px; top:250px;" height="200px"; width="400px"; id="" onclick="" />
+
+             <img src="images/cutwire.png" id="addcutwire" style="position:absolute; visibility: hidden;left:547px; top:293px; transform: rotate(-20deg);" height="13px"; width="50px"; id="" onclick="" />
+
+             <span class="blink_me" id="arrowmovecutwiretrans" style="position:absolute; font-size: 30px; left:530px; top:270px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+              <img src="images/transbox.png" id="movecutwiretrans" style="position:absolute; visibility: hidden; left:522px; top:281px;" height="50px"; width="50px"; id="" onclick="cut1scr()" />
+
+             <img src="images/cutwire.png" id="addcutwire2" style="position:absolute; visibility: hidden;;left:547px; top:293px; transform: rotate(-20deg);" height="13px"; width="50px"; id="" onclick="" />
+
+            <img src="images/handscrew.png" id="scr1" style="position:absolute; visibility:hidden;left:543px; top:300px; "  id="" onclick="" />
+
+            <img src="images/cutterclose.png" id="scr2" style="position:absolute; visibility: hidden;left:560px; top:291px; transform: rotate(-45deg); " height="95px"; width="40px"; id="" onclick="" />
+
+            <img src="images/handscrew.png" id="scr3" style="position:absolute; visibility: hidden;left:543px; top:300px; "  id="" onclick="" />
+
+            <img src="images/cursorroundcutter.png" id="roundcutter" style="position:absolute; visibility: hidden; left:450px; top:355px;" id="" onclick="" />
+
+            <img src="images/wireup.png" id="wireup" style="position:absolute; visibility: hidden; left:437px; top:305px;"height="77px"; width="113px"; id="" onclick="" />
+
+
+
+            <img src="images/transbox.png" id="transcutter" style="position:absolute; visibility: hidden; left:420px; top:315px; height: 100px; width: 100px;" id="" onclick="roundcut1()" />
+
+            <img src="images/sleeve.png" id="roundcuttermark" style="position:absolute; visibility: hidden; left: 457px; top: 361px; transform: rotate(51deg); height: 7px; width: 11px;" />
+           
+            <span class="blink_me" id="arrowtrans1" style="position:absolute; font-size: 30px; left:455px; top:310px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+            
+
+            
+
+            
+            
+
+             
+             
+
+            <!--<p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:270px; top:415px;"><strong>Start Task</strong></p>--->
+
+            <!--Blinking arrowcubox  
+            <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px; left:410px; top:420px; color: ; visibility: visible;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <input type="button" id="nextButton1" style="position:absolute; left:462px; top:420px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Click Here&nbsp;" onclick="navNex"/>-->
+
+            <!--Blinking arrowcubox---->  
+            <span class="blink_me" id="arrow2" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton3" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext2()"></i>
+
+        </div>
+
+
+
+
+<!-- Scene 3 -->
+
+        <div class="simsubscreen" id="canvas3" style="visibility:hidden; background-image:url(images/tabletop.jpg); ></br>
+            
+<!------>            <strong class="incanvas></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: 100px; margin-left: 50px; position: absolute; top: 30px;" ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px"><strong>STEP 3:</strong> a)Use Cable Sheath Stripper to remove the jacket of the cable.</p><br>
+
+            <p class="incanvas" id="step3b" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> b) Click on the Open fibers to remove one fiber from it.</p><br>
+
+            <p class="incanvas" id="step3c" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> c) Click on the tissue paper to clean blue fiber.</p><br>
+
+            <p class="incanvas" id="step3d" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> d) Click on the Next button to see zoom view of blue fiber.</p><br>
+            
+            
+            </br>
+            </div>
+
+
+             
+             <img src="images/topmat.png" style="position:absolute; left:100px; top:200px; opacity: 0.6; " height="300px"; width="600px"; id="" onclick="" />
+            <img src="images/wire.png" id="hidewire" style="position:absolute; left:150px; top:250px;" height="200px"; width="400px"; id="" onclick="" />
+
+            <img src="images/transbox.png" id="transsheath" style="position:absolute; visibility: hidden; left:530px; top:280px;" height="80px"; width="80px"; id="" onclick="movesheat()" />
+
+            <span class="blink_me" id="arrowtrans2" style="position:absolute; font-size: 30px; left:537px; top:265px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+           
+            
+            
+             <img src="images/sheathcut.png" id="SC1" style="position:absolute; visibility: hidden;left:547px; top:293px;  " onclick="moveSC1()" />
+
+            <img src="images/handscrew.png" id="scr1" style="position:absolute; visibility: hidden;left:543px; top:300px; " height="70px"; width="50px"; id="" onclick="" />
+
+             <img src="images/openwire.png" id="openwire1" style="position:absolute;visibility: hidden;  left:150px; top:250px;" height="200px"; width="400px"; id="" onclick="" />
+
+             <img src="images/transbox.png" id="transbluewire" style="position:absolute; visibility: hidden; left:470px; top:280px;  "height="80px"; width="80px"; id="" onclick="showbluewire()" />
+
+             <span class="blink_me" id="arrowtrans3" style="position:absolute; font-size: 30px; left:500px; top:250px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+             <img src="images/wireblueout.png" id="bluewire1" style="position:absolute;visibility: hidden;  left:150px; top:250px;" height="200px"; width="400px"; id="" onclick="" />
+
+              <img src="images/tissue.png" style="position:absolute;  left:600px; top:418px;" height="50px"; width="50px"; id="clothblue" onclick="cleanblue1()" />
+
+              <span class="blink_me" id="arrowtissue" style="position:absolute; font-size: 30px; left:620px; top:375px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+           
+
+            <img src="images/cutterclose.png" id="scr2" style="position:absolute; visibility: hidden;left:543px; top:300px; transform: rotate(-30deg); " height="60px"; width="30px"; id="" onclick="" />
+
+            <img src="images/handscrew.png" id="scr3" style="position:absolute; visibility: hidden;left:543px; top:300px; " height="70px"; width="50px"; id="" onclick="" />
+
+           
+            <span class="blink_me" id="arrowcap1" style="position:absolute; font-size: 30px; left:570px; top:335px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+
+
+            
+
+            
+
+            
+            
+
+             
+             
+
+            <!--<p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:270px; top:415px;"><strong>Start Task</strong></p>--->
+
+            <!--Blinking arrowcubox  
+            <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px; left:410px; top:420px; color: ; visibility: visible;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <input type="button" id="nextButton1" style="position:absolute; left:462px; top:420px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Click Here&nbsp;" onclick="navNex"/>-->
+
+            <!--Blinking arrowcubox---->  
+            <span class="blink_me" id="arrow3" style="position:absolute; font-size: 30px; left:710px; top:510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton4" style="color: #764C28; position:absolute; left:750px; top:510px; font-size: 35px; visibility: hidden;" onclick="navNext3()"></i>
+
+        </div>
+
+
+
+
+
+
+
+
+<!-- Scene 4 -->
+
+        <div class="simsubscreen" id="canvas4" style="visibility:hidden; background-image:url(images/tabletop.jpg); ></br>
+            
+<!------>            <strong class="incanvas></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: auto; margin-left: 50px; position: absolute; top: 30px;" ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px"><strong>STEP 4:</strong> a) Click to Add button to bring Protection Sleeve on the table.</p><br>
+
+            <p class="incanvas" id="step4b" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> b) Click on the Protection Sleeve to place it over blue fiber.</p><br>
+
+            <p class="incanvas" id="step4c" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> c) Click on blue fiber to strip its outer jacket.</p><br>
+
+             <p class="incanvas" id="step4d" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> d) Click on lint-free tissue soaked in isopropyl alcohol to clean striped fiber.</p><br>
+            
+            
+            </br>
+            </div>
+
+            <img src="images/topmat.png" style="position:absolute; left:100px; top:200px; opacity: 0.6; " height="300px"; width="600px"; id="" onclick="" />
+
+
+             <img src="images/blueline.png" style="position:absolute; left:135px; top:224px;  " height="200px"; width="250px"; id="blueline" onclick="" />
+
+
+             <input type="button" id="sleevebutton1" style="position:absolute; visibility: hidden; height: 23px; width: 50; left:670px; top:45px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 2px; color: #FFF; padding-bottom: 2px;" value="&nbsp;Add&nbsp;" onclick="addsleeve1()"/>
+             <img src="images/sleeve.png" style="position:absolute; left:420px; top:420px; visibility: hidden; " height="15px"; width="120px"; id="sleeve1" onclick="coversleeve()" />
+
+             <img src="images/sleeve.png" style="position:absolute;left:117px; top:309px; visibility: hidden; " height="15px"; width="120px"; id="sleeve2" onclick="removesleeve()" />
+
+             <span class="blink_me" id="arrowsleeve1" style="position:absolute; font-size: 30px; left:470px; top:385px; color:; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+			<span class="blink_me" id="arrowscene4" style="position:absolute; font-size: 30px; left:303px; top:309px; color:; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+              <img src="images/transbox.png" id="transstripper" style="position:absolute; visibility: hidden; left:300px; top:337px;   "height="50px"; width="50px"; id="" onclick="cuttransstripper()" />
+
+
+             <img src="images/stripper.png" id="stripper1" style="position:absolute; visibility:hidden;left:310px; top:355px; " height="70px"; width="50px"; id="" onclick="" />
+
+             <img src="images/zoom1.png" style="position:absolute;left:549px; top:157px; visibility: hidden; " height="213px"; width="227px"; id="zoom" onclick="cuttransstripper()" />
+
+               <img src="images/wireafter.png" style="position:absolute; visibility: hidden; left:135px; top:224px;  " height="200px"; width="250px"; id="wireafter" onclick="" />
+
+               <img src="images/wirecover.png" style="position:absolute; visibility:hidden; left:312px; top:358px ;height: 9px;  " id="wirecover" onclick="" />
+
+               <img src="images/tissue.png" style="position:absolute;  left:600px; top:418px;" height="50px"; width="50px"; id="clothfiber" onclick="cleanfiber1()" />
+
+               <span class="blink_me" id="arrowtissue41" style="position:absolute; font-size: 30px; left:620px; top:375px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+            
+
+             
+
+
+           
+
+            
+
+           
+
+            
+
+            
+
+            
+            
+
+             
+             
+
+            <!--<p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:270px; top:415px;"><strong>Start Task</strong></p>--->
+
+            <!--Blinking arrowcubox  
+            <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px; left:410px; top:420px; color: ; visibility: visible;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <input type="button" id="nextButton1" style="position:absolute; left:462px; top:420px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Click Here&nbsp;" onclick="navNex"/>-->
+
+            <!--Blinking arrowcubox---->  
+            <span class="blink_me" id="arrow4" style="position:absolute; font-size: 30px; left:710px; top:510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton5" style="color: #764C28; position:absolute; left:750px; top:510px; font-size: 35px; visibility: hidden;" onclick="navNext4()"></i>
+
+        </div>
+
+
+
+
+<!-- Scene 5 -->
+
+        <div class="simsubscreen" id="canvas5" style="visibility:hidden; background-image:url(images/tabletop.jpg)"; ></br>
+            
+           <strong class="incanvas"></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: 114px; margin-left: 50px; position: absolute; top: 30px; overflow-x: hidden; overflow-y: scroll;" ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px visibility: hidden;"><strong>STEP 5:</strong> a) Click on Add button to bring cleaver on the mat.</p><br>
+
+            <p class="incanvas" id="step5b" style="font-size:px; position: absolute; left: 74px; visibility: hidden;"> b) Click on cleaned fiber to put it on the Cleaver.</p><br>
+
+            <p class="incanvas" id="step5c" style="font-size:px; position: absolute; left: 74px; visibility: hidden;"> c) Click on the Fiber Holder lid to close it.</p><br>
+
+            <p class="incanvas" id="step5d" style="font-size:px; position: absolute; left: 74px; visibility: hidden;"> d) Click on the Cleaver upcover to close the cleaver.</p><br>
+
+            <p class="incanvas" id="step5e" style="font-size:px; position: absolute; left: 74px; visibility: hidden;"> e) Click on the Cleaver upcover to open the cleaver.</p><br>
+
+            <p class="incanvas" id="step5f" style="font-size:px; position: absolute; left: 74px; visibility: hidden;"> f) Click on the Fiber Holder Lid to open it.</p><br>
+
+            <p class="incanvas" id="step5g" style="font-size:px; position: absolute; left: 74px; visibility: hidden;"> g) Click on fiber to remove it from Cleaver.</p><br>
+
+
+</div>
+
+
+
+
+       		<img src="images/topmat.png" style="position:absolute; left:54px; top:155px; opacity: 0.6; " height="300px"; width="693px"; id="" onclick="" />
+
+       		<input type="button" id="machinebottombutton" style="position:absolute; visibility: hidden; height: 23px; width: 50; left:670px; top:45px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 2px; color: #FFF; padding-bottom: 2px;" value="&nbsp;Add&nbsp;" onclick="addmachinebottom()"/>
+
+
+       		<img src="images/machinebottom.png" id="machinebottom" style="position:absolute; visibility:hidden;left:310px; top:281px; " height="159px"; width="168px"; id="" onclick="" />
+
+       		<img src="images/machineupcover.png" id="machineupcover" style="position:absolute; visibility:hidden;left:299px; top:158px; " height="149px"; width="168px";  onclick="machineclosecover()" />
+
+       		<span class="blink_me" id="arrowmupcover" style="position:absolute; font-size: 30px; left:272px; top:190px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+       		<img src="images/pin2.png" id="pin2" style="position:absolute; visibility:hidden;left:310px; top:320px; transform:rotateX(193deg);  transform-origin: top;" height="28px"; width="39px";  onclick="pinclose()" />
+
+       		<span class="blink_me" id="arrowpin1" style="position:absolute; font-size: 30px; left:284px; top:288px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+        	<img src="images/pin2.png" id="pinclickopen" style="position:absolute; visibility:hidden;left:310px; top:320px; transform:rotateX(0deg);  transform-origin: top;" height="28px"; width="39px";  onclick="pinclickopen()" />
+
+			<span class="blink_me" id="arrowpin2" style="position:absolute; font-size: 30px; left:310px; top:347px; color: yellow; visibility: hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+       		<img src="images/bluewireopen.png" style="position:absolute; left:88px; top:396px; visibility: hidden;  " height="5px"; width="94px"; id="wireopen1" onclick="attachwireopen()" />
+
+			<span class="blink_me" id="arrowwireopen1" style="position:absolute; font-size: 30px; left:280px; top:334px; color: yellow; visibility: hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+
+		
+
+            <span class="blink_me" id="arrowbluewire1" style="position:absolute; font-size: 30px; left:125px; top:360px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+       		<img src="images/bluewireopen.png" style="position:absolute; left:252px; top:332px; visibility: hidden;  " height="5px"; width="94px"; id="wireopenremove" onclick="wireopenremove()" />
+
+
+        	<img src="images/machinecover.png" id="machinecover" style="position:absolute; visibility:hidden;" height="155px"; width="168px";  onclick="openmachinecover()" />
+
+        	<span class="blink_me" id="arrowopenmcvr" style="position:absolute; font-size: 30px; left:264px; top:350px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+        
+
+			<span class="blink_me" id="arrow5" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton6" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext5()"></i>
+
+        </div>
+
+
+
+
+
+<!-- Scene 6 -->
+
+        <div class="simsubscreen" id="canvas6" style="visibility:hidden; background-image:url(images/tabletop.jpg)"; ></br>
+            
+           <strong class="incanvas"></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: 114px; margin-left: 50px; position: absolute; top: 30px; overflow-x: hidden; overflow-y: scroll;" ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px"><strong>STEP 6:</strong> a) Click on Add button to bring Splicer on the mat.</p><br>
+
+            <p class="incanvas" id="step6b" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> b) Click on Splicer to bring zoom view of splicer top.</p><br>
+
+            <p class="incanvas" id="step6c" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> c) Click on Splicer Wind Protector to open it.</p><br>
+
+            <!-- <p class="incanvas" id="step6d" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> d) Click on the Cleaver upcover to close the cleaver.</p><br> -->
+
+            <p class="incanvas" id="step6e" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> d) Click on the Fiber Holders to open it.</p><br>
+
+            <p class="incanvas" id="step6f" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> e) Click on cleaved fibers for placing on the V Groove of the Splicer .</p><br>
+            <p class="incanvas" id="step6g" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> f) Click on Fiber Holders to close it.</p><br>
+            <p class="incanvas" id="step6h" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> g) Click on Splicer Wind Protector to close it.</p><br>
+            <p class="incanvas" id="step6i" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> h) Click on Splicer Screen area for zoom view of Screen.</p><br>
+
+    		<p class="incanvas" id="step6j" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> i) Click on View key to see the cleaved fiber ends form 2 dimensions.</p><br>
+
+    		<p class="incanvas" id="step6k" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> j) Click on Set key for generating Arc to fuse the fibers.</p><br>
+
+
+</div>
+
+
+
+
+
+
+            <img src="images/topmat.png" style="position:absolute; left:54px; top:155px; opacity: 0.6; " height="316px"; width="628px"; id="" onclick="" />
+
+            
+
+
+             <img src="images/splicer1copy.png" style="position:absolute; left:220px; top:189px; visibility: hidden;" height="200px"; width="180px"; id="splicer1" onclick="zoom_splicer()" />
+
+             <span class="blink_me" id="arrowspl1" style="position:absolute; font-size: 30px; left:255px; top:310px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+        
+
+
+
+             <img src="images/withoutpin.png" style="position:absolute; left:315px; top:214px;  visibility: hidden;" height="206px"; width="310px"; id="closetop_zoom" onclick="" />
+
+             <img src="images/withoutpin.png" style="position:absolute; left:314px; top:269px;  visibility:hidden;" height="136px"; width="311px"; id="withooutpin" onclick="" />
+
+             <img src="images/pininside.png" style="position:absolute; left:392px; top:285px;  visibility:hidden; transform-origin:top;" height="54px"; width="43px"; id="pininsideleft" onclick="openpinleft()" />
+
+             <img src="images/pininside.png" style="position:absolute; left:490px; top:285px;  visibility:hidden; transform-origin:top;" height="54px"; width="43px"; id="pininsideright" onclick="openpinright()" />
+
+            <span class="blink_me" id="arrowspin61" style="position:absolute; color: yellow; font-size: 30px; left:360px; top:290px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+        
+        	<span class="blink_me" id="arrowspin62" style="position:absolute;color: yellow; font-size: 30px; left:540px; top:290px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+        
+
+
+            
+             <img src="images/p2.png" style="position:absolute; left:314px; top:281px;  visibility:hidden;transform-origin:bottom;" height="136px"; width="307px"; id="p2" onclick="" />
+            
+             <img src="images/p1.png" style="position:absolute; left:314px; top:214px;  visibility:hidden; transform-origin:top;" height="87px"; width="307px"; id="p1" onclick="" />
+
+
+
+
+ 			<img src="images/transbox.png" id="transsplice" style="position:absolute; visibility: hidden; left:439px; top:350px;   "height="50px"; width="50px"; id="" onclick="opentop_zoom()" />
+
+ 			<span class="blink_me" id="arrowscene6" style="position:absolute; font-size: 30px; left:447px; top:400px; color: yellow; visibility: hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+ 			<img src="images/bluewireopen.png" style="position:absolute; left:92px; top:429px; visibility: hidden; " height="5px"; width="94px"; id="placewireopen1" onclick="plcaewire1()" />
+
+ 			<span class="blink_me" id="arrowwire61" style="position:absolute; font-size: 30px; left:200px; top:413px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+            <img src="images/bluewireopen.png" style="position:absolute; left:92px; top:440px; visibility: hidden; transform:rotateY(180deg);" height="5px"; width="94px"; id="placewireopen2" onclick="placewire2()" />
+
+            <span class="blink_me" id="arrowwire62" style="position:absolute; font-size: 30px; left:200px; top:423px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+            <img src="images/pininside.png" style="position:absolute; left:392px; top:285px;  visibility:hidden; transform-origin:top; transform:rotateX(-144deg)" height="54px"; width="43px"; id="pininsideleftclose" onclick="closepinleft()" />
+
+            <span class="blink_me" id="arrowspin63" style="position:absolute; color: yellow; font-size: 30px; left:355px; top:250px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/pininside.png" style="position:absolute; left:490px; top:285px;  visibility:hidden; transform-origin:top; transform:rotateX(-144deg)" height="54px"; width="43px"; id="pininsiderightclose" onclick="closepinright()" />
+
+             <span class="blink_me" id="arrowspin64" style="position:absolute;color: yellow; font-size: 30px; left:545px; top:250px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+             <img src="images/p2.png" style="position:absolute; left:314px; top:281px;  visibility:hidden;transform-origin:bottom; transform:rotateX(94deg);" height="136px"; width="307px"; id="p2close" onclick="" />
+            
+             <img src="images/p1.png" style="position:absolute; left:314px; top:214px;  visibility:hidden; transform-origin:top; transform:rotateX(-94deg)" height="87px"; width="307px"; id="p1close" onclick="" />
+
+
+			<span class="blink_me" id="arrowscene6close" style="position:absolute; font-size: 30px; left:455px; top:375px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+			<img src="images/transbox.png" id="transspliceclose" style="position:absolute; visibility: hidden; left:439px; top:350px;   "height="50px"; width="50px"; id="" onclick="closetop_zoom()" />
+
+
+          <!-- <img src="images/splicer1copy.png" style="position:absolute; left:78px; top:221px; visibility: hidden;" height="200px"; width="180px"; id="spliceragainview" onclick="spliceragainview()" /> -->
+
+          <img src="images/mattop.png" id="mattop" style="position:absolute; left:304px; top:206px; height: 222px; width: 350px; visibility: hidden;">
+
+          <span class="blink_me" id="arrowscreenoff" style="position:absolute; font-size: 30px; left:156px; top:290px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+           <img src="images/transbox.png" id="transscreenoff" style="position:absolute; visibility:hidden; left:146px; top:312px; "height="50px"; width="50px"; id="" onclick="screenoffview()" />
+
+            <img src="images/displayoff.png" style="position:absolute; left:315px; top:214px;  visibility: hidden;" height="206px"; width="310px"; id="screenoff1" onclick="" />
+
+			<span class="blink_me" id="arrowscreenon" style="position:absolute; font-size: 30px; left:340px; top:258px; color: yellow; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <img src="images/transbox.png" id="transscreenon" style="position:absolute; visibility:hidden; left:355px; top:243px;  "height="50px"; width="50px"; id="" onclick="transscreenon()" />
+
+             <img src="images/display1.png" style="position:absolute; left:315px; top:214px;  visibility: hidden;" height="206px"; width="310px"; id="display1" onclick="" />
+
+
+
+
+			<span class="blink_me" id="arrowsetkey" style="position:absolute; font-size: 30px; left:540px; top:180px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+            <img src="images/transbox.png" id="transviewclick" style="position:absolute; visibility:hidden; left:525px; top:209px;  "height="30px"; width="50px"; id="" onclick="transviewclick()" />
+
+             <img src="images/display2.png" style="position:absolute; left:315px; top:214px;  visibility: hidden;" height="206px"; width="310px"; id="screenon1" onclick="" />
+
+             
+             <img src="images/display3.png" style="position:absolute; left:315px; top:214px;  visibility: hidden;" height="206px"; width="310px"; id="setclickimage1" onclick="" />
+
+              <input type="button" id="addsplicerbutton" style="position:absolute; visibility: hidden; height: 23px; width: 50; left:670px; top:45px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 2px; color: #FFF; padding-bottom: 2px;" value="&nbsp;Add&nbsp;" onclick="addsplicer()"/>
+
+
+
+
+			<span class="blink_me" id="arrow6" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton7" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext6()"></i>
+
+        </div>
+
+
+
+
+
+<!-- Scene 7 -->
+
+        <div class="simsubscreen" id="canvas7" style="visibility:hidden; background-image:url(images/tabletop.jpg)"; ></br>
+            
+           <strong class="incanvas"></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: 114px; margin-left: 50px; position: absolute; top: 30px; overflow-y: scroll; overflow-x: hidden;"  ></br>
+
+            
+
+            <p class="incanvas" id="step7b" style="font-size:px; position: absolute; left: 10px; "> <strong>STEP 7:</strong> a) Click on Splicer top area to bring zoom view of splicer from top.</p><br>
+
+            <p class="incanvas" id="step7c" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> b) Click on Wind Protector of splicer to open it.</p><br>
+
+            <p class="incanvas" id="step7d" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> c) Click on both of the fiber holders.</p><br>
+
+			<p class="incanvas" id="step7e" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> d) Click on the joined fiber to take it out from the groove.</p><br>
+
+			<p class="incanvas" id="step7f" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> e) Click on the protection sleeve to slide it on joint.</p><br>
+
+			<p class="incanvas" id="step7g" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> f) Click on heater area on splicer to view heater zoom view.</p><br>
+
+			<p class="incanvas" id="step7h" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> g) Click on sleeved fiber to put it on heater.</p><br>
+			<p class="incanvas" id="step7i" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> h) Click on Heat button on splicer console to start heating process.</p><br>
+
+			<p class="incanvas" id="step7j" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> i) Click on the heated and sleeved wire to remove it from heater.</p><br>
+
+</div>
+
+
+
+
+        
+            <img src="images/topmat.png" style="position:absolute; left:54px; top:155px;  opacity: 0.6; " height="316px"; width="628px"; id="topmat7" onclick="" />
+
+             <img src="images/sleeve.png" style="position:absolute;left:89px; top:431px; visibility:hidden; " height="12px"; width="120px"; id="sleevecanvas7" onclick="sleevecanva7animation()" />
+
+             <span class="blink_me" id="arrowsleevecanvas7" style="position:absolute; font-size: 30px; left:134px; top:397px; color:yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+           
+
+            <img src="images/splicer1copy.png" style="position:absolute; left:78px; top:221px;" height="200px"; width="180px"; id="splicer1second" onclick="zoom_splicersecond()" />
+
+            <span class="blink_me" id="arrowsplicerclosed" style="position:absolute; font-size: 30px; left:234px; top:244px; color:yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span> 
+
+             <img src="images/withoutpin.png" style="position:absolute; left:315px; top:214px;  visibility: hidden;" height="206px"; width="310px"; id="closetop_zoomsecond" onclick="" />
+
+
+        	<img src="images/bluewirejoint.png" style="position:absolute; left:368px; top:319px; visibility: hidden; " height="8px"; width="182px"; id="bluewirejoint" onclick="putbluewirejoint()" />
+
+        	<span class="blink_me" id="arrowsbluewirejoint" style="position:absolute;color: yellow; font-size: 30px; left:450px; top:285px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span> 
+
+            
+
+            <img src="images/pininside.png" style="position:absolute; left:392px; top:285px;  visibility:hidden; transform-origin:top; transform:rotateX(0deg)" height="54px"; width="43px"; id="pininsideleftclosesecond" onclick="openpinleftsecond()" />
+
+			<span class="blink_me" id="arrowspin633" style="position:absolute; color: yellow; font-size: 30px; left:365px; top:280px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <img src="images/pininside.png" style="position:absolute; left:490px; top:285px;  visibility:hidden; transform-origin:top; transform:rotateX(0deg)" height="54px"; width="43px"; id="pininsiderightclosesecond" onclick="openpinrightsecond()" />
+
+
+ 			<span class="blink_me" id="arrowspin644" style="position:absolute;color: yellow; font-size: 30px; left:535px; top:280px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-left"></i></strong></span>  
+
+        	<img src="images/p2.png" style="position:absolute; left:314px; top:281px;  visibility:hidden;transform-origin:bottom;" height="136px"; width="307px"; id="p2closesecond" onclick="" />
+            
+             <img src="images/p1.png" style="position:absolute; left:314px; top:214px;  visibility:hidden;transform-origin:top; " height="87px"; width="307px"; id="p1closesecond" onclick="" />
+
+
+  			<span class="blink_me" id="arrowsplicedclosed" style="position:absolute; font-size: 30px; left:450px; top:370px; color:yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>      
+
+ 			<img src="images/transbox.png" id="transsplicesecond" style="position:absolute; visibility: hidden; left:439px; top:350px;   "height="50px"; width="50px"; id="" onclick="opentop_zoomsecond()" />
+
+
+			<span class="blink_me" id="arrowtransheatview" style="position:absolute; font-size: 30px; left:150px; top:260px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>
+
+ 			<img src="images/transbox.png" id="transheatview" style="position:absolute; visibility: hidden; left: 78px;top: 213px;width: 180px;height: 200px; " onclick="transheatview()" />
+
+ 			<img src="images/mattop.png" id="mattopcanvas7" style="position:absolute; left:304px; top:206px; height: 222px; width: 350px; visibility: hidden;">
+
+
+			<img src="images/heaterzoom.png" style="position:absolute; left:315px; top:197px;  visibility: hidden;" height="206px"; width="310px"; id="heaterzoom" onclick="" />
+
+
+
+			<img src="images/bluewirejoint.png" style="position:absolute; left:215px; top:434px; visibility: hidden; " height="8px"; width="182px"; id="bluewirejointhide" onclick="" />
+
+			<img src="images/sleeve.png" style="position:absolute;left:244px; top:431px; visibility:hidden; opacity: 0.6 " height="12px"; width="120px"; id="sleevecanvas7hide" onclick="" />
+
+
+			<span class="blink_me" id="arrowstranswiresleeveanimation" style="position:absolute; font-size: 30px; left:291px; top:440px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-up"></i></strong></span>  
+
+			<img src="images/transbox.png" id="transwiresleeveanimation" style="position:absolute; visibility: hidden; left:291px; top:420px;"height="50px"; width="50px"; id="" onclick="transwiresleeveanimation()" />
+
+			<span class="blink_me" id="arrowstransheat" style="position:absolute; font-size: 30px; left:450px; top:316px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span> 
+
+			<img src="images/transbox.png" id="transclickheat" style="position:absolute; visibility: hidden; left:440px; top:330px;  height: 50px; width: 50px" onclick="transclickheat1()" />
+
+			<img src="images/bluewirejoint.png" style="position:absolute; left:380px; top:229px; visibility: hidden; " height="8px"; width="182px"; id="bluewirejointhideheat" onclick="" />
+
+			<img src="images/sleeve.png" style="position:absolute;left:411px; top:227px; visibility:hidden; opacity: 0.6 " height="12px"; width="120px"; id="sleevecanvas7hideheat" onclick="" />
+
+
+			<span class="blink_me" id="arrowstransclickheatwire" style="position:absolute; font-size: 30px; left:454px; top:191px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/transbox.png" id="transclickheatwire" style="position:absolute; visibility: hidden; left:454px; top:217px; visibility:hidden;"height="30px"; width="30px";  onclick="transclickheatwire()" />
+
+
+			<span class="blink_me" id="arrow7" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton8" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext7()"></i>
+
+        </div>
+
+
+
+<!-- scene--8 -->
+
+ <div class="simsubscreen" id="canvas8" style="visibility:hidden; background-image:url(images/tabletop.jpg)"; ></br>
+            
+           <strong class="incanvas"></strong>
+
+            
+            <div id="transwhite" style="width: 700px; height: auto; margin-left: 50px; position: absolute; top: 30px; "  ></br>
+
+            <p class="incanvas" style="font-size:px; position: absolute; left: 10px"><strong>STEP 8:</strong> a) Click on Add button to bring Splice Tray on the table.</p><br>
+
+            <p class="incanvas" id="step8b" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> b) Click on the each fiber one by one to fit it in Splice Tray.</p><br>
+            <p class="incanvas" id="step8c" style="font-size:px; position: absolute; left: 85px; visibility: hidden;"> c) Our fiber has been spliced now. Thank you for performing experiment.</p><br>
+			</div>
+
+ 			<img src="images/topmat.png" style="position:absolute; left:54px; top:155px; opacity: 0.6; " height="316px"; width="628px"; id="" onclick="" />
+
+ 			<img src="images/tray.png" style="position:absolute;left:400px; top:200px; visibility:hidden; " height="177px"; width="347px"; id="tray" onclick="" />
+
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:431px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull1" onclick="put1()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull1" style="position:absolute; font-size: 30px; left:173px; top:303px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:421px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull2" onclick="put2()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull2" style="position:absolute; font-size: 30px; left:173px; top:313px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:411px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull3" onclick="put3()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull3" style="position:absolute; font-size: 30px; left:173px; top:323px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:401px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull4" onclick="put4()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull4" style="position:absolute; font-size: 30px; left:173px; top:333px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:391px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull5" onclick="put5()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull5" style="position:absolute; font-size: 30px; left:173px; top:343px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:381px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull6" onclick="put6()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull6" style="position:absolute; font-size: 30px; left:173px; top:353px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:371px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull7" onclick="put7()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull7" style="position:absolute; font-size: 30px; left:173px; top:363px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:361px; visibility:hidden; " height="5px"; width="199px"; id="splicedwirefull8" onclick="put8()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull8" style="position:absolute; font-size: 30px; left:173px; top:373px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:351px; visibility:visible; " height="5px"; width="199px"; id="splicedwirefull9" onclick="put9()" />
+
+			<span class="blink_me" id="arrowssplicedwirefull9" style="position:absolute; font-size: 30px; left:173px; top:383px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+
+      
+
+			<img src="images/splicedwirefull.png" style="position:absolute;left:85px; top:341px; visibility:visible; " height="5px"; width="199px"; id="splicedwirefull10" onclick="" />
+
+      <img src="images/transbox.png" style="position:absolute;left:85px; top:365px; visibility:visible; border: 2px solid green; " height="50px"; width="199px"; id="transbox10" onclick="put10()" />
+
+
+
+			<span class="blink_me" id="arrowssplicedwirefull10" style="position:absolute; font-size: 30px; left:173px; top:393px; color: yellow ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+      <img src="images/handsmall.png" style="position:absolute;left:110px; top:337px; 
+      visibility:hidden;"  id="handsmall" onclick="" />
+
+
+			<input type="button" id="addtray" style="position:absolute; visibility: visible; height: 23px; width: 50; left:676px; top:43px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 2px; color: #FFF; padding-bottom: 2px;" value="&nbsp;Add&nbsp;" onclick="addtray()"/>
+
+
+			<span class="blink_me" id="arrow8" style="position:absolute; font-size: 30px; left:690px; top:480px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+  		
+  			<i class="fa fa-hand-o-right" id="nextButton9" style="color: #764C28; position:absolute; left:720px; top:480px; font-size: 35px; visibility: hidden;" onclick="navNext6()"></i>
+
+ </div>
+
+
+
+
+</div><!--- First Div---->
+<!--------->
+<div style="text-align: center; font-size: 11px; width:800px; border:1px solid #764C28; position: relative; border-top:none; color: #FFF; background-color: #F36F21; height: 15px; padding-top: 5px; padding-bottom: 5px"><a href="#" target="_blank"  style="text-decoration: none;"><strong style="color: #FFF; font-size: 12px;"><!---Electronics Sector Skill Council of India (ESSCI)----></strong></a></div>
+</body>
+<!---i class="fa fa-arrow-right" style="color: #82C91E"></i>
+<i class="fa fa-arrow-left" style="color: #82C91E"></i>border:solid 1px #;
+<i class="fa fa-hand-o-right"></i>
+  border-bottom:none;
+<i class="fa fa-arrow-down" style="color: #82C91E"></i>
+<i class="fa fa-arrow-up" style="color: #82C91E"></i>
+<i class="fa fa-chevron-circle-right" style="color: #82C91E"></i>
+
+body {
+  cursor: url('some-cursor.ico'), default;
+}
+
+<i class="fas fa-hand-point-right" style="color: #82C91E"></i--->
+
+
+</html>

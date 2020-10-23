@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ESSCI</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous">
+        
+    </script>
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+
+
+</head>
+
+<body style="margin:0; font-family: verdana;" >
+
+    <div id="simscreen" style="">
+
+    <div id="title"><h3>Network Architecture and Fiber Splicing</h3></div>
+
+    <!-- Scene 0 -->
+
+
+
+    <div class="simsubscreen" id="canvas0" ></br>
+
+    <div id="transwhite" style="width: 792px; height: 310px;position: absolute; top: 70px; left:45px; overflow-x: hidden; overflow-y: auto;" ><br>
+      
+    <span class="incanvas" style="font-size:16px; position: absolute; left: 0px; top: 15px;  "><strong>Sector:</strong> Electronics</span><br>
+
+    <span class="incanvas" style="font-size:16px;  position: absolute; left: 300px; top: 15px;"><strong>Subsector:</strong> Comunication and Broadcasting</span><br>
+
+    <p class="incanvas" style="font-size:16px; "><strong>Job Role:</strong></p><br>
+
+    <p class="incanvas" style="font-size:16px;">ELE/Q8106- Digital Cable Technician</p><br>
+    <p class="incanvas" style="font-size:16px;"><strong>Task:</strong></p><br>
+
+    <p class="incanvas" style="font-size:16px;">To practice the Fiber Cable outdoor and indoor installation techniques.</p><br>
+
+    <p class="incanvas" style="font-size:16px;"><strong>Overview</strong></p><br>
+
+    <p class="incanvas" style="font-size:16px;">This Experiment includes Four Task:</p>
+            
+            <ol style="text-align: left">
+    <li>Installation of cable on suspension clamp</li>
+                <li>Installation of cable on Aerial clamp</li>
+                <li>Fitment of Joint Closure and Cable Loop on the pole</li>
+                <li> cable clipping technique.</li>
+            </ol>
+        
+    </div>
+
+    <p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:200px; top:430px;"><strong>Start Exeperiment</strong></p>
+
+            <!--Blinking arrowcubox  -->
+    <span class="blink_me" id="arrow0" style="position:absolute; font-size: 30px; left:410px; top:420px; color: ; visibility: visible;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+    <input type="button" id="nextButton0" style="position:absolute; left:462px; top:420px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Click Here&nbsp;" onclick="navNext0()"/>
+
+
+</div>
+
+ <!-- Scene 1 -->
+
+
+
+      
+        <div class="simsubscreen" id="canvas1" style="visibility:hidden;" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px;position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 1: To execute Aerial installation of Fiber Optic Cable on Suspension Clamp.</strong> <br><br>
+
+        <strong>STEP 1:</strong> a) Click on Goggle to wear safety goggles.</p><br><br>
+
+         <p class="incanvas" id="step1b" style="font-size:px; position: absolute; left: 102px; top: 80px; visibility: hidden;"> b) Click on Helmet to wear safety Helmet .</p><br>
+
+        <p class="incanvas" id="step1c" style="font-size:px; position: absolute; left: 102px; visibility:hidden;top: 100px;"> c) Click on Harness to wear safety Harness.</p> </br>
+
+        <p class="incanvas" id="step1d" style="font-size:px; position: absolute; left: 102px; visibility:hidden;top: 120px;"> d) Click on Gloves to wear safety Gloves.</p></br>
+
+        <p class="incanvas" id="step1e" style="font-size:px; position: absolute; left: 102px; visibility:hidden;top: 140px;"> e) Click on Boots to wear safety Boots.</p></br>
+    
+    
+    
+</div>
+
+
+
+
+<img src="images/body.png" id="person" style="position: absolute;visibility:hidden; height: 404px; width: 242px; left:273px;top:217px;" onclick=""/>
+
+
+<img src="images/goggle.png" id="wear_goggle" style="position: absolute;visibility:; height: 35px; width: 60px; left:738px;top:200px;" onclick=""/>
+
+<img src="images/goggle.png" id="wear_goggle1" style="position: absolute;visibility:hidden; height: 35px; width: 60px; left:366px;top:151px;" onclick=""/>
+
+<img src="images/transbox.png" id="trans_wear_goggle" style="position: absolute;visibility: ;height: 100px;width: 100px;left:707px;top:146px; border: 2px solid green;" onclick="wear_goggle()"/>
+
+<span class="blink_me" id="arrow1aa" style="position:absolute; font-size: 30px; left:696px; top:200px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+
+<img src="images/helmet.png" id="wear_helmet" style="position: absolute;visibility:; height:50px; width:74px; left:730px;top:265px;" onclick=""/>
+
+<img src="images/helmet.png" id="wear_helmet1" style="position: absolute;visibility:hidden; height:50px; width:74px; left:360px;top:151px;" onclick=""/>
+
+<img src="images/transbox.png" id="trans_wear_helmet" style="position: absolute;visibility: hidden;height: 100px;width: 100px;left:707px;top: 231px; border: 2px solid red;" onclick="wear_helmet()"/>
+
+<span class="blink_me" id="arrow1b" style="position:absolute; font-size: 30px; left:696px; top:275px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+<img src="images/harness.png" id="wear_harness" style="position: absolute;visibility:; height:161px; width:123px; left:715px;top:332px;" onclick=""/>
+
+<img src="images/harness.png" id="wear_harness1" style="position: absolute;visibility:hidden; height:161px; width:123px; left:560px;top:285px;" onclick=""/>
+
+<img src="images/transbox.png" id="trans_wear_harness" style="position: absolute;visibility: hidden;height: 188px;width: 118px;left: 707px;top: 300px; border: 2px solid black;" onclick="wear_harness()"/>
+
+<span class="blink_me" id="arrow1c" style="position:absolute; font-size: 30px; left:696px; top:338px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+<img src="images/handright.png" id="wear_handright" style="position: absolute;visibility:; height:57px; width: 53px;  left:700px;top:490px;" onclick=""/>
+
+<img src="images/handright.png" id="wear_handright1" style="position: absolute;visibility:hidden; height:57px; width: 53px;  left:500px; top:490px;" onclick=""/>
+
+<img src="images/transbox.png" id="trans_wear_right" style="position: absolute;visibility: hidden;height: 70px;width: 70px;left:691px;top: 476px; border: 2px solid green;" onclick="wear_golvesright()"/>
+
+<span class="blink_me" id="arrow1d" style="position:absolute; font-size: 30px; left:661px; top:499px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+<img src="images/handleft.png" id="wear_handleft" style="position: absolute;visibility:; height:57px; width: 53px; left:770px;top:490px;" onclick=""/>
+
+<img src="images/handleft.png" id="wear_handleft1" style="position: absolute;visibility:hidden; height:57px; width: 53px; left:209px;top:490px;" onclick=""/>
+
+<img src="images/transbox.png" id="trans_wear_left" style="position: absolute;visibility: hidden;height: 70px;width: 70px;left:763px;top: 482px; border: 2px solid blue;" onclick="wear_golvesleft()"/>
+
+<span class="blink_me" id="arrow1e" style="position:absolute; font-size: 30px; left:721px; top:499px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+
+
+
+
+<img src="images/shoes.png" id="wear_boots" style="position: absolute;visibility:; height:79px; width:179px;  left:673px;top:577px;" onclick=""/>
+
+<img src="images/shoes.png" id="wear_boots1" style="position: absolute;visibility:hidden; height:82px; width:179px;  left:500px;top:577px;" onclick=""/>
+
+<img src="images/transbox.png" id="trans_wear_boots" style="position: absolute;visibility: hidden;height: 120px;width: 150px;left: 680px;top: 545px; border: 2px solid green;" onclick="wear_boots()"/>
+
+<span class="blink_me" id="arrow1f" style="position:absolute; font-size: 30px; left:664px; top:578px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<span id="text_goggle" style="position:absolute; left:730px;top:169px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:;"> Goggle</span>
+
+<span id="text_helmet" style="position:absolute; left:730px;top:228px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;"> Helmet</span>
+
+<span id="text_harness" style="position:absolute; left:730px;top:297px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;"> Harness</span>
+
+<span id="text_gloves" style="position:absolute; left:715px;top:457px;font-size: 30px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;"> Gloves</span>
+
+<span id="text_boots" style="position:absolute; left:722px;top:530px;font-size: 30px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;"> Boots</span>
+
+
+
+
+
+
+
+
+
+    <span class="blink_me" id="arrow1" style="position:absolute; font-size: 30px; left:781px; top:585px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+    <i class="fa fa-hand-o-right" id="nextButton1" style="color: #764C28; position:absolute; left:818px; top:583px; font-size: 35px; visibility: hidden;" onclick="navNext1()"></i>
+
+</div>
+
+
+
+
+<!-- scene---2 -->
+
+<div class="simsubscreen" id="canvas2" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+    <div id="transwhite" style="width: 792px; height: 130px; position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 1: To execute Aerial installation of Fiber Optic Cable on Suspension Clamp.</strong> <br><br>
+
+        <strong>STEP 2:</strong> a) Click on Add button to bring Stainless Strap on Table.</p><br><br>
+
+        <p class="incanvas" id="step2b" style="font-size:px; position: absolute; left: 102px; top: 80px; visibility: hidden;"> b) Click on Add button to bring Strap Cutting Tool .</p><br><br>
+
+        <p class="incanvas" id="step2c" style="font-size:px; position: absolute; left: 102px; top: 100px; visibility: hidden;"> c) Click Strap cutting tool to cut the Strap .</p><br>
+
+
+        <p class="incanvas" id="step2d" style="font-size:px; position: absolute; left: 102px; top: 120px; visibility: hidden;">d) Click on Next Button .</p><br>
+
+</div>
+
+
+
+<input type="button" id="add_strip_button" style="position:absolute; left:674px; top:85px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_strip()"/>
+
+<span class="blink_me" id="arrow2a" style="position:absolute; font-size: 30px; left:626px; top:80px; color: ; visibility:;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<input type="button" id="add_stripcutter_button" style="position:absolute; left:629px; top:105px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_stripcutter()"/>
+
+<span class="blink_me" id="arrow2b" style="position:absolute; font-size: 30px; left:589px; top:99px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+
+
+<img src="images/topmat.png" id="topmat" style="position:absolute; left:57px; top:193px; visibility:;height:325px; width:772px; opacity: 0.7"  />
+
+<img src="images/strip.png" id="strip" style="position:absolute; left:387px; top:270px; visibility:hidden;height:159px; width:216px;"  />
+
+<img src="images/cutstrip.png" id="cutstrip" style="position:absolute; left:387px; top:270px; visibility:hidden;height:10px; width:127px;"  />
+
+<img src="images/cutter.png" id="cutteropen" style="position:absolute; left:550px; top:383px; visibility:hidden;height: 77px;"  />
+
+<img src="images/cutterwh.png" id="cutteropen_hand" style="position:absolute;left:475px; top:380px; visibility:hidden;height: 77px;"  />
+
+<img src="images/cutterwh.png" id="cutteropen_hand1" style="position:absolute;left:316px; top:210px; visibility:hidden;height: 77px;"  />
+
+
+<img src="images/transbox.png" id="transcutteropen" style="position:absolute; left:474px; top:380px; visibility:hidden;height: 100px; width: 100px; border: 2px solid green;" onclick="transcutteropen()"  />
+
+
+<span class="blink_me" id="arrow2c" style="position:absolute; font-size: 30px; left:513px; top:331px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/cutterclosewh.png" id="cutterclose" style="position:absolute; left:316px; top:210px; visibility:hidden;height:77px;"  />
+
+<span id="text_strap_canva2" style="position:absolute; left:185px;top:221px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Stainless Strap</span>
+
+<span id="text_cuttingtool_canva2" style="position:absolute; left:405px;top:456px;font-size: 22px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;"> Binding and Cutting Tool</span>
+
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow2" style="position:absolute; font-size: 30px; left:765px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton2" style="color: #764C28; position:absolute; left:806px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext2()"></i>
+
+
+</div>
+
+
+<!-- scene---3 -->
+
+<div class="simsubscreen" id="canvas3" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:125px;  position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 1: To execute Aerial installation of Fiber Optic Cable on Suspension Clamp.</strong> <br><br>
+        <strong>STEP 3:</strong> a) Click on Add button to bring Buckle .</p><br><br>
+
+        <p class="incanvas" id="step3b" style="font-size:px; position: absolute; left:102px; top: 80px; visibility: hidden;"> b) Click on Buckle to insert it into stainless strip  .</p><br><br>
+
+        <p class="incanvas" id="step3c" style="font-size:px; position: absolute; left:102px; top: 100px; visibility: hidden;"> c) Click on Pins to close pin .</p><br>
+
+        <p class="incanvas" id="step3d" style="font-size:px; position: absolute; left:101px; top: 120px; visibility: hidden;"> d) Click on Strap to Slide it .</p><br>
+
+        <p class="incanvas" id="step3e" style="font-size:px; position: absolute; left:101px; top: 140px; visibility: hidden;"> e) Click on Add button to bring Suspension Clamp .</p><br>
+
+        <p class="incanvas" id="step3f" style="font-size:px; position: absolute; left: 101px; top: 160px; visibility: hidden;"> f) Click on Suspension Clamp to insert it into Strap .</p><br>
+
+        <p class="incanvas" id="step3g" style="font-size:px; position: absolute; left: 101px; top: 180px; visibility: hidden;"> g) Click on Next button.</p><br>
+
+
+
+</div>
+
+
+<input type="button" id="add_buckle_button" style="position:absolute; left:657px; top:83px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_buckle()"/>
+
+<span class="blink_me" id="arrow3a" style="position:absolute; font-size: 30px; left:612px; top:78px; color: ; visibility:;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="add_clemp_button" style="position:absolute; left:657px; top:125px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_clemp()"/>
+
+<span class="blink_me" id="arrow3d" style="position:absolute; font-size: 30px; left:612px; top:119px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+
+
+<img src="images/topmat.png" id="topmat" style="position:absolute; left:57px; top:193px; visibility:;height:325px; width:773px; opacity: 0.7"  />
+
+
+<img src="images/strap2.png" id="cuttedstrap" style="position:absolute; left:105px; top:362px; visibility:;height:35px; width:440px; transform-origin: left; "  />
+
+<img src="images/buckleup1.png" id="buckleup1" style="position:absolute; left:480px; top:375px; visibility:hidden;height:84px; "  />
+
+<img src="images/hand2.png" id="buckleup1_hand" style="position:absolute; left:584px; top:356px; visibility:hidden;height:84px; transform: rotateY(148deg);"  />
+
+
+
+<img src="images/transbox.png" id="transbuckleup" style="position:absolute; left:552px; top:325px; visibility:hidden;height:100px; width: 100px; border: 2px solid green; " onclick="trans_buckleside()"  />
+
+<span class="blink_me" id="arrow3b" style="position:absolute; font-size: 30px; left:586px; top:283px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+<img src="images/buckleup.png" id="buckleup" style="position:absolute;  visibility:hidden;height:84px; "  />
+
+<img src="images/hand2.png" id="buckleup1_hand1" style="position:absolute; left:543px; top:373px; visibility:hidden;height:84px;transform: rotateY(148deg); "  />
+
+
+<img src="images/transbox.png" id="transpin_close1" style="position:absolute; left:494px; top:332px; visibility:hidden;height:50px; width: 80px; border: 2px solid green; " onclick="pin_close1()"  />
+
+<img src="images/buckleuppin1.png" id="buckleuppin1" style="position:absolute;  visibility:hidden;height:84px; left:480px; top:336px;"  />
+
+<img src="images/transbox.png" id="transpin_close2" style="position:absolute; left:494px; top:378px; visibility:hidden;height:50px; width: 80px; border: 2px solid green; " onclick="pin_close2()"  />
+
+<img src="images/buckleuppin2.png" id="buckleuppin2" style="position:absolute;  visibility:hidden;height:84px; left:480px; top:336px;"  />
+
+
+<span class="blink_me" id="arrow3c" style="position:absolute; font-size: 30px; left:300px; top:300px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_animatestrap" style="position:absolute; left:102px; top:332px; visibility:hidden; height:150px; width: 440px; border: 2px solid green; " onclick="trans_animatestrap()"  />
+
+<img src="images/grabhandsmall4.png" id="fullstrap_slidehand" style="position:absolute; left:295px; top:372px; visibility:hidden;height:64px; "  />
+
+
+<img src="images/scfull.png" id="clemp_dummy" style="position:absolute;  visibility:hidden;height:100px; width: 90px; "  />
+
+<img src="images/transbox.png" id="trans_clemp" style="position:absolute; left:81px; top:310px; visibility:hidden; height:150px; width:100px; border: 2px solid red; " onclick="trans_clemp()"  />
+
+<span class="blink_me" id="arrow3e" style="position:absolute; font-size: 30px; left:118px; top:280px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+
+
+<span id="text_buckle_canva3" style="position:absolute; left:560px;top:308px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Buckle</span>
+
+<span id="text_plier" style="position:absolute; left:483px;top:305px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">plier</span>
+
+
+<span id="text_suspension" style="position:absolute; left:93px;top:231px;font-size: 22px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Suspension<br>  Clamp</span>
+
+
+
+
+<span class="blink_me" id="arrow3" style="position:absolute; font-size: 30px; left:765px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton3" style="color: #764C28; position:absolute;  left:806px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext3()"></i>
+
+
+</div>
+
+
+
+<!-- scene---4 -->
+
+<div class="simsubscreen" id="canvas4" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px;  position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 1: To execute Aerial installation of Fiber Optic Cable on Suspension Clamp.</strong> <br><br>
+
+        <strong>STEP 4:</strong> a) Click on Strap to insert other end into buckle.</p><br><br>
+
+        <p class="incanvas" id="step4b" style="font-size:px; position: absolute; left: 101px; top: 80px; visibility: hidden;"> b) Click on Next Button.</p><br>
+
+</div>
+
+<img src="images/topmat.png" id="topmat" style="position:absolute; left:57px; top:193px; visibility:;height:325px; width:773px; opacity: 0.7"  />
+
+
+
+<img src="images/fullclemp.png" id="fullclemp" style="position:absolute;visibility:;height:125px; width: 200px; left:200px; top: 316px; width:365px;"  />
+
+<img src="images/scbase.png" id="scbase" style="position:absolute;  visibility:;height:89px; width: 90px; left:382px; top: 286px;"  />
+
+<img src="images/laststrip.png" id="laststrip" style="position:absolute;visibility:;height:24px; left:459px; top:399px; width:48px;" /> 
+
+<img src="images/hand2.png" id="handsmall2_canva4" style="position:absolute;visibility:hidden;height:63px; left:322px; top:398px; " /> 
+
+<img src="images/bucklelast.png" id="bucklelast" style="position:absolute;visibility:;height:67px; width: 79px; left:344px; top:374px; " /> 
+
+<img src="images/hand2.png" id="handsmall1_canva4" style="position:absolute;visibility:hidden;height:63px; left:432px; top:398px;" /> 
+
+
+
+<img src="images/transbox.png" id="trans_laststrip" style="position:absolute;visibility:;height:100px; width:100px; left:431px; top:357px;  border: 2px solid green;" onclick="trans_laststrip()" /> 
+
+<span class="blink_me" id="arrow4a" style="position:absolute; font-size: 30px; left:464px; top:348px; color: ; visibility: ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow4" style="position:absolute; font-size: 30px; left:765px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton4" style="color: #764C28; position:absolute;  left:806px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext4()"></i>
+
+
+</div>
+
+
+
+
+<!-- scene-5--- -->
+
+<div class="simsubscreen" id="canvas5" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px; position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 1: To execute Aerial installation of Fiber Optic Cable on Suspension Clamp.</strong> <br><br>
+
+        <strong>STEP 5:</strong> a) Click on Add button to bring Prepared assembly.</p><br><br>
+
+        <p class="incanvas" id="step5b" style="font-size:px; position: absolute; left: 101px; top: 80px; visibility: hidden;"> b) Click on Strap to insert it on to the pole.</p><br>
+
+        <p class="incanvas" id="step5c" style="font-size:px; position: absolute; left: 101px; top: 100px; visibility: hidden;"> c) Click on Strap to tied it.</p><br>
+
+        <p class="incanvas" id="step5d" style="font-size:px; position: absolute; left: 100px; top: 120px; visibility: hidden;"> d) Click on Add button to bring Cutting tool.</p><br>
+
+        <p class="incanvas" id="step5e" style="font-size:px; position: absolute; left: 100px; top: 140px; visibility: hidden;"> e) Click on Cutting tool to cut the Strap.</p><br>
+
+         <p class="incanvas" id="step5f" style="font-size:px; position: absolute; left: 100px; top: 160px; visibility: hidden;"> f) Click on Pole to see Backview of pole.</p><br>
+
+         <p class="incanvas" id="step5g" style="font-size:px; position: absolute; left: 100px; top: 180px; visibility: hidden;"> g) Click on Next button.</p><br>
+
+
+</div>
+
+<input type="button" id="add_poleclemp_button" style="position:absolute; left:657px; top:88px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="pole_clemp()"/>
+
+<span class="blink_me" id="arrow5a" style="position:absolute; font-size: 30px; left:614px; top:81px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="add_stripcutter_button2" style="position:absolute; left:657px; top:131px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_strip_cut()"/>
+
+
+<span class="blink_me" id="arrow5d" style="position:absolute; font-size: 30px; left:614px; top:123px; color: ; visibility:hidden; "><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:896px; "  />
+
+<img src="images/poleclemp.png" id="poleclemp" style="position:absolute;visibility:hidden;height:76px; width: 126px; left:363px; top:167px;"  />
+
+<img src="images/scbase.png" id="scbase_behindpole" style="position:absolute;  visibility:hidden;height:60px; width: 72px; left:381px; top: 238px;"  />
+
+<img src="images/scbase.png" id="scbase1" style="position:absolute;  visibility:hidden;height:54px; width: 63px; left:382px; top: 286px;"  />
+
+
+
+<img src="images/pole.png" id="pole" style="position:absolute; left:372px; top:243px; visibility:;height:352px; width:91px; "  />
+
+<img src="images/ramhand_left.png" id="ramhand_left" style="position:absolute;  visibility:hidden;height:40px;  left:484px; top: 562px;"  />
+
+<img src="images/poleup.png" id="poleupstrap" style="position:absolute;visibility:hidden;height:39px; width:152px; left:335px; top:204px;"  />
+
+
+
+<!-- <img src="images/newpoleclemp.png" id="newpoleclemp" style="position:absolute;visibility:hidden;height:76px; width: 140px;"  /> -->
+
+<img src="images/transbox.png" id="transpoleclemp" style="position:absolute;visibility:hidden;height:140px; width: 250px; left:460px; top: 516px; border: 2px solid green;"onclick="pole_clamp_animate()"  />
+
+<span class="blink_me" id="arrow5b" style="position:absolute; font-size: 30px; left:583px; top:494px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+<img src="images/laststrip.png" id="strip_upper" style="position:absolute;visibility:hidden;height:16px; width: 21px; left: 331px; top:302px;"  />
+
+<img src="images/transbox.png" id="trans_strap_width" style="position:absolute;visibility:hidden;height:100px; width: 100px; left:275px; top: 247px; border: 2px solid green;"onclick="trans_strap_width()"  />
+
+
+<span class="blink_me" id="arrow5c" style="position:absolute; font-size: 30px; left:289px; top:290px; color: ; visibility: hidden;"><strong>
+    <i class="fa fa-arrow-right"></i></strong></span>
+
+
+<img src="images/handsmall.png" id="handsmall" style="position:absolute;visibility:hidden;height:39px;  left:293px; top:294px; transform: rotateY(180deg);"  />
+
+<!-- <img src="images/clamp2.png" id="clamp2" style="position:absolute; left:372px; top:243px; visibility:hidden;height:352px; width:91px; "  /> -->
+
+
+
+<img src="images/laststrip.png" id="strip_upper_showing" style="position:absolute;visibility:hidden;height:18px; width:82px; left:298px; top:298px;"  />
+
+
+<img src="images/cut1.png" id="cut1" style="position:absolute;visibility:hidden;height:39px; width:81px; left:380px; top:288px;"  />
+
+<img src="images/cutter.png" id="cutteropenagain_canvas5_show" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); left:69px; top:517px;"  />
+
+<img src="images/cutter.png" id="cutteropenagain_canvas5" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); "  />
+
+<img src="images/cutterwh.png" id="cutterhand_canvas5" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); left:142px; top:473px;"  />
+
+
+<img src="images/cutterclosewh.png" id="cuttercloseagain_canvas5" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); left:273px; top:249px;"  />
+
+<img src="images/transbox.png" id="trans_cuttercut" style="position:absolute;visibility:hidden;height:100px; width: 100px; left:146px; top: 473px; border: 2px solid green;"onclick="trans_cuttercut()"  />
+
+<span class="blink_me" id="arrow5e" style="position:absolute; font-size: 30px; left:180px; top:473px; color: ; visibility: hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/transbox.png" id="transpole_full" style="position:absolute; left:372px; top:243px; visibility:hidden;height:352px; width:91px; border: 2px solid green; " onclick="back_pole_view()"  />
+
+<span class="blink_me" id="arrow5f" style="position:absolute; font-size: 30px;  left:402px; top:197px; color: ; visibility: hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/pole.png" id="pole1" style="position:absolute; left:582px; top:243px; visibility:hidden;height:352px; width:91px; "  />
+
+<img src="images/cut1.png" id="cut1_show" style="position:absolute;visibility:hidden;height:39px; width:81px; left:590px; top:288px;"  />
+
+<img src="images/scfull.png" id="scfull_canvas5" style="position:absolute;  visibility:hidden;height:54px; width: 61px; left:597px; top: 284px;"  />
+
+
+
+
+<img src="images/ramhand_right.png" id="ramhand_right" style="position:absolute;  visibility:hidden;height:40px;  left:643px; top: 564px;"  />
+
+
+<span id="text_pole" style="position:absolute; left:395px;top:200px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:;">Pole</span>
+
+
+
+
+
+<span class="blink_me" id="arrow5" style="position:absolute; font-size: 30px; left:765px; top:575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton5" style="color: #764C28; position:absolute; left:806px; top:574px; font-size: 35px; visibility: hidden;" onclick="navNext5()"></i>
+
+
+</div>
+
+
+
+<!-- scene-6--- -->
+
+<div class="simsubscreen" id="canvas6" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px; position: absolute; top: 30px;left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 1: To execute Aerial installation of Fiber Optic Cable on Suspension Clamp.</strong> <br><br>
+
+        <strong>STEP 6:</strong> a) Click on Add button to bring Cabel.</p><br><br>
+
+        <p class="incanvas" id="step6b" style="font-size:px; position: absolute; left: 101px; top: 80px; visibility: hidden;"> b) Click on Suspension Clamp to open it.</p><br>
+
+        <p class="incanvas" id="step6c" style="font-size:px; position: absolute; left: 101px; top: 100px; visibility: hidden;"> c) Click on Optic Fiber Cabel to fix it into Clamp.</p><br>
+
+        <p class="incanvas" id="step6d" style="font-size:px; position: absolute; left: 100px; top: 120px; visibility: hidden;"> d) Click on Suspension Clamp to close it.</p><br>
+
+        <p class="incanvas" id="step6e" style="font-size:px; position: absolute; left: 100px; top: 140px; visibility: hidden;"> e) Click on Next button.</p><br>
+
+
+</div>
+
+
+<input type="button" id="add_wire_button" style="position:absolute; left:657px; top:83px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_wire()"/>
+
+
+<span class="blink_me" id="arrow6a" style="position:absolute; font-size: 30px; left:618px; top:79px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>-
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:896px; "  />
+
+<img src="images/pole.png" id="pole1" style="position:absolute; left:372px; top:243px; visibility:;height:352px; width:91px; "  />
+
+<img src="images/cut1.png" id="cut11" style="position:absolute;visibility:;height:39px; width:81px; left:380px; top:288px;"  />
+
+<img src="images/scbase.png" id="suspension_base" style="position:absolute;visibility:;height:52px; width: 59px; left:387px; top:282px;"  />
+
+<img src="images/polewire.png" id="polewire" style="position:absolute;visibility:hidden;height:15px; width:377px; "  />
+
+<img src="images/scupper.png" id="suspension_upper" style="position:absolute;visibility:;height:50px; width:60px; left:386px; top:282px;"  />
+
+
+
+
+
+
+<img src="images/transbox.png" id="trans_polewire" style="position:absolute;visibility:hidden;height:100px; width: 364px; left:2px; top:540px; border: 2px solid green;"onclick="trans_polewire()"  />
+
+ <span class="blink_me" id="arrow6c" style="position:absolute; font-size: 30px;
+ left:169px; top:521px; color: ; visibility:hidden; "><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+
+ <img src="images/transbox.png" id="trans_sc_open" style="position:absolute;visibility:hidden;height:63px; width: 97px; left:368px; top:272px; border: 2px solid red;"onclick="trans_sc_open()"  />
+
+
+ <span class="blink_me" id="arrow6b" style="position:absolute; font-size: 30px; left:481px; top:287px; color: ; visibility:hidden; "><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+<img src="images/handsmall.png" id="handsmall_canvas6" style="position:absolute;visibility:hidden;height:39px;  "  />
+
+<img src="images/handsmall.png" id="handsmall_cabel_up" style="position:absolute;visibility:hidden;height:41px;  left:119px; top:586px; transform:rotateY(180deg);"  />
+
+<img src="images/transbox.png" id="trans_sc_close" style="position:absolute;visibility:hidden;height:63px; width: 97px; left:368px; top:272px; border: 2px solid red;"onclick="trans_sc_close()"  />
+
+<span class="blink_me" id="arrow6d" style="position:absolute; font-size: 30px; left:481px; top:287px; color: ; visibility:hidden; "><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+<span id="text_cabel" style="position:absolute; left:96px;top:557px;font-size: 25px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Fiber Optic Cabel</span>
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow6" style="position:absolute; font-size: 30px; left:765px; top:575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton6" style="color: #764C28; position:absolute; left:806px; top:574px; font-size: 35px; visibility: hidden;" onclick="navNext6()"></i>
+
+
+</div>
+ <!-- /////task2//// -->
+
+<!-- scene-7--- -->
+
+<div class="simsubscreen" id="canvas7" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px; position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 2: To execute installation of Fiber Optic Cabel on Aerial Clemp.</strong> <br><br>
+
+        <strong>STEP 7:</strong> a) Click on Add button to bring Universal Bracket.</p><br>
+
+        <p class="incanvas" id="step7b" style="font-size:px; position: absolute; left:101px; top: 80px; visibility: hidden;"> b) Click on Universal Bracket to insert it into Strap .</p><br>
+
+        <p class="incanvas" id="step7c" style="font-size:px; position: absolute; left:101px; top: 100px; visibility: hidden;"> c) Click on Next button.</p><br>
+
+</div>
+
+<input type="button" id="add_universal_button" style="position:absolute; left:657px; top:81px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_universal_bracket()"/>
+
+
+<span class="blink_me" id="arrow7a" style="position:absolute; font-size: 30px; left:615px; top:76px; color: ; visibility:; "><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+<img src="images/topmat.png" id="topmat" style="position:absolute; left:57px; top:193px; visibility:;height:325px; width:773px; opacity: 0.7"  />
+
+<img src="images/strap2.png" id="cuttedstrap_canvas7" style="position:absolute; left:105px; top:356px; visibility:;height:35px; width:440px; transform-origin: left; "  />
+
+<img src="images/bucklelast.png" id="bucklelast_canvas7" style="position:absolute;visibility:;height:84px; width: 79px; left:112px; top:332px; " /> 
+
+
+<img src="images/universalbracket.png" id="universal1" style="position:absolute;  visibility:hidden;height:74px; "  />
+
+<img src="images/universaltop.png" id="universal_top" style="position:absolute;  visibility:hidden;height:74px; "  />
+
+
+
+<img src="images/universalbracket.png" id="universal2" style="position:absolute;  visibility:hidden;height:74px; "  />
+
+<img src="images/universaltop.png" id="universal_top2" style="position:absolute;  visibility:hidden;height:74px; "  />
+
+
+
+<img src="images/transbox.png" id="trans_universal1" style="position:absolute; left:372px; top:394px; visibility:hidden;height:100px; width: 100px; border: 2px solid green;" onclick="trans_universal1()" />
+
+<span class="blink_me" id="arrow7b" style="position:absolute; font-size: 30px; left:578px; top:424px; color: ; visibility:hidden; "><strong><i class="fa fa-arrow-left"></i></strong></span>
+
+<img src="images/hand2.png" id="universal2_hand" style="position:absolute; left:543px; top:415px; visibility:hidden;height:82px; transform: rotateY(148deg);"  />
+
+<img src="images/hand2.png" id="universal2_hand2" style="position:absolute;  visibility:hidden;height:82px; transform: rotateY(148deg);"  />
+
+
+<img src="images/transbox.png" id="trans_universal2" style="position:absolute; left:489px; top:394px;visibility:hidden;height:100px; width: 100px; border: 2px solid red;" onclick="trans_universal2()" />
+
+<img src="images/hand2.png" id="universal1_hand" style="position:absolute; left:443px; top:415px; visibility:hidden;height:82px; transform: rotateY(148deg);"  />
+
+<img src="images/hand2.png" id="universal1_hand1" style="position:absolute;  visibility:hidden;height:82px; transform: rotateY(148deg);"  />
+
+<span class="blink_me" id="arrow7c" style="position:absolute; font-size: 30px; left:355px; top:424px; color: ; visibility:hidden; "><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+<span id="text_universal_bracket" style="position:absolute; left:399px;top:470px;font-size: 23px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Universal Brackets</span>
+
+
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow7" style="position:absolute; font-size: 30px; left:765px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton7" style="color: #764C28; position:absolute; left:806px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext7()"></i>
+
+
+</div>
+
+
+
+<!-- scene-8--- -->
+
+<div class="simsubscreen" id="canvas8" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px; position: absolute; top: 30px; left: 45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 2: To execute installation of Fiber Optic Cabel on Aerial Clemp.</strong> <br><br>
+
+        <strong>STEP 8:</strong> a) Click on Strap to insert other end into Buckle.</p><br>
+
+        <p class="incanvas" id="step8b" style="font-size:px; position: absolute; left: 101px; top: 80px; visibility: hidden;"> b) Click on Next button .</p><br>
+
+</div>
+
+<img src="images/topmat.png" style="position:absolute; left:57px; top:193px; visibility:;height:325px; width:773px; opacity: 0.7"  />
+
+<img src="images/universalbrackettop.png" id="universal_top1" style="position:absolute;  visibility:;height:74px; top:280px; left:283px;"  />
+
+<img src="images/universalbrackettop.png" id="universal_top2" style="position:absolute;  visibility:;height:74px; top:282px; left:388px;"  />
+
+<img src="images/fullclemp.png" id="fullclemp_canvas8" style="position:absolute;visibility:;height:125px; width: 200px; left:200px; top: 316px; width:365px;"  />
+
+<img src="images/universalbracketbase.png" id="universal_back1" style="position:absolute;  visibility:;height:74px; top:280px; left:283px;"  />
+
+<img src="images/universalbracketbase.png" id="universal_back2" style="position:absolute;  visibility:;height:74px; top:282px; left:388px;"  />
+
+
+
+<img src="images/laststrip.png" id="laststrip_canvas8" style="position:absolute;visibility:;height:24px; left:475px; top:399px; width:37px;" /> 
+
+
+
+
+
+
+<img src="images/transbox.png" id="translaststrip_canvas8" style="position:absolute;visibility:;height:100px; width: 119px; border: 2px solid green; left:437px; top:357px;" onclick="laststrip_width_canvas8()" /> 
+
+<span class="blink_me" id="arrow8a" style="position:absolute; font-size: 30px; left:475px; top:348px; color: ; visibility: ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+<img src="images/bucklelast.png" id="bucklelast_canvas8" style="position:absolute;visibility:;height:67px; width: 79px; left:344px; top:374px; " />
+
+<img src="images/hand2.png" id="handsmall2_canva8" style="position:absolute;visibility:hidden;height:63px; " /> 
+
+ <img src="images/hand2.png" id="handsmall1_canva8" style="position:absolute;visibility:hidden;height:63px; " /> 
+
+
+
+
+
+
+<span class="blink_me" id="arrow8" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton8" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext8()"></i>
+
+
+</div>
+
+
+
+<!-- scene-9--- -->
+
+<div class="simsubscreen" id="canvas9" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px;  position: absolute; top: 30px;left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 2: To execute installation of Fiber Optic Cabel on Aerial Clemp.</strong> <br><br>
+
+        <strong>STEP 9:</strong> a) Click on Add button to bring Prepared assembly.</p><br><br>
+
+        <p class="incanvas" id="step9b" style="font-size:px; position: absolute; left: 101px; top: 80px; visibility: hidden;"> b) Click on strap to insert it on the pole.</p><br> 
+
+        <p class="incanvas" id="step9c" style="font-size:px; position: absolute; left: 101px; top: 100px; visibility: hidden;"> c) Click on strap to tied it.</p><br> 
+
+        <p class="incanvas" id="step9d" style="font-size:px; position: absolute; left: 100px; top: 120px; visibility: hidden;"> d) Click on Add button to bring binding and cutting tool.</p><br> 
+
+        <p class="incanvas" id="step9e" style="font-size:px; position: absolute; left: 100px; top: 140px; visibility: hidden;"> e) Click on Binding and Cutting tool to cut the Strap.</p><br> 
+
+          <p class="incanvas" id="step9f" style="font-size:px; position: absolute; left: 100px; top: 160px; visibility: hidden;"> f) Click on Next button.</p><br> 
+
+</div>
+
+<input type="button" id="add_newpoleclemp_buttonc8" style="position:absolute; left:657px; top:84px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_newpoleclemp_canvas8()"/>
+
+<span class="blink_me" id="arrow94" style="position:absolute; font-size: 30px; left:623px; top:79px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="add_cutter_btn_canvas9" style="position:absolute; left:657px; top:132px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_cutter_canvas9()"/>
+
+<span class="blink_me" id="arrow95" style="position:absolute; font-size: 30px; left:623px; top:126px; color: ; visibility:hidden; "><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:896px; "  />
+
+<img src="images/universalbrackettop.png" id="universal_top1_canvas9" style="position:absolute;  visibility:hidden;height:53px; "  />
+
+<img src="images/universalbrackettop.png" id="universal_top2_canvas9" style="position:absolute;  visibility:hidden;height:53px; "  />
+
+<img src="images/poleclemp.png" id="poleclemp_canvas9" style="position:absolute;visibility:hidden;height:76px; width: 160px; "  />
+
+<img src="images/universalbracketbase.png" id="universal_back1_canvas9" style="position:absolute; visibility:hidden; height:56px; "  />
+
+<img src="images/universalbracketbase.png" id="universal_back2_canvas9" style="position:absolute; visibility:hidden; height:56px; "  />
+
+
+
+<img src="images/pole.png" id="pole" style="position:absolute; left:372px; top:243px; visibility:;height:352px; width:91px; "  />
+
+<img src="images/ramhand_left.png" id="ramhand_left_canvas9" style="position:absolute;  visibility:hidden;height:40px;  left:484px; top: 562px;"  />
+
+<img src="images/poleup.png" id="poleupstrap_canvas9" style="position:absolute;visibility:hidden;height:39px; width:180px; left:335px; top:204px;"  />
+
+
+<!-- <img src="images/newpoleclemp.png" id="newpoleclemp_canvas8" style="position:absolute;visibility:hidden;height:76px; width: 140px;"  /> -->
+
+<img src="images/transbox.png" id="transpoleclemp_canvas8" style="position:absolute;visibility:hidden;height:140px; width: 250px; left:460px; top: 516px; border: 2px solid green;"onclick="pole_clamp_animate_canvas8()"  />
+
+<span class="blink_me" id="arrow91" style="position:absolute; font-size: 30px; left:600px; top:480px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/laststrip.png" id="strip_upper_canvas8" style="position:absolute;visibility:hidden;height:16px; width: 21px; left: 279px; top:316px;"  />
+
+<img src="images/transbox.png" id="trans_strap_width_canvas8" style="position:absolute;visibility:hidden;height:100px; width: 100px; left:249px; top: 264px; border: 2px solid green;"onclick="trans_strap_width_canvas8()"  />
+
+<span class="blink_me" id="arrow92" style="position:absolute; font-size: 30px; left:215px; top:298px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<img src="images/handsmall.png" id="handsmall_canvas8" style="position:absolute;visibility:hidden;height:39px;  left:238px; top:312px; transform: rotateY(180deg);"  />
+
+<img src="images/universalside.png" id="universal_side1_canvas9" style="position:absolute;  visibility:hidden;height:60px; left: 328px; top:272px; transform:rotateY(180deg);"  />
+
+<img src="images/universalside.png" id="universal_side2_canvas9" style="position:absolute;  visibility:hidden;height:60px; left: 442px; top:272px;"  />
+
+
+<img src="images/laststrip.png" id="strip_upper_showing_canvas8" style="position:absolute;visibility:hidden;height:18px; width:82px; left:298px; top:298px;"  />
+
+<img src="images/cutter.png" id="cutteropen_canvas9_show1" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); left:110px; top:538px;"  />
+
+<img src="images/cutter.png" id="cutteropen_canvas9" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); "  />
+
+<img src="images/cutterwh.png" id="cutteropenhand_canvas9" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); left:136px; top:538px;"  />
+
+
+<img src="images/cutterclosewh.png" id="cutterclose_canvas9" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); left:278px; top:249px;"  />
+
+<img src="images/cutter.png" id="cutteropenagain_canvas9" style="position:absolute;  visibility:hidden;height: 77px; transform: rotateY(180deg); left:278px; top:249px;"  />
+
+<img src="images/transbox.png" id="trans_stripcut_canvas9" style="position:absolute;  visibility:hidden;height:100px; width:200px; left:91px; top:531px; border: 2px solid green;" onclick="trans_stripcut_canvas9()"  />
+
+<span class="blink_me" id="arrow93" style="position:absolute; font-size: 30px; left:195px; top:491px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/cut1.png" id="cut1_canvas8" style="position:absolute;visibility:hidden;height:39px; width:81px; left:380px; top:288px;"  />
+
+<img src="images/ramhand_right.png" id="ramhand_right_canvas9" style="position:absolute;  visibility:hidden;height:40px;  left:669px; top: 566px;"  />
+
+
+
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow9" style="position:absolute; font-size: 30px; left:765px; top:575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton9" style="color: #764C28; position:absolute; left:806px; top:574px; font-size: 35px; visibility: hidden;" onclick="navNext9()"></i>
+
+
+</div>
+
+
+<!-- scene-9a anchoring clamp--- -->
+
+<div class="simsubscreen" id="canvas9a" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px;  position: absolute; top: 30px; left: 45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 2: To execute installation of Fiber Optic Cabel on Aerial Clemp.</strong> <br><br>
+
+
+<!-- step10 canvas9a -->
+        <strong>STEP 10:</strong> a) Click on Add button to bring Anchoring Clamp.</p><br><br>
+
+        <p class="incanvas" id="step9ab" style="font-size:px; position: absolute; left: 111px; top: 80px; visibility: hidden;"> b) Click on Anchor bail to open it.</p><br>
+
+         <p class="incanvas" id="step9ac" style="font-size:px; position: absolute; left: 111px; top: 100px; visibility: hidden;"> c) Click on Add button to bring Optic Fiber Cabel.</p><br>
+
+
+         <p class="incanvas" id="step9ad" style="font-size:px; position: absolute; left: 110px; top: 120px; visibility: hidden;"> d) Click on Optic Fiber Cabel to place it between the wedges of the anchoring clamp.</p><br>
+
+          <p class="incanvas" id="step9ae" style="font-size:px; position: absolute; left: 110px; top: 140px; visibility: hidden;"> e) Click on Wedges  slide the wedges down for strongly grips the cable.</p><br>
+
+</div>
+
+<input type="button" id="add_anchoring_btn" style="position:absolute; left:657px; top:84px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_anchoring()"/>
+
+<span class="blink_me" id="arrow9a1" style="position:absolute; font-size: 30px; left:622px; top:80px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<input type="button" id="add_anchoringwire_btn" style="position:absolute; left:657px; top:123px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_anchoring_wire()"/>
+
+<span class="blink_me" id="arrow9a3" style="position:absolute; font-size: 30px; left:622px; top:115px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:896px; "  />
+
+<img src="images/pole.png" id="pole" style="position:absolute; left:77px; top:243px; visibility:;height:352px; width:91px; "  />
+
+
+<img src="images/universalside.png" id="universal_side1_canvas9a" style="position:absolute;  visibility:;height:60px; left: 33px; top:272px; transform:rotateY(180deg);"  />
+
+<img src="images/universalside.png" id="universal_side2_canvas9a" style="position:absolute;  visibility:;height:60px; left: 147px; top:272px;"  />
+
+
+<img src="images/cut1.png" id="cut1_canvas8" style="position:absolute;visibility:;height:39px; width:81px; left:85px; top:288px;"  />
+
+<img src="images/acwages.png" id="anchor_wedge" style="position:absolute;visibility:hidden;height:67px; left:580px; top:542px; "  />
+
+
+
+
+
+<img src="images/acbailclose_bracket.png" id="anchor_close" style="position:absolute;visibility:hidden;height:149px; left:397px; top:498px;"  />
+
+<img src="images/acopenwowages_bracket.png" id="anchor_open" style="position:absolute;visibility:hidden;height:149px; left:397px; top:498px; "  />
+
+<img src="images/polewire.png" id="anchoring_wire" style="position:absolute;visibility:hidden;height:18px; width:390px; left:250px; top:400px;"  />
+
+
+
+<img src="images/transbox.png" id="trans_anchor_open" style="position:absolute;visibility:hidden;height:40px;  left:602px; top:520px; width:100px; border: 2px solid green;" onclick="anchor_open()"  />
+
+<span class="blink_me" id="arrow9a2" style="position:absolute; font-size: 30px; left:633px; top:498px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/handsmall.png" id="hand_anchor_open" style="position:absolute;visibility:hidden;height:42px;  left:643px; top:506px; transform: rotate(-17deg);"   />
+
+
+
+<img src="images/transbox.png" id="trans_anchor_wire" style="position:absolute;visibility:hidden;height:41px; width:411px; left:191px; top:480px; border: 2px solid green;" onclick="anchor_insertwire()"  />
+
+<span class="blink_me" id="arrow9a4" style="position:absolute; font-size: 30px; left:381px; top:460px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/handsmall.png" id="hand_anchor_wire" style="position:absolute;visibility:hidden;height:43px; left:347px; top:496px; transform: rotateY(180deg);"   />
+
+
+<img src="images/transbox.png" id="trans_wedges" style="position:absolute;visibility:hidden;height:50px; width:71px; left:574px; top:542px; border: 2px solid green;" onclick="click_wedges()"  />
+
+<span class="blink_me" id="arrow9a5" style="position:absolute; font-size: 30px;  left:594px; top:511px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_bail_close" style="position:absolute;visibility:hidden;height:50px; width:71px; left:603px; top:499px; border: 2px solid green;" onclick="bail_close()"  />
+
+<span class="blink_me" id="arrow9a6" style="position:absolute; font-size: 30px; left:629px; top:475px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/handsmall.png" id="hand_bail_close" style="position:absolute;visibility:hidden;height:42px; left:646px; top:540px; "   />
+
+
+
+<span id="text_anchoring" style="position:absolute; left:574px;top:598px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Anchoring Clamp</span>
+
+
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow9a" style="position:absolute; font-size: 30px; left:773px; top:590px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton9a" style="color: #764C28; position:absolute; left:814px; top:587px; font-size: 35px; visibility: hidden;" onclick="navNext9a()"></i>
+
+
+</div>
+
+
+
+
+<!-- scene-10--- -->
+<!-- step 11 but canvas 10 -->
+<div class="simsubscreen" id="canvas10" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px;position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 3: Fitment of Joint Closure and Cable Loop on the Pole.</strong> <br><br>
+
+        <strong>STEP 11:</strong> a) Click on Add button to bring Joint Closure.</p><br>
+
+        <p class="incanvas" id="step10b" style="font-size:px; position: absolute; left: 111px; top: 80px; visibility: hidden;"> b) Click on Add button to bring U Strap clips .</p><br>
+
+        <p class="incanvas" id="step10c" style="font-size:px; position: absolute; left: 111px; top: 100px; visibility: hidden;"> c) Click on U Strap clips one by one to put it on to the Joint Closure.</p><br>
+
+        <p class="incanvas" id="step10d" style="font-size:px; position: absolute; left: 110px; top: 120px; visibility: hidden;"> d) Click on Joint Closure to fix it on the Pole.</p><br>
+
+        <p class="incanvas" id="step10e" style="font-size:px; position: absolute; left: 110px; top: 140px; visibility: hidden;"> e) Put Nuts bolts to fix the Joint Closure .</p><br>
+
+        <p class="incanvas" id="step10f" style="font-size:px; position: absolute; left: 110px; top: 160px; visibility: hidden;"> f) Click on Next Button .</p><br>
+
+
+</div>
+
+
+<input type="button" id="add_jointclosure_button" style="position:absolute; left:657px; top:87px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_jointclosure()"/>
+
+
+<span class="blink_me" id="arrow10a" style="position:absolute; font-size: 30px; left:621px; top:83px; color: ; visibility:;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<input type="button" id="add_ustrap_button" style="position:absolute; left:657px; top:105px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_ustrap()"/>
+
+<span class="blink_me" id="arrow10b" style="position:absolute; font-size: 30px; left:621px; top:98px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:896px; "  />
+
+
+<img src="images/polewithclemp.png"  style="position:absolute; left:372px; top:243px; visibility:;height:352px; width:103px; "  />
+
+
+
+<img src="images/hand1.png" id="handback_joint_closure" style="position:absolute; left:119px; top:441px; visibility:hidden;height:77px; width:130px; "  />
+
+
+<img src="images/jointclosure.png" id="joint_closure" style="position:absolute; left:1px; top:486px; visibility:hidden;height:119px; "  />
+
+<!-- <img src="images/boxwh.png" id="joint_closure_hand" style="position:absolute;left:390px; top:303px; visibility:hidden;height:119px; "  /> -->
+
+
+<img src="images/ustrap.png" id="ustrap1" style="position:absolute; visibility:hidden;height:26px; width: 103px;"  />
+
+<img src="images/ustrap.png" id="ustrap2" style="position:absolute;visibility:hidden;height:26px; width: 103px; "  />
+
+<img src="images/grabhandsmall4.png" id="grabhand" style="position:absolute;visibility:hidden;height:70px; left:163px; top:456px; transform: rotate(15deg);"  />
+
+<img src="images/transbox.png" id="trans_ustrap1" style="position:absolute; left:129px; top:544px; visibility:hidden;height:29px; width: 127px; border: 2px solid red;" onclick="trans_ustrap1()"  />
+
+<img src="images/handsmall.png" id="hand_ustap1" style="position:absolute;visibility:hidden;height:43px; left:179px; top:552px;"   />
+
+
+<span class="blink_me" id="arrow10c" style="position:absolute; font-size: 30px; left:109px; top:541px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_ustrap2" style="position:absolute; left:129px; top:579px; visibility:hidden;height:29px; width: 127px; border: 2px solid green;" onclick="trans_ustrap2()"  />
+
+
+<img src="images/handsmall.png" id="hand_ustap2" style="position:absolute;visibility:hidden;height:43px; left:187px; top:584px;"   />
+
+
+<span class="blink_me" id="arrow10d" style="position:absolute; font-size: 30px; left:109px; top:573px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_full" style="position:absolute; left:129px; top:350px; visibility:hidden;height:200px; width: 127px; border: 2px solid green;" onclick="trans_fulljointclosure()"  />
+
+<span class="blink_me" id="arrow10e" style="position:absolute; font-size: 30px; left:182px; top:351px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/nut.png" id="nut1" style="position:absolute;visibility:;height:11px; 
+top:600px;left: 323px; "  />
+
+<img src="images/nut.png" id="nut2" style="position:absolute;visibility:;height:11px; top:600px;left: 364px; "  />
+
+<img src="images/nut.png" id="nut3" style="position:absolute;visibility:;height:11px; top:603px;left: 417px;"  />
+
+<img src="images/nut.png" id="nut4" style="position:absolute;visibility:;height:11px;  top:602px;left: 477px;"  />
+
+<span class="blink_me" id="arrow10f" style="position:absolute; font-size: 30px; left:280px; top:589px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="arrow10g" style="position:absolute; font-size: 30px; left:329px; top:588px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="arrow10h" style="position:absolute; font-size: 30px; left:381px; top:592px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="arrow10i" style="position:absolute; font-size: 30px; left:439px; top:591px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+<img src="images/transbox.png" id="trans_nut1" style="position:absolute;visibility:;height:25px;width: 25px; top:592px;left: 316px; border:  2px solid blue;" onclick="nut1()"  />
+
+<img src="images/transbox.png" id="trans_nut2" style="position:absolute;visibility:;height:25px; width: 25px;top:593px;left: 359px; border:  2px solid black;" onclick="nut2()" />
+
+<img src="images/transbox.png" id="trans_nut3" style="position:absolute;visibility:;height:25px; width: 25px; top:596px;left: 408px;border:  2px solid red;"onclick="nut3()"  />
+
+<img src="images/transbox.png" id="trans_nut4" style="position:absolute;visibility:;height:25px; width: 25px; top:594px;left: 470px; border:  2px solid green;"onclick="nut4()"  />
+
+<img src="images/handsmall.png" id="handsmall_nutpickup" style="position:absolute;visibility:hidden;height:39px;  left:293px; top:294px;"  />
+
+<!-- <img src="images/handsmall.png" id="handsmall_nutpickup" style="position:absolute;visibility:hidden;height:39px;  left:293px; top:294px;"  /> -->
+
+
+<span id="text_jointclosure" style="position:absolute; left:127px;top:384px;font-size: 23px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Joint Closure</span>
+
+<span id="text_ustrap" style="position:absolute; left:111px;top:610px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;"> U Strap Clamps</span>
+
+<span id="text_nuts" style="position:absolute; left:131px;top:593px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Nut and Bolts</span>
+
+
+
+
+
+
+<span class="blink_me" id="arrow10" style="position:absolute; font-size: 30px;  left:773px; top:590px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton10" style="color: #764C28; position:absolute; left:814px; top:587px; font-size: 35px; visibility: hidden;" onclick="navNext10()"></i>
+
+
+</div>
+
+
+<!-- scene-11--- -->
+<!-- step 12 but canvas 11 -->
+<div class="simsubscreen" id="canvas11" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px;  position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 3: Fitment of Joint Closure and Cable Loop on the Pole.</strong> <br><br>
+
+        <strong>STEP 12:</strong> a) Click on Add button to bring U strap clip.</p><br><br>
+
+        <p class="incanvas" id="step11b" style="font-size:px; position: absolute; left: 111px; top: 80px; visibility: hidden;"> b) Click on U strap clip to put it on the pole .</p><br>
+
+        <p class="incanvas" id="step11c" style="font-size:px; position: absolute; left: 111px; top: 100px; visibility: hidden;"> c) Click on Nut bolts one by one to fix the clip.</p><br>
+
+        <p class="incanvas" id="step11d" style="font-size:px; position: absolute; left: 110px; top: 120px; visibility: hidden;"> d) Click on Add button to bring Loop Frame.</p><br>
+
+        <p class="incanvas" id="step11e" style="font-size:px; position: absolute; left: 110px; top: 140px; visibility: hidden;"> e) Click on Loop Frame to fix it on the pole.</p><br>
+
+        <p class="incanvas" id="step11f" style="font-size:px; position: absolute; left: 110px; top: 160px; visibility: hidden;"> f) Click on Nut bolt to fix the Loop Frame.</p><br>
+
+        <p class="incanvas" id="step11g" style="font-size:px; position: absolute; left: 110px; top: 180px; visibility: hidden;"> g) Click on Add button to bring cabel coil.</p><br>
+
+        <p class="incanvas" id="step11h" style="font-size:px; position: absolute; left: 110px; top: 200px; visibility: hidden;"> h) Click on cabel coil to fix it into Loop Frame.</p><br>
+
+        <p class="incanvas" id="step11i" style="font-size:px; position: absolute; left: 110px; top: 220px; visibility: hidden;"> i) Click on Next Button.</p><br>
+
+
+</div>
+
+
+
+<input type="button" id="add_ustrap_button_canvas11" style="position:absolute; left:657px; top:81px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_ustrap_canvas11()"/>
+
+
+<span class="blink_me" id="arrow11a" style="position:absolute; font-size: 30px; left:618px; top:76px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="add_loopframe_button" style="position:absolute; left:657px; top:131px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_loopframe()"/>
+
+
+<span class="blink_me" id="arrow11h" style="position:absolute; font-size: 30px; left:618px; top:122px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<input type="button" id="add_cabel_button" style="position:absolute; left:657px; top:128px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_cabel()"/>
+
+
+<span class="blink_me" id="arrow11e" style="position:absolute; font-size: 30px; left:618px; top:124px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:898px; "  />
+
+<img src="images/loopframepole.png"  style="position:absolute; left:372px; top:243px; visibility:;height:352px; width:103px; "  />
+
+
+
+
+<img src="images/clemp3hole.png" id="ustrap1_canvas11" style="position:absolute; visibility:hidden;height:28px; width: 103px;"  />
+
+<!-- <img src="images/clemp3holewh.png" id="clemp_wh" style="position:absolute; visibility:hidden;height:28px; width: 103px;"  /> -->
+
+<img src="images/transbox.png" id="trans_ustrap1_canvas11" style="position:absolute; left:129px; top:544px; visibility:hidden;height:29px; width: 127px; border: 2px solid red;" onclick="trans_ustrap1_canvas11()"  />
+
+<span class="blink_me" id="arrow11b" style="position:absolute; font-size: 30px; left:184px; top:497px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/handsmall.png" id="hand_ustrap_canvas11" style="position:absolute;visibility:hidden;height:39px;  left:182px; top:554px;"  />
+
+
+
+    
+
+<img src="images/nut.png" id="nut1_canvas11" style="position:absolute;visibility:;height:11px; 
+top:600px;left: 323px; "  />
+
+<img src="images/nut.png" id="nut2_canvas11" style="position:absolute;visibility:;height:11px; top:593px;left: 364px; "  />
+
+
+
+<!-- <img src="images/nut.png" id="nut4_canvas11" style="position:absolute;visibility:;height:11px;  top:600px;left: 461px;"  /> -->
+
+<img src="images/handsmall.png" id="handsmall_nut_canvas11" style="position:absolute;visibility:hidden;height:37px; left:285px; top:596px; transform:rotateY(180deg); "  />
+
+<img src="images/transbox.png" id="trans_nut1_canvas11" style="position:absolute;visibility:;height:25px;width: 25px; top:592px;left: 310px; border:  2px solid blue;" onclick="nut1_canvas11()"  />
+
+
+<img src="images/transbox.png" id="trans_nut2_canvas11" style="position:absolute;visibility:;height:25px; width: 25px;top:585px;left: 359px; border:  2px solid black;" onclick="nut2_canvas11()" />
+
+
+
+<span class="blink_me" id="arrow11c" style="position:absolute; font-size: 30px; left:279px; top:588px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="arrow11d" style="position:absolute; font-size: 30px; left:325px; top:582px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+<!-- <img src="images/transbox.png" id="trans_nut4_canvas11" style="position:absolute;visibility:;height:25px; width: 25px; top:590px;left: 454px; border:  2px solid green;"onclick="nut4_canvas11()"  /> -->
+
+<img src="images/lf.png" id="loopframe" style="position:absolute; visibility:hidden;height:194px; width: 217px;transform: rotate(48deg)"  />
+
+<img src="images/transbox.png" id="trans_loopframe" style="position:absolute; left:129px; top:470px; visibility:hidden;height:150px; width: 127px; border: 2px solid red;" onclick="trans_loopframe()"  />
+
+<span class="blink_me" id="arrow11f" style="position:absolute; font-size: 30px; left:176px; top:470px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/nut.png" id="nut3_canvas11" style="position:absolute;visibility:;height:11px; top:598px;left: 413px;"  />
+
+<img src="images/transbox.png" id="trans_nut3_canvas11" style="position:absolute;visibility:;height:25px; width: 25px; top:591px;left: 404px;border:  2px solid red;"onclick="nut3_canvas11()"  />
+
+<img src="images/handsmall.png" id="handsmall_nutpickup_canvas11" style="position:absolute;visibility:hidden;height:39px; left: 368px;top:590px; "  />
+
+<span class="blink_me" id="arrow11g" style="position:absolute; font-size: 30px; left:360px; top:587px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+
+<img src="images/roundedof.png" id="cabel" style="position:absolute; left:387px; top:270px; visibility:hidden;height:169px; width:171px;    transform: rotate(-11deg);"  />
+
+
+<img src="images/transbox.png" id="trans_loopframe_animate" style="position:absolute; left:129px; top:470px; visibility:hidden;height:150px; width: 183px; border: 2px solid red;" onclick="trans_loopframe_animate()"  />
+
+<span class="blink_me" id="arrow11i" style="position:absolute; font-size: 30px; left:217px; top:444px; color: ; visibility: hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/hand2.png" id="cabel_handleft" style="position:absolute; left:130px; top:536px; visibility:hidden; height: 79px; "  />
+
+<img src="images/hand2.png" id="cabel_handright" style="position:absolute; left:278px; top:537px; height: 79px; visibility:hidden;transform: rotateY(180deg);"  />
+
+
+<img src="images/lf1.png" id="loopframe1" style="position:absolute; visibility:hidden;height:194px; width: 217px;transform: rotate(48deg); left:319px; top:248px;"  />
+
+
+<img src="images/hand2.png" id="loopframe_handleft" style="position:absolute; left:133px; top:524px; visibility:hidden; height: 68px; transform: rotate(31deg);"  />
+
+
+
+
+<span id="text_poleclamp" style="position:absolute; left:137px;top:582px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Pole Clamp</span>
+
+<span id="text_loopframe" style="position:absolute; left:135px;top:424px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Loop Frame</span>
+
+
+<span id="text_cabelloop" style="position:absolute; left:174px;top:420px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Cabel Loop</span>
+
+
+
+
+
+ 
+
+<span class="blink_me" id="arrow11" style="position:absolute; font-size: 30px; left:765px; top:575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton11" style="color: #764C28; position:absolute; left:806px; top:574px; font-size: 35px; visibility: hidden;" onclick="navNext11()"></i>
+
+
+</div>
+
+
+
+<!-- scene-12--- -->
+<!-- step 13 canvas 12 -->
+<div class="simsubscreen" id="canvas12" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px;  position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 4: Drop Cabel clipping technique on the wall.</strong> <br><br>
+
+        <strong>STEP 13:</strong> a) Click on Add button to bring Drill Machine.</p><br>
+
+        <p class="incanvas" id="step12b" style="font-size:px; position: absolute; left: 114px; top: 80px; visibility: hidden;"> b) Click on Add button to bring Masnory Bit.</p><br>
+
+        <p class="incanvas" id="step12c" style="font-size:px; position: absolute; left: 114px; top: 100px; visibility: hidden;"> c) Click on Add button to bring Chuck Key.</p><br>
+
+        <p class="incanvas" id="step12d" style="font-size:px; position: absolute; left: 114px; top: 120px; visibility: hidden;"> d) Click on Masnory bit to fix it into Drill Machine.</p><br>
+
+        <p class="incanvas" id="step12e" style="font-size:px; position: absolute; left: 114px; top: 140px; visibility: hidden;"> e) Click on Chuck key to fixed it on to the Drill Machine.</p><br>
+
+        <p class="incanvas" id="step12f" style="font-size:px; position: absolute; left: 114px; top: 160px; visibility: hidden;"> f) Click on Chuck key to tied the bit.</p><br>
+
+        <p class="incanvas" id="step12g" style="font-size:px; position: absolute; left: 114px; top: 180px; visibility: hidden;"> g) Click on Chuck key to putback it on the place.</p><br>
+
+        <p class="incanvas" id="step12h" style="font-size:px; position: absolute; left: 114px; top: 200px; visibility: hidden;"> h) Click on Next button.</p><br>
+
+</div>
+
+
+<input type="button" id="add_drill_button" style="position:absolute; left:657px; top:81px;cursor:pointer; visibility:; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_drill()"/>
+
+
+<span class="blink_me" id="arrow12a" style="position:absolute; font-size: 30px; left:620px; top:75px; color: ; visibility:;"><strong>
+    <i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="add_bit_button" style="position:absolute; left:657px; top:99px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_bit()"/>
+
+<span class="blink_me" id="arrow12b" style="position:absolute; font-size: 30px; left:620px; top:91px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-right"></i></strong></span>
+
+
+<input type="button" id="add_chuck_key_button" style="position:absolute; left:657px; top:119px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_chuck_key()"/>
+
+<span class="blink_me" id="arrow12c" style="position:absolute; font-size: 30px; left:620px; top:112px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:898px; "  />
+
+<img src="images/wall_new.jpg" id="wall" style="position:absolute; left:1px; top:178px; visibility:;height:340px; width:898px; "  />
+
+
+<img src="images/masnory_bit1.png" id="bit" style="position:absolute;  visibility:hidden;height:114px; width:127px; transform: rotate(-41deg);"  />
+
+<img src="images/drill_new1.png" id="drill" style="position:absolute;  visibility:hidden;height:198px;  "  />
+
+
+<img src="images/chuck_key.png" id="chuck_key" style="position:absolute;  visibility:hidden;height:49px; left: 150px; top:450px; "  />
+
+<img src="images/transbox.png" id="trans_bit" style="position:absolute;  visibility:hidden;height:102px; width:170px;left:191px; top:509px; border: 2px solid green; " onclick="bit_animate()"  />
+
+<img src="images/handsmall.png" id="hand_drill" style="position:absolute;  visibility:hidden;height:48px; transform: rotateY(180deg); top:554px; left:216px; "  />
+
+
+
+<span class="blink_me" id="arrow12d" style="position:absolute; font-size: 30px; left:256px; top:509px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_chuck_key" style="position:absolute;  visibility:hidden;height:102px; width:170px;left:661px; top:509px; border: 2px solid green; " onclick="chuck_key_animate()"  />
+
+
+<span class="blink_me" id="arrow12e" style="position:absolute; font-size: 30px; left:715px; top:482px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/transbox.png" id="trans_chuck_key_rotate" style="position:absolute;  visibility:hidden;height:102px; width:170px;left:480px; top:459px; border: 2px solid green; " onclick="chuck_key_rotate()"  />
+
+
+<span class="blink_me" id="arrow12f" style="position:absolute; font-size: 30px; left:505px; top:422px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_chuck_key_put" style="position:absolute;  visibility:hidden;height:102px; width:170px;left:480px; top:459px; border: 2px solid green; " onclick="chuck_key_put()"  />
+
+<span class="blink_me" id="arrow12g" style="position:absolute; font-size: 30px; left:505px; top:422px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<span id="text_drillmachine" style="position:absolute; left:516px;top:450px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Drill Machine</span>
+
+<span id="text_masonrybit" style="position:absolute; left:215px;top:573px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Masonry Bit</span>
+
+<span id="text_chuckkey" style="position:absolute; left:672px;top:518px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:hidden;">Chuck key</span>
+
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow12" style="position:absolute; font-size: 30px; left:765px; top:575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton12" style="color: #764C28; position:absolute; left:806px; top:574px; font-size: 35px; visibility: hidden;" onclick="navNext12()"></i>
+
+
+</div>
+
+
+<!-- scene-13--- -->
+<!-- step 14 but canvas 13 -->
+<div class="simsubscreen" id="canvas13" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px; position: absolute; top: 30px;left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 4: Drop Cabel clipping technique on the wall.</strong> <br><br>
+
+        <strong>STEP 14:</strong> a) Put Marker to make the Mark on Wall one by one.</p><br><br>
+
+        <p class="incanvas" id="step13b" style="font-size:px; position: absolute; left: 114px; top: 80px; visibility: hidden;"> b) Click on Drill Machine to make hole on the wall one by one .</p><br>
+
+</div>
+
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:898px; "  />
+
+<img src="images/wall_new.jpg" id="wall" style="position:absolute; left:203px; top:285px; visibility:;height:216px; width:463px;transform:scale(2.0); "  />
+
+
+
+
+
+<img src="images/point.png" id="mark1" style="position:absolute;  visibility:hidden;height:14px; left:108px; top:234px; "  />
+
+<img src="images/marker.png" id="marker" style="position:absolute;  visibility:;height:70px; left:381px; top:557px; "  />
+
+<img src="images/markerwh.png" id="marker1_wh" style="position:absolute;  visibility:hidden;height:70px; left:381px; top:557px;"  />
+
+<img src="images/handsmalls.png" id="handsmalls_cursor" style="position:absolute;  visibility:hidden;height:70px; left:381px; top:557px;"  />
+
+
+<img src="images/transbox.png" id="trans_mark1" style="position:absolute;  visibility: ;height:100px; width: 100px; left:347px; top:551px; border: 2px solid green;" 
+onclick="mark1()" />
+
+<span class="blink_me" id="arrow13a" style="position:absolute; font-size: 30px; left:391px; top:532px; color: ; visibility: ;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+
+
+<img src="images/transbox.png" id="trans_mark2" style="position:absolute;  visibility:hidden;height:100px; width: 100px;  left:347px; top:551px; border: 2px solid red; " onclick="mark2()" />
+
+<span class="blink_me" id="arrow13b" style="position:absolute; font-size: 30px;  left:391px; top:535px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/point.png" id="mark2" style="position:absolute;  visibility:hidden;height:14px; left:299px; top:233px; "  />
+
+
+
+<img src="images/transbox.png" id="trans_mark3" style="position:absolute;  visibility:hidden;height:100px; width: 100px; left:347px; top:551px; border: 2px solid black; " onclick="mark3()" />
+
+<span class="blink_me" id="arrow13c" style="position:absolute; font-size: 30px; left:391px; top:535px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/point.png" id="mark3" style="position:absolute; visibility:hidden;
+height:14px; left:525px; top:233px; "  />
+
+
+
+
+
+<img src="images/drill_bit.png" id="drill_with_bit" style="position:absolute;  visibility: ;height:198px; left:586px; top:474px; "  />
+
+<img src="images/drill_bitwh.png" id="drill_with_hand" style="position:absolute;  visibility:hidden ;height:198px; left:586px; top:474px; "  />
+
+
+
+<img src="images/transbox.png" id="trans_drill_bit1" style="position:absolute;  visibility:hidden;height:200px; width: 200px; left:533px; top:420px; border: 2px solid black; " onclick="drill_bit_move1()" />
+
+<span class="blink_me" id="arrow13d" style="position:absolute; font-size: 30px; left:639px; top:440px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/hole2.png" id="hole1" style="position:absolute;  visibility:hidden;height:41px; left:89px; top:220px; "  />
+
+
+
+<img src="images/transbox.png" id="trans_drill_bit2" style="position:absolute;  visibility:hidden;height:200px; width: 200px; left:533px; top:420px; border: 2px solid black; " onclick="drill_bit_move2()" />
+
+<span class="blink_me" id="arrow13e" style="position:absolute; font-size: 30px; left:639px; top:440px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/hole2.png" id="hole2" style="position:absolute;  visibility:hidden;height:41px; left:281px; top:219px;  "  />
+
+
+<img src="images/transbox.png" id="trans_drill_bit3" style="position:absolute;  visibility:hidden;height:200px; width: 200px; left:533px; top:420px; border: 2px solid red; " onclick="drill_bit_move3()" />
+
+<span class="blink_me" id="arrow13f" style="position:absolute; font-size: 30px; left:639px; top:440px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/hole2.png" id="hole3" style="position:absolute;  visibility:hidden;height:41px; left:507px; top:219px;  "  />
+
+
+<!-- <img src="images/wall_plug.png" id="plug1" style="position:absolute;  visibility:;height:63px; left:465px; top:400px;  "  /> -->
+
+
+<span id="text_marker" style="position:absolute; left:367px;top:624px;font-size: 24px;color:#fb0505f2;font-family:serif;font-weight: bold;visibility:;">Marker</span>
+
+<span id="text_mark1" style="position:absolute; left:86px;top:200px;font-size: 23px;color: rgb(162 10 10 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Mark-1</span>
+
+<span id="text_mark2" style="position:absolute; left:274px;top:200px;font-size: 23px;color: rgb(162 10 10 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Mark-2</span>
+
+<span id="text_mark3" style="position:absolute; left:504px;top:200px;font-size: 23px;color: rgb(162 10 10 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Mark-3</span>
+
+
+
+<span id="text_hole1" style="position:absolute; left:86px;top:200px;font-size: 23px;color: rgb(162 10 10 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Hole-1</span>
+
+<span id="text_hole2" style="position:absolute; left:274px;top:200px;font-size: 23px;color: rgb(162 10 10 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Hole-2</span>
+
+<span id="text_hole3" style="position:absolute; left:504px;top:200px;font-size: 23px;color: rgb(162 10 10 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Hole-3</span>
+
+
+
+
+
+
+
+
+
+<span class="blink_me" id="arrow13" style="position:absolute; font-size: 30px; left:765px; top:575px; color: ; visibility: hidden;"><strong>
+    <i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton13" style="color: #764C28; position:absolute; left:806px; top:574px; font-size: 35px; visibility: hidden;" onclick="navNext13()"></i>
+
+
+</div>
+
+
+
+<!-- scene-14--- -->
+<!-- step 15 but canvas 14 -->
+<div class="simsubscreen" id="canvas14" style="visibility:hidden;background-image:url(images/tabletop.jpg);" ></br>
+
+        <div id="transwhite" style="width: 792px; height:130px; position: absolute; top: 30px; left:45px; overflow-x: hidden; overflow-y: auto;" ></br>
+
+        <p class="incanvas" style="font-size:px; position: absolute; left: 28px; top: 20px;"><strong>TASK 4: Drop Cabel clipping technique on the wall.</strong> <br><br>
+
+        <strong>STEP 15:</strong> a) Click on Wall plug one by one to fix it on the wall.</p><br><br>
+
+        <p class="incanvas" id="step14b" style="font-size:px; position: absolute; left: 113px; top: 80px; visibility: hidden;"> b) Click on Add button to bring Cabel .</p><br>
+
+        <p class="incanvas" id="step14c" style="font-size:px; position: absolute; left: 113px; top: 100px; visibility: hidden;"> c) Click on Cabel to fix it on the wall .</p><br>
+
+        <p class="incanvas" id="step14d" style="font-size:px; position: absolute; left: 113px; top: 120px; visibility: hidden;"> d) Click on Add button to bring Hammer .</p><br>
+
+        <p class="incanvas" id="step14e" style="font-size:px; position: absolute; left: 113px; top: 140px; visibility: hidden;"> e) Click on Wall Clips to fix it on the wall.</p><br>
+
+        <p class="incanvas" id="step14f" style="font-size:px; position: absolute; left:113px; top: 160px; visibility: hidden;"> f) Click on Hammer to hit the Clip.</p><br>
+
+        <p class="incanvas" id="step14g" style="font-size:px; position: absolute; left:113px; top: 180px; visibility: hidden;"> g) Repeat the Step (e) and (f) untill remaining clips fitted on the wall.</p><br>
+
+</div>
+
+
+<input type="button" id="add_cabelcanvas14_button" style="position:absolute; left:657px; top:103px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_cabel_canvas14()"/>
+
+<span class="blink_me" id="arrow14d" style="position:absolute; font-size: 30px;left:620px; top:97px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-right"></i></strong></span>
+
+
+<input type="button" id="add_hammer_button_canvas14" style="position:absolute; left:657px; top:133px;cursor:pointer; visibility:hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Add&nbsp;" onclick="add_hammer_canvas14()"/>
+
+<span class="blink_me" id="arrow14f" style="position:absolute; font-size: 30px;left:620px; top:128px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-right"></i></strong></span>
+
+
+
+
+<img src="images/road.jpg" id="road" style="position:absolute; left:1px; top:486px; visibility:;height:177px; width:898px; "  />
+
+<img src="images/wall_new.jpg" id="wall" style="position:absolute; left:203px; top:285px; visibility:;height:216px; width:463px;transform:scale(2.0); "  />
+
+<img src="images/hole2.png" id="hole1_again" style="position:absolute;  visibility:;height:41px; left:108px; top:224px; "  />
+
+<img src="images/hole2.png" id="hole2_again" style="position:absolute;  visibility:;height:41px; left:294px; top:224px;  "  />
+
+<img src="images/hole2.png" id="hole3_again" style="position:absolute;  visibility:;height:41px; left:520px; top:224px;  "  />
+
+<img src="images/gitti.png" id="gitti1" style="position:absolute;  visibility:;height:21px; left:108px; top:599px; "  />
+
+<img src="images/gitti.png" id="gitti2" style="position:absolute;  visibility:;height:21px; left:180px; top:599px; "  />
+
+<img src="images/gitti.png" id="gitti3" style="position:absolute;  visibility:;height:21px; left:280px; top:599px; "  />
+
+<img src="images/handsmall.png" id="hand_gitti1" style="position:absolute;  visibility:hidden;height:50px;  "  />
+
+
+
+<img src="images/transbox.png" id="trans_gitti1" style="position:absolute;  visibility:;height:50px;  width: 60px; left:90px; top:587px; border: 2px solid green;" onclick="gitti1()" />
+
+<span class="blink_me" id="arrow14a" style="position:absolute; font-size: 30px;left:108px; top:545px; color: ; visibility:;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_gitti2" style="position:absolute;  visibility:hidden;height:50px;  width: 60px; left:162px; top:587px; border: 2px solid green;" onclick="gitti2()" />
+
+<span class="blink_me" id="arrow14b" style="position:absolute; font-size: 30px; left:181px; top:545px;color: ; visibility:hidden; ;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_gitti3" style="position:absolute;  visibility:hidden;height:50px;  width: 60px;left:262px; top:587px; border: 2px solid green;" onclick="gitti3()"  />
+
+<span class="blink_me" id="arrow14c" style="position:absolute; font-size: 30px; left:280px; top:545px; color: ; visibility: hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/polewire.png" id="cabel_canvas14" style="position:absolute;visibility:hidden;height:14px; width:603px; left:137px; top:602px;"  />
+
+
+
+
+
+
+<img src="images/transbox.png" id="trans_cabel_canvas14" style="position:absolute;  visibility:hidden;height:100px; width:600px;left:139px; top:557px; border: 2px solid green; " onclick="cabel_canvas14_animate()"  />
+
+<span class="blink_me" id="arrow14e" style="position:absolute; font-size: 30px;left:408px; top:552px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/handsmall.png" id="hand_cabel" style="position:absolute;  visibility:hidden;height:47px;  left:407px; top:598px;"  />
+
+
+<img src="images/clip2.png" id="clip1" style="position:absolute;  visibility:hidden;height:36px; left:108px; top:599px; "  />
+
+
+
+<img src="images/clip2.png" id="clip2" style="position:absolute;  visibility:hidden;height:36px; left:180px; top:599px; "  />
+
+<img src="images/clip2.png" id="clip3" style="position:absolute;  visibility:hidden;height:36px; left:260px; top:599px; "  />
+
+
+<img src="images/transbox.png" id="trans_clip1" style="position:absolute;  visibility:hidden;height:50px; width:50px; left:98px; top:592px; border: 2px solid red; " onclick="clip1_move()"  />
+
+<span class="blink_me" id="arrow14g" style="position:absolute; font-size: 30px;left:111px; top:545px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_clip2" style="position:absolute;  visibility:hidden;height:50px; width:50px; left:173px; top:590px; border: 2px solid green;" onclick="clip2_move() "/>
+
+<span class="blink_me" id="arrow14h" style="position:absolute; font-size: 30px;left:182px; top:545px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/transbox.png" id="trans_clip3" style="position:absolute;  visibility:hidden;height:50px; width:50px;  left:250px; top:592px;border: 2px solid black; " onclick="clip3_move()" />
+
+<span class="blink_me" id="arrow14i" style="position:absolute; font-size: 30px;left:261px; top:545px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+<img src="images/handsmall.png" id="hand_clip" style="position:absolute;  visibility:hidden;height:43px;  left:108px; top:598px;"  />
+
+<img src="images/hammer_wall.png" id="hammer" style="position:absolute;  visibility:hidden;height:145px; width: 79px;  left:643px; top:506px;" />
+
+<img src="images/hammerwh.png" id="hammer_hand" style="position:absolute;  visibility:hidden;height:145px; width: 79px;  left:643px; top:506px;" />
+
+<img src="images/transbox.png" id="trans_hammer1" style="position:absolute;  visibility:hidden;height:200px; width:100px;  left:638px; top:450px;border: 2px solid black; " onclick="hammer1()" />
+
+<span class="blink_me" id="arrow14j" style="position:absolute; font-size: 30px;left:667px; top:438px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/transbox.png" id="trans_hammer2" style="position:absolute;  visibility:hidden;height:200px; width:100px;  left:638px; top:450px;border: 2px solid red; " onclick="hammer2()" />
+
+
+<span class="blink_me" id="arrow14k" style="position:absolute; font-size: 30px;left:667px; top:450px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+<img src="images/transbox.png" id="trans_hammer3" style="position:absolute;  visibility:hidden;height:200px; width:100px;  left:638px; top:450px;border: 2px solid red; " onclick="hammer3()" />
+
+<span class="blink_me" id="arrow14l" style="position:absolute; font-size: 30px;left:667px; top:450px; color: ; visibility:hidden;"><strong>
+    <i class="fa fa-arrow-down"></i></strong></span>
+
+
+
+
+
+
+<img src="images/clip1.png" id="clip1_show" style="position:absolute;  visibility:hidden;height:34px; left:127px; top:223px; "  />
+
+<img src="images/clip1.png" id="clip2_show" style="position:absolute;  visibility:hidden;height:34px; left:311px; top:224px; "  />
+
+<img src="images/clip1.png" id="clip3_show" style="position:absolute;  visibility:hidden;height:34px;left:537px; top:224px; "  />
+
+
+
+
+
+<span id="text_wall_plug" style="position:absolute; left:179px;top:528px;font-size: 24px;color: rgb(236 2 2 / 99%);font-family:serif;font-weight: bold;visibility:;">Wall Plugs</span>
+
+<span id="text_wall_clip" style="position:absolute; left:143px;top:546px;font-size: 24px;color: rgb(236 2 2 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Cable Clips</span>
+
+<span id="text_hammer" style="position:absolute; left:636px;top:472px;font-size: 25px;color: rgb(236 2 2 / 99%);font-family:serif;font-weight: bold;visibility:hidden;">Hammer</span>
+
+
+
+
+<span class="blink_me" id="arrow14" style="position:absolute; font-size: 30px; left:710px; top:520px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton14" style="color: #764C28; position:absolute; left:750px; top:520px; font-size: 35px; visibility: hidden;" onclick="navNext14()"></i>
+
+
+</div>
+
+
+
+</div>
+<!-- <div style="text-align: center; font-size: 11px; width:900px; border:1px solid #764C28; position: relative; border-top:none; color: #FFF; background-color: #F36F21; height: 25px; padding-top: 5px; padding-bottom: 5px"><a href="#" target="_blank"  style="text-decoration: none;"><strong style="color: #FFF; font-size: 12px;">Electronics Sector Skill Council of India (ESSCI)</strong></a></div> -->
+
+</body>
+</html>

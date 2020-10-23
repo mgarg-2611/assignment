@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual Labs</title>
+
+<!-- BEGIN BASE CSS STYLE -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"type="text/css">
+    <link href="http://vlabs.iitb.ac.in/vlabs-dev/labs/nitk_labs/Environmental_Engineering_1/experiments/determination-biological-oxygen-demand-nitk/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="http://vlabs.iitb.ac.in/vlabs-dev/labs/nitk_labs/Environmental_Engineering_1/experiments/determination-biological-oxygen-demand-nitk/assets/css/essential.css" rel="stylesheet" type="text/css">
+    <link href="iitstyle.css" rel="stylesheet" type="text/css">
+    <link href="http://vlabs.iitb.ac.in/vlabs-dev/labs/nitk_labs/Environmental_Engineering_1/experiments/determination-biological-oxygen-demand-nitk/assets/css/custom-style.css" rel="stylesheet" type="text/css">
+    <!-- BEGIN END BASE CSS STYLE -->
+
+    <!-- BEGIN PAGE LEVEL STYLE -->
+    <link rel="stylesheet" href="assets/plugins/amcharts/export.css" type="text/css" media="all"/>
+    <!-- END PAGE LEVEL STYLE -->
+</head>
+
+<body>
+
+<embed type="text/html" src="http://vlabs.iitb.ac.in/vlabs-dev/labs/nitk_labs/Environmental_Engineering_1/experiments/determination-biological-oxygen-demand-nitk/header.html" width="100%" height="95px">
+
+
+<!-- BEGIN HEADER -->
+<div id="header">
+    <!-- BEGIN MENU BAR -->
+    <div class="navbar navbar-default navbar-transparent" id="main_menu_bar" style="padding-right: 70px">
+        <div class="navbar-collapse collapse" id="menu_nav">
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li> <a href="index.html" style="color: #036593;">Aim</a> </li>
+                <li> <a href="theory.html" style="color: #036593;">Theory</a> </li>
+                <li> <a href="pretest.html" style="color: #036593;">Pre Test</a> </li>
+                <li> <a href="procedure.html" style="color: #036593;">Procedure</a> </li>
+                <li> <a href="simulation.html" style="color: #036593">Simulation</a> </li>
+                <li> <a href="posttest.html" style="color: #036593;">Post Test</a> </li>
+                <li> <a href="references.html" style="color: #036593">References</a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- END MENU BAR -->
+</div>
+<!-- END HEADER -->
+<hr class="style1">
+<!-- ============================================================================ -->
+<table align="center">
+<tr><td  style="padding-top: 10px; padding-bottom: 50px;" >
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Virtual Labs</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- <link rel="stylesheet" href="style3.css"> -->
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  -->
+
+<!-- jQuery library -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+<!-- Latest compiled JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+<!-- <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script> -->
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+</head>
+
+<body style="margin:0; font-family: verdana;" onload="step1()" >
+
+<table align="center">
+    <tr>
+        <td>
+        
+<div id="simscreen" style="">
+
+<div id="title"><h3 style="color: black; padding: 13px;">Active Listening/Reading Skills</h3></div>
+
+         <!-- Scene 0 -->
+<div class="simsubscreen" id="canvas0" style="visibility:visible;">
+
+<div class="col-lg-12" style=" height: 810px;">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6" >
+                <div class="form-box">
+
+                <label for="name_stu"><b>Name</b></label>
+                <input class="form-control" type="text" placeholder="Enter Name" id="name_stu" required>
+
+                <label for="enroll"><b>Enrollment Number</b></label>
+                <input class="form-control" type="text" placeholder="Enter Enrollment Number" id="enroll" required>
+
+                <label for="course"><b>Course</b></label>
+                <input class="form-control" type="text" placeholder="Enter Course Name" id="course" required>
+
+                <label for="semester"><b>Semester</b></label>
+                <input class="form-control" type="text" placeholder="Enter Semester Name" id="semester" required>
+
+                <label for="email"><b>Email ID</b></label>
+                <input class="form-control" type="email" placeholder="Enter Email ID" id="email" required>
+
+                <label for="mob"><b>Number</b></label>
+                <input class="form-control" type="number" placeholder="Enter Mobile Number" id="mob" 
+                 min="1000000000" max="9999999999" required="required">
+            </div>
+            <button type="button" class="btn btn-info center-block"  style="text-align: center; " onclick="navNext0()"><strong>Next</strong></button>
+            <img src="images/first.png" class="img-responsive" style="margin-top: 60px;">
+                </div>
+                <div class="col-lg-3"></div>
+
+            </div></div>
+
+
+ <!-- Scene 1 -->
+
+
+ <script type="text/javascript">
+
+
+</script>
+
+
+
+
+
+
+
+    <div class="simsubscreen" id="canvas1" style="visibility:hidden;" >
+
+          
+
+    <div class="col-lg-12" style=" height: 810px; padding-top: 25px;">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8" style="" >
+
+      
+  
+<img src=images/key1.jpg style="">
+<!-- <canvas id="canvas" style="background:#f8f8f8;width:100%;height:250px;"></canvas> -->
+
+<audio id="audio" controls style="width: 100%; background-color: #0b215f;padding: 14px;">
+  <source src="conversation.mp3" type="audio/mp3">
+  </audio>
+<!-- <embed src="yaara.mp3"></embed> -->
+</div>
+             
+ <div class="col-lg-2"></div>
+ 
+<div class="col-lg-12" style="margin-top: 40px;">
+<button type="button" class="btn btn-info center-block" id="btn9"style="text-align: center; visibility:; " onclick="navNext1()"><strong>Next</strong></button>
+    
+</div>
+                
+</div>
+           
+</div>
+
+
+
+<!-- scene3 -->
+    
+<div class="simsubscreen" id="canvas2" style="visibility:hidden;" >    
+
+<div class="col-lg-12" style=" height: 755px;">
+<div class="col-lg-1"></div>
+
+<div class="col-lg-10" style="margin-top: 20px;">
+<div class="main_screen" >
+
+<div class="question_div">
+
+<div class="row">
+<div class="fruit_item" id="apple" draggable="true" ondragstart="dragThis(event)"
+style="position: relative; padding: 8px 5px; margin: 10px 10px;  left:352px; top: 5px; height: 41px; width: 190px;  border-radius: 0px; background-color: #0d95de;color: white;   border-style: groove; text-align: center; "><strong>Money Thief</strong></div>
+
+<div class="vegetable_item" id="potato" draggable="true" ondragstart="dragThis(event)"
+ style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px; border-style: groove; border-radius: 0px; background-color:  #0d95de;color: white; text-align: center; visibility: hidden;"><strong>monster</strong>
+</div>
+
+
+<div class="fruit_banana" id="banana" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color: #0d95de;color: white;   border-style: groove; text-align: center; visibility: hidden;"><strong>Wallet</strong>
+</div>
+
+<div class="vegetable_cabage" id="cabage" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color:  #0d95de; color: white;  border-style: groove; text-align: center; visibility: hidden;"><strong>Thunder</strong>
+</div>
+
+<div class="fruit_blueberry" id="blueberry" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color: #0d95de; color: white;  border-style: groove; text-align: center; visibility: hidden;"><strong> Shoe Tie</strong>
+</div>
+
+
+<div class="vegetable_broccoli" id="broccoli" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color: #0d95de; color: white;  border-style: groove; text-align: center; visibility: hidden;"><strong>Donald Trump</strong>
+</div>
+
+
+<div class="vegetable_beetroot" id="beetroot" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color: #0d95de; color: white;  border-style: groove; text-align: center; visibility: hidden;"><strong>Lady Police</strong>
+</div>
+
+<div class="fruit_custardapple" id="custardapple" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color: #0d95de; color: white;  border-style: groove; text-align: center; visibility: hidden;"><strong>Chasing Man </strong>
+</div>
+
+<div class="fruit_plum" id="plum" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color: #0d95de;  color: white; border-style: groove; text-align: center; visibility: hidden;"><strong> Smoking</strong>
+</div>
+
+
+<div class="vegetable_mushroom" id="mushroom" draggable="true" ondragstart="dragThis(event)"
+style="   position: relative; padding: 8px 5px; margin: 10px 10px; left:352px; top: 5px; height: 41px;   width: 190px;  border-radius: 0px; background-color: #0d95de; color: white;  border-style: groove; text-align: center; visibility: hidden;"><strong>Hitting Wall</strong>
+ </div>
+
+
+
+</div>
+</div>
+
+
+            <div class="fruit" id="fruit_div" ondrop="dropThis(event)" ondragover="allowDropThis(event)"
+                style="   position: absolute;  left:90px; top:140px;height: 560px;   width: 250px; box-shadow: 2px 2px 10px #000000;border: dotted;  background-image: radial-gradient(#ffffffad, #fce8b66b);">
+            </div>
+
+            <div class="vegetable" id="vegetable_div" ondrop="dropThis(event)" ondragover="allowDropThis(event)"
+                style="  position: absolute;  left:620px; top:140px; height: 560px; width: 250px;border: dotted; background-image: radial-gradient(#ffffffad, #fce8b66b);  box-shadow: 2px 2px 10px #000000;">
+            </div>
+
+            <img src="images/word_left2.png" style=" position: absolute; left: 346px; top: 161px; ">
+             <img src="images/word_right1.png" style=" position: absolute; left: 479px; top: 280px; ">
+
+<button type="button" id="btn2" onclick="navNext2()" style="visibility: hidden;">Submit</button>
+</div>  
+</div>
+</div>
+<div class="col-lg-1"></div>
+</div>
+
+<!-- scene4 -->
+
+
+
+<div class="simsubscreen" id="canvas3" style="visibility:hidden;" >
+
+ <div class="col-lg-12" style=" height: 810px;">
+    <div class="result-box custom-box">
+
+            <h1>Score Board</h1>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><span id="name"></span></td>
+                </tr>
+
+                <tr>
+                    <td>Enrollment Number:</td>
+                    <td><span id="e_name"></span></td>
+                </tr>
+
+                <tr>
+                    <td>Course Name:</td>
+                    <td><span id="c_name"></span></td>
+                </tr>
+
+                <tr>
+                    <td> Semester Name:</td>
+                    <td><span id="sm_name"></span></td>
+                </tr>
+
+
+                <tr>
+                    <td>Mobile Number:</td>
+                    <td><span id="num"></span></td>
+                </tr>
+
+
+                <tr>
+                    <td>Email ID:</td>
+                    <td><span id="mail"></span></td>
+                </tr>
+
+
+                <tr>
+                    <td> Total Question:</td>
+                    <td><span id="total_question"></span></td>
+                </tr>
+
+                <tr>
+                    <td> Correct Answer:</td>
+                    <td><span id="correct_answer"></span></td>
+                </tr>
+
+                <tr>
+                    <td> Wrong Answer:</td>
+                    <td><span id="wrong_answer"></span></td>
+                </tr>
+
+                <tr>
+                    <td> Your Score:</td>
+                    <td><span id="score001"></span></td>
+                </tr>
+
+                 <tr>
+                    <td> Total Time Taken:</td>
+                    <td><span id="time001"></span></td>
+                </tr>
+            </table>
+        </div>
+
+<div class="col-lg-12" style="">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+        <div class="progress">
+                <div class="progress-bar" id="progress_percent" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                </div>
+        </div>
+                <div id="report">
+                <h4 id="progress_status">Progress Status</h4>
+                <p style="text-align: center;" id="progress_text_heading"></p>
+                <br>
+                <p style="text-align: center;"  id="progess_text"></p>
+            </div>
+        </div>
+    
+    <div class="col-lg-2" style="">
+         <div id="legends">
+            <div id="red" style="width: 50px; height: 8px; background-color: red; margin: 20px 10px;">
+            </div>
+            <div id="red_text" style="position: absolute;left:90px ; top: 13px;">Poor </div>
+
+            <div id="yellow" style="width: 50px; height: 8px; background-color:brown; margin: 20px 10px;"></div>
+
+            <div id="yellow_text" style="position: absolute;left:90px ; top: 39px;">Average </div>
+
+
+            <div id="blue" style="width: 50px; height: 8px; background-color:blue; margin: 20px 10px;"></div>
+
+            <div id="blue_text" style="position: absolute;left:90px ; top: 69px;">Good </div>
+            <div id="green" style="width: 50px; height: 8px; background-color:green; margin: 20px 10px;"></div>
+
+            <div id="green_text" style="position: absolute;left:90px ; top:97px;">Excellent </div>
+
+             <div id="per_text" style="position: absolute;left:8px ; top:121px; width: 184px;"><strong>Performance Legends</strong> </div>
+        </div>
+    </div>
+</div>            
+</div>   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></td></tr></table></body></html>
+
+
+
+
+
+
+</td></tr>
+</table>
+<!-- =============================================================== -->
+<!-- BEGIN FOOTER -->
+<div class="navbar navbar-default footer">
+    <footer id="footer" class="footer footer-inverse">
+        <div class="footer-bottom">
+            <div class="row align-items-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table id= "userdata" align="right">
+                            <thead>
+                                <th><u>Developed by :</u></th>
+                            </thead>
+                            <tbody>
+
+                            <tr><th>Dr. Pruthviraj U | NITK, Surathkal</th></tr></tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="col-md-6" style="float: right; border-left: 2px solid black;">
+                        <table id="userdatac">
+                            <thead>
+                                <tr><th><u>Contributors :</u></th>
+                            </tr></thead>
+                            <tbody>
+
+                            <tr><th>Anusha B Salian | NITK, Surathkal</th></tr><tr><th>Swathi Shetty | NITK, Surathkal</th></tr><tr><th>Aishwarya Shetty | NITK, Surathkal</th></tr><tr><th>Aishwarya Hegde | NITK, Surathkal</th></tr><tr><th>Gautam Anand (17CV213) | NITK, Surathkal</th></tr><tr><th>Ravi Kumar Rahul (17CV136) | NITK, Surathkal</th></tr><tr><th>Sandesh Mantri (17CV222) | NITK, Surathkal</th></tr></tbody>
+                        </table>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- END FOOTER -->
+
+
+
+</body>
+</html>
+
+

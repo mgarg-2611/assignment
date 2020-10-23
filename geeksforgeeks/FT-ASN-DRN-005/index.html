@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>dummy</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="main1.js"></script>
+
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+
+
+</head>
+
+
+<body style="margin:0; font-family: verdana;" >
+
+  <div id="simscreen" style="">
+
+        <div id="title"><h3>ASSEMBELING OF DRONE</h3></div>
+
+
+
+         <!-- Scene 0 -->
+
+
+
+        <div class="simsubscreen" id="canvas0" style="visibility: visible;" ></br>
+
+<!--             <a href="indexhindi.html" style="position:absolute; left:15px; top:15px;font-size: 20px;">हिंदी</a>
+      
+           <strong class="incanvas">STEP</strong>
+
+            <span class="circlebg">&nbsp;1&nbsp;</span--->
+            <div id="transwhite" style="width: 1000px; height: 366px; margin-left: 100px; position: absolute; top: 26px;" ><br>
+
+            <span class="incanvas" style="font-size:16px; position: absolute; left: 0px; top: 0px  "><strong>Sector:</strong> Electronics</span>
+
+            <span class="incanvas" style="font-size:16px; position: absolute; left: 760px; top: 0px"><strong>Sub-sector:</strong> : E-Mobility  </span><br>
+
+            <p class="incanvas" style="font-size:16px;"><strong>Job Role:</strong></p>
+
+            <p class="incanvas" style="font-size:16px;"> ELE/Q6913: Drone Pilot Cum Technician </p><br>
+
+            <p class="incanvas" style="font-size:16px;"><strong>Task:</strong></p>
+
+            <p class="incanvas" style="font-size:16px;">1. Software Simulation.</p><br>
+            
+            <p class="incanvas" style="font-size:16px; position: absolute; top: 170px;">2. GPS Calibration. </p><br>
+
+            <p class="incanvas" style="font-size:16px; position: absolute; top: 194px;">3. How to fly Drone.</p><br>
+
+            <p class="incanvas" style="font-size:16px;"><strong>Overview</strong></p>
+
+            <p class="incanvas" style="font-size:16px;">Basics of Flying Drone with DJI NAZA Flight Controller and FLYSKY FS-i6 Radio Transmitter.We are using the NAZA MV2 Software for Drone Simulation</p>
+</div>
+           
+
+
+            <p class="incanvas" style="font-size:18px; text-align: center; position:absolute;left: 466px; top: 435px;"><strong>Start Task</strong></p>
+
+     <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px;left: 603px; top: 435px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <input type="button" id="nextButton0" style="position:absolute; left: 653px; top: 440px; cursor:pointer; font-size: 15px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;Click Here&nbsp;" 
+            onclick="navNext0()"/>
+
+        </div>
+
+        <!-- Scene 1 -->
+
+
+
+        <div class="simsubscreen" id="canvas1" style="visibility: hidden;background-image: url(image/bg1.jpg); background-repeat: no-repeat;" ></br>
+
+
+            <div id="transwhite" style="width: 1000px; height: 40px; margin-left: 100px; position: absolute; top: 26px;" ><br>
+
+           <p class="incanvas" style="font-size:px; position: absolute; left: 10px; top:00px"><strong>STEP 1:</strong></p>
+
+            <p class="incanvas" id="step1a" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: ;"> 1) Click on power button to start the CPU.</p><br>
+
+             <p class="incanvas" id="step1b" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 2) Click on Screen to see the zoom view of screen.</p><br>
+
+            <!-- <p class="incanvas" id="step1b" style="font-size:px; position: absolute; visibility: hidden; left: 83px; top:20px;"> b) Click Add button to bring all four arms frame of drone.</p><br> -->
+            
+
+        </div>
+ 
+
+            <img src="image/fullpc.png" style="height: 320px; width: 655px; position: absolute; left: 292px; top: 183px;"/>
+
+              <img src="image/windows71.jpg" id="windows7" style="height: 129px; width: 218px; position: absolute; left: 536px; top:262px; visibility: hidden;"/>
+
+               <img src="image/icon.png" id="naza_icon" style="height: 30px;  position: absolute; left: 542px; top:335px; visibility: hidden;"/>
+
+             <img src="image/transbox.png"  id="trans_switchon" style="position: absolute; left:330px; top: 240px; height: 30px; width: 40px;" onclick="swicthon()" />
+
+              <!-- <span class="blink_me" id="arrow1" style="position:absolute; font-size: 30px; left: 339px; top: 220px; color: ; visibility: ;"><strong><i class="fa fa-arrow-down"></i></strong></span> -->
+
+              <img src="image/transbox.png"  id="trans_click_icon" style=" position: absolute; left:535px; top: 259px; height: 131px; width: 215px; visibility:hidden;" onclick="zoomview_monitor()" />
+
+              <!-- <span class="blink_me" id="arrow2" style="position:absolute; font-size: 30px; left:625px; top: 220px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span> -->
+
+
+        
+
+ </div>
+
+
+ <!-- Scene 2 -->
+
+
+<div class="simsubscreen" id="canvas2" style="visibility: hidden;background-image: url(image/lab_inner_view.jpg); background-repeat: no-repeat;" ></br>
+
+
+ <div id="transwhite" style="width: 1000px; height: 40px; margin-left: 100px; position: absolute; top: 26px;" ><br>
+
+<p class="incanvas" style="font-size:px; position: absolute; left: 10px; top:00px"><strong>STEP 1:</strong></p>
+
+ <p class="incanvas" id="step1c" style="font-size:px; position: absolute; left: 83px; top:0px;"> 3) Click on NAZA MV2 Software to open it.</p><br>
+
+  <p class="incanvas" id="step1d" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 4) Click on Add button to bring Remote.</p><br>
+
+   <p class="incanvas" id="step1e" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 5) Click on power button of Remote.</p><br>
+
+   <p class="incanvas" id="step1f" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 6) Click on Throttle to check the channel monitor.</p><br>
+
+  <p class="incanvas" id="step1g" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 7) Click on Yaw to check the channel monitor.</p><br>
+
+   <p class="incanvas" id="step1h" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 8) Click on pitch to check the channel monitor.</p><br>
+
+    <p class="incanvas" id="step1i" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 9) Click on Roll to check the channel monitor.</p><br>
+
+  <p class="incanvas" id="step1j" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 10) Click on Basic Option.</p><br>
+
+   
+
+
+            
+
+</div>
+
+   <input type="button" id="add_remote_button" style="position:absolute; left:940px; top:36px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="add_remote()"/>
+
+     <!-- <span class="blink_me" id="arrow7" style="position:absolute; font-size: 30px; left:899px; top:31px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> -->
+
+
+
+
+
+ <img src="image/monitor1.png" style="height:547px;  position: absolute; left: 15px; top: 82px;"/>
+
+
+ <img src="image/windows71.jpg" id="windows71" style="height: 454px; width: 726px; position: absolute; left:38px; top:108px; visibility: ;"/>
+
+
+
+ <img src="image/icon.png" id="naza_icon1" style="height: 45px;  position: absolute; left:54px; top:362px; visibility:;"/>
+
+ <img src="image/transbox.png"  id="trans_softopen" style=" position: absolute; left:42px; top: 350px; height: 60px; width: 60px;" onclick="software_open()" />
+
+ <!-- <span class="blink_me" id="arrow3" style="position:absolute; font-size: 30px; left:112px; top: 370px; color: ; visibility:;"><strong><i class="fa fa-arrow-left"></i></strong></span> -->
+
+ <img src="image/step1_slider.png" id="step1_image" style="height: 454px; width: 726px; position: absolute; left:38px; top:108px; visibility:hidden; "/>
+
+
+<div id="upper_div" style=" position: absolute; left: 46px; top:204px; height: 190px; width: 704px;background-color: #ffffffb5; visibility: hidden;"></div>
+
+<div id="below_div" style="  position: absolute; left:279px; top:386px; height: 139px; width: 471px;background-color: #ffffffb5; visibility:hidden; ;"></div>
+
+
+  <img src="image/remote1.png" id="remote" style="height: 300px; width: 300px; position: absolute; left:38px; top:108px; visibility:hidden; "/>
+
+   <img src="image/remotebutton.png" id="remotebutton" style="height: 31px; width:18px; position: absolute; left:1050px; top:510px; visibility:hidden; "/>
+
+
+
+    <img src="image/s11.png" id="bit1" style="height: 21px; width: 15px; position: absolute; left:162px; top:407px; visibility:hidden; "/>
+
+ <img src="image/s11.png" id="bit2" style="height: 21px; width: 15px; position: absolute; left:162px; top:429px; visibility:hidden; "/>
+
+ <img src="image/s11.png" id="bit3" style="height: 21px; width: 15px; position: absolute; left:162px; top:452px; visibility:hidden; "/>
+
+ <img src="image/s11.png" id="bit4" style="height: 21px; width: 15px; position: absolute; left:162px; top:476px; visibility:hidden; "/>
+
+<img src="image/transbox.png"  id="trans_poweron" style="border: 2px solid green; position: absolute;left:1029px; top:491px; height: 70px; width: 50px; visibility: hidden;" onclick="remote_poweron()" />
+
+ <!-- <span class="blink_me" id="arrow4" style="position:absolute; font-size: 30px; left:1018px; top: 505px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> -->
+
+
+<img src="image/remotescreen.png"  id="screen" style=" position: absolute;left:908px; top:470px; height: 61px; width: 122px; visibility: hidden;"  />
+
+<img src="image/transbox.png"  id="trans_throttle" style="border: 2px solid green; position: absolute;left:835px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="throttle_input()" />
+
+ <!-- <span class="blink_me" id="arrow5" style="position:absolute; font-size: 30px; left:820px; top: 391px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> -->
+
+<span id="text_throttle" style=" font-size: 10px; color: black; visibility:hidden; position:  absolute; left: 238px; top: 459px;"> 2</span>
+
+<img src="image/transbox.png"  id="trans_r" style="border: 2px solid blue; position: absolute;left:835px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="trans_r()" />
+
+ <!-- <span class="blink_me" id="arrow6" style="position:absolute; font-size: 30px; left:820px; top: 391px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> -->
+
+<span id="text_r" style=" font-size: 10px; color: black; visibility:hidden; position:  absolute; left: 238px; top:480px;"> 3</span>
+
+<img src="image/transbox.png"  id="trans_e" style="border: 2px solid red; position: absolute;left:1025px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="trans_e()" />
+
+ <!-- <span class="blink_me" id="arrow8" style="position:absolute; font-size: 30px; left:1002px; top: 376px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> -->
+
+<span id="text_e" style=" font-size: 10px; color: black; visibility:hidden; position:  absolute; left: 234px; top:437px;"> -1</span>
+
+<img src="image/transbox.png"  id="trans_a" style="border: 2px solid blue; position: absolute;left:1025px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="trans_a()" />
+
+ <!-- <span class="blink_me" id="arrow9" style="position:absolute; font-size: 30px; left:1002px; top: 376px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span> -->
+
+<span id="text_a" style=" font-size: 10px; color: black; visibility:hidden; position:  absolute; left: 238px; top:416px;"> 4</span>
+
+<img src="image/transbox.png"  id="trans_basic_optn"style=" position: absolute;left:114px; top:120px; height: 100px; width: 85px; visibility: hidden;" onclick="trans_basic_optn()" />
+
+ <!-- <span class="blink_me" id="arrow10" style="position:absolute; font-size: 30px; left:149px; top: 99px; color: ; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span> -->
+
+
+
+
+
+
+
+
+
+        <!--Blinking arrowcubox  -->
+         <span class="blink_me" id="arrowcubox1" style="position:absolute; font-size: 30px; left: 1080px; top: 575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton1" style="color: #764C28; position:absolute; left: 1120px; top:575px; font-size: 35px; visibility: hidden;" onclick="navNext1()"></i>
+
+ </div>
+       
+
+
+
+
+
+
+<!-- scene3 -->
+
+<div class="simsubscreen" id="canvas3" style="visibility: hidden;background-image: url(image/lab_inner_view.jpg); background-repeat: no-repeat;" ></br>
+
+
+ <div id="transwhite" style="width: 1000px; height: 40px; margin-left: 100px; position: absolute; top: 26px;" ><br>
+
+<p class="incanvas" style="font-size:px; position: absolute; left: 10px; top:00px"><strong>STEP 1:</strong></p>
+
+<p class="incanvas" id="step1k" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 11) Now select the type of Drone.</p><br>
+
+  <p class="incanvas" id="step1l" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> l2) Click on motor test.</p><br>
+
+  <p class="incanvas" id="step1m" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 13) Click on Motor M1 and check the motor orientation.</p><br>
+
+  <p class="incanvas" id="step1n" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 14) Click on Motor M2 and check the motor orientation.</p><br>
+
+  <p class="incanvas" id="step1o" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 15) Click on Motor M3 and check the motor orientation.</p><br>
+
+  <p class="incanvas" id="step1p" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 16) Click on Motor M4 and check the motor orientation.</p><br>
+
+  <p class="incanvas" id="step1q" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 17) Click on Mounting option.</p><br>
+
+ 
+
+
+ 
+            
+
+</div>
+
+ <img src="image/monitor1.png" style="height:547px;  position: absolute; left: 15px; top: 82px;"/>
+
+ <img src="image/step2_image.png" id="step2_image" style="height: 454px; width: 726px; position: absolute; left:35px; top:108px; visibility:; "/>
+
+ <img src="image/transbox.png"  id="trans_drone_type"style=" position: absolute;left:393px; top:227px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_drone_type()" />
+
+  <img src="image/transbox.png"  id="trans_da"style=" position: absolute;left:268px; top:227px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_da()" />
+
+
+   <img src="image/transbox.png"  id="trans_db"style=" position: absolute;left:515px; top:227px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_db()" />
+
+    <img src="image/transbox.png"  id="trans_dc"style=" position: absolute;left:637px; top:227px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_dc()" />
+
+     <img src="image/transbox.png"  id="trans_dd"style=" position: absolute;left:637px; top:327px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_dd()" />
+
+      <img src="image/transbox.png"  id="trans_de"style=" position: absolute;left:516px; top:327px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_de()" />
+
+       <img src="image/transbox.png"  id="trans_df"style=" position: absolute;left:393px; top:327px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_df()" />
+
+        <img src="image/transbox.png"  id="trans_dg"style=" position: absolute;left:269px; top:327px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_dg()" />
+
+         <img src="image/transbox.png"  id="trans_dh"style=" position: absolute;left:269px; top:423px; height: 100px; width: 95px; visibility: hidden;" onclick="trans_dh()" />
+
+  <img src="image/step_211.png" id="step21_image" style="height: 455px; width: 726px; position: absolute; left:35px; top:108px; visibility:hidden; "/>
+
+   <img src="image/transbox.png"  id="trans_motor_test"style=" position: absolute;left:489px; top:500px; height: 31px; width: 95px; visibility: hidden;" onclick="trans_motor_test()" />
+
+
+   <img src="image/moter_orientation1.png" id="motor_orientation" style="height: 241px; width: 280px; position: absolute; left:361px; top:248px; visibility:hidden;box-shadow: -1px -1px 7px 1px #706565; "/>
+
+    <img src="image/transbox.png"  id="trans_m1"style="position: absolute;left:497px; top:314px; height: 42px; width: 95px; visibility:hidden;" onclick="trans_m1()" />
+
+    <img src="image/arrow1.png"  id="arrow_m1"style=" position: absolute;left:526px; top:313px; height: 42px; width: 55px; visibility:hidden;"  />
+
+    <img src="image/transbox.png"  id="trans_m2"style="position: absolute;left:369px; top:311px; height: 42px; width: 95px; visibility: hidden;" onclick="trans_m2()" />
+
+     <img src="image/arrow2.png"  id="arrow_m2"style=" position: absolute;left:410px; top:313px; height: 42px; width: 55px; visibility:hidden;"  />
+
+    <img src="image/transbox.png"  id="trans_m3"style=" position: absolute;left:397px; top:408px; height: 42px; width: 95px; visibility:hidden ;" onclick="trans_m3()" />
+
+     <img src="image/arrow1.png"  id="arrow_m3"style=" position: absolute;left:411px; top:408px; height: 42px; width:55px; visibility:hidden;"  />
+
+     <img src="image/transbox.png"  id="trans_m4"style=" position: absolute;left:502px; top:409px; height: 42px; width: 95px; visibility: hidden;" onclick="trans_m4()" />
+
+      <img src="image/arrow2.png"  id="arrow_m4"style=" position: absolute;left:528px; top:408px; height: 42px; width: 55px; visibility:hidden;" />
+    
+    <img src="image/transbox.png"  id="trans_mounting_optn"style=" position: absolute;left:117px; top:193px; height: 42px; width: 72px; visibility: hidden;" onclick="trans_mounting()" />
+
+
+
+
+
+
+
+
+
+   <!--Blinking arrowcubox  -->
+         <span class="blink_me" id="arrowcubox1" style="position:absolute; font-size: 30px; left: 1080px; top: 575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <i class="fa fa-hand-o-right" id="nextButton1" style="color: #764C28; position:absolute; left: 1120px; top:575px; font-size: 35px; visibility: hidden;" onclick="navNext1()"></i>
+
+ </div>
+
+
+ <!-- scene 4 -->
+
+ <div class="simsubscreen" id="canvas4" style="visibility: hidden;background-image: url(image/lab_inner_view.jpg); background-repeat: no-repeat;" ></br>
+
+
+ <div id="transwhite" style="width: 1000px; height: 40px; margin-left: 100px; position: absolute; top: 26px;" ><br>
+
+<p class="incanvas" style="font-size:px; position: absolute; left: 10px; top:00px"><strong>STEP 1:</strong></p>
+
+ <p class="incanvas" id="step1r" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 18) Click on Default option to set it as default.</p><br>
+
+  <p class="incanvas" id="step1s" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 19) Click on RC option.</p><br>
+
+  <p class="incanvas" id="step1t" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 20) Click on Add button.</p><br>
+
+  <p class="incanvas" id="step1u" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 21) Click on Start Button.</p><br>
+
+  <p class="incanvas" id="step1v" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 22) Click on Throttle and Yaw one by one and check the stick calibrations.</p><br>
+
+  <p class="incanvas" id="step1w" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 23) Click on Pitch and Radar one by one and check the stick calibrations.</p><br>
+ 
+
+ <p class="incanvas" id="step1x" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 24) Click on three position switch one by one to check GPS, Altitude and Manual Modes.</p><br>      
+
+  <p class="incanvas" id="step1y" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 25) Click on Gain Option.</p><br>
+
+    <p class="incanvas" id="step1z" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 26) Click on Basic Gain Option one by one to set Aircraft gains manually.</p><br>    
+
+
+    <p class="incanvas" id="stepa1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 27) Click on Altitude Gain Option one by one to set Aircraft gains manually.</p><br> 
+
+
+    <p class="incanvas" id="stepb1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 28) Click on Advance Option.</p><br>  
+
+     <p class="incanvas" id="stepc1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 29) Select the recommended Option.</p><br> 
+
+    <p class="incanvas" id="stepd1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 30) Click on File Save (F/S) Option.</p><br> 
+
+     <p class="incanvas" id="stepe1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 31) Choose Go home and landing Option.</p><br> 
+
+     <p class="incanvas" id="stepf1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 32) Click on IOC Option.</p><br> 
+
+      <p class="incanvas" id="stepg1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 33) Click on intelligent orientation control Option.</p><br>
+
+      <p class="incanvas" id="steph1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 34) Click on Gimbal Option.</p><br> 
+
+    <p class="incanvas" id="stepi1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 35) Click on Default button to set the device level default.</p><br>  
+
+  <p class="incanvas" id="stepj1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 36) Click on  H3/4 3D Option.</p><br> 
+
+  <p class="incanvas" id="stepk1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 37) Click on Voltage Option.</p><br> 
+
+  <p class="incanvas" id="stepl1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 38) Click on Limits Option.</p><br>
+
+  <p class="incanvas" id="stepm1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 39) Click on Default Button.</p><br>
+
+  <p class="incanvas" id="stepn1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 40) Click on Tools Option to do Basic and Advance calibrations.</p><br>
+
+
+  <p class="incanvas" id="stepo1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 41) Click on Advance option.</p><br>
+
+  <p class="incanvas" id="stepp1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 42) Click on Upgrade option.</p><br>
+
+  <p class="incanvas" id="stepq1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 43) Click on Info option.</p><br>
+
+   <p class="incanvas" id="stepr1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: hidden;"> 44) Click on Next Button.</p><br>
+
+            
+
+</div>
+<input type="button" id="add_remote_button_again" style="position:absolute; left:940px; top:36px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="add_remote_again()"/>
+
+ <img src="image/monitor1.png" style="height:547px;  position: absolute; left: 15px; top: 82px;"/>
+
+ <img src="image/step3.png" id="step3_image" style="height: 454px; width: 726px; position: absolute; left:35px; top:108px; visibility:; "/>
+
+
+ <img src="image/transbox.png"  id="trans_default"style=" position: absolute;left:663px; top:493px; height: 42px; width: 72px; visibility: ;" onclick="trans_default()" />
+
+  <img src="image/transbox.png"  id="trans_rc"style=" position: absolute;left:186px; top:193px; height: 42px; width: 72px; visibility: hidden;" onclick="trans_rc()" />
+
+ <img src="image/step4.png" id="step4_image" style="height: 454px; width: 726px; position: absolute; left:35px; top:108px; visibility:hidden; "/>
+
+<img src="image/transbox.png"  id="trans_1"style=" position: absolute;left:362px; top:243px; height: 32px; width: 29px; visibility: hidden;" onclick="trans_1()" />
+
+<img src="image/transbox.png"  id="trans_2"style=" position: absolute;left:438px; top:243px; height: 32px; width: 29px; visibility: hidden;" onclick="trans_2()" />
+
+
+
+<div id="upper_div1" style=" position: absolute; left: 37px; top:232px; height: 304px; width: 217px;background-color: #ffffffb5; visibility: hidden;"></div>
+
+<div id="below_div1" style="  position: absolute; left:524px; top:237px; height: 194px; width:224px;background-color: #ffffffb5; visibility:hidden;"></div>
+
+
+  <img src="image/remote1.png" id="remote1" style="height: 300px; width: 300px; position: absolute; left:38px; top:108px; visibility:hidden; "/>
+
+ <img src="image/s11.png" id="bit11" style="height: 21px; width: 15px; position: absolute; left:378px; top:294px; visibility:hidden; "/>
+
+ <img src="image/s11.png" id="bit21" style="height: 21px; width: 15px; position: absolute; left:378px; top:317px; visibility:hidden; "/>
+
+ <img src="image/s11.png" id="bit31" style="height: 21px; width: 15px; position: absolute; left:378px; top:343px; visibility:hidden; "/>
+
+ 
+
+ <img src="image/s11.png" id="bit41" style="height: 21px; width: 15px; position: absolute; left:378px; top:370px; visibility:hidden; "/>
+
+  <img src="image/transbox.png"  id="trans_start" style=" position: absolute;left:440px; top:385px; height: 37px; width: 85px; visibility:hidden;" onclick="trans_start()" />
+
+   <div id="start" style=" height: 15px; width:64px;background-color: #4adbff82; position: absolute; top: 398px; left: 452px; visibility:hidden; "></div>
+
+
+ <img src="image/transbox.png"  id="trans_throttle_up" style="border: 2px solid green; position: absolute;left:835px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="throttle_up()" />
+
+ <img src="image/transbox.png"  id="trans_throttle_down" style="border: 2px solid red; position: absolute;left:835px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="throttle_down()" />
+
+ <img src="image/transbox.png"  id="trans_throttle_neutral" style="border: 2px solid red; position: absolute;left:835px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="throttle_neutral()" />
+
+
+  <img src="image/transbox.png"  id="trans_pitch_up" style="border: 2px solid green; position: absolute;left:1027px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="pitch_up()" />
+
+ <img src="image/transbox.png"  id="trans_pitch_down" style="border: 2px solid red; position: absolute;left:1027px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="pitch_down()" />
+
+ <img src="image/transbox.png"  id="trans_pitch_neutral" style="border: 2px solid red; position: absolute;left:1027px; top:349px; height: 100px; width: 85px; visibility: hidden;" onclick="pitch_neutral()" />
+
+  <img src="image/black_S1.png" id="bit_black" style="height: 21px; width: 15px; position: absolute; left:384px; top:462px; visibility:hidden; "/>
+
+  <div id="gps" style=" height: 17px; width:60px;background-color: #4adbff82; position: absolute; top: 442px; left: 365px; visibility:hidden; ;"></div>
+
+   <img src="image/transbox.png"  id="trans_altitude" style="border: 2px solid red; position: absolute;left:1027px; top:289px; height:54px; width: 54px; visibility: hidden;" onclick="trans_altitude()" />
+
+  <div id="alt" style=" height: 17px; width:60px;background-color: #4adbff82; position: absolute; top: 442px; left: 491px; visibility:hidden; ;"></div>
+
+   <img src="image/transbox.png"  id="trans_manual" style="border: 2px solid black; position: absolute;left:1027px; top:289px; height:54px; width: 54px; visibility: hidden;" onclick="trans_manual()" />
+
+     <div id="manual" style=" height: 17px; width:48px;background-color:#4adbff82; position: absolute; top: 442px; left: 616px; visibility:hidden;"></div>
+
+ <!-- <img src="image/finish_image.png" id="finish_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/> -->
+
+  <!-- <img src="image/transbox.png"  id="trans_start1" style="border: 2px solid red; position: absolute;left:440px; top:385px; height: 37px; width: 85px; visibility:hidden;" onclick="trans_start1()" /> -->
+
+  <img src="image/transbox.png"  id="trans_gain_optn"style=" position: absolute;left:255px; top:193px; height: 42px; width: 72px; visibility: hidden;" onclick="trans_gain()" />
+
+  <img src="image/step5.png" id="step5_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+  <img src="image/transbox.png"  id="trans_step5_pitch"style=" position: absolute;left:367px; top:295px; height: 16px; width: 76px; visibility: hidden;" onclick="trans_step5_pitch()" />
+
+  <input type="text" name="step5_input" id="step5_input" style=" height: 13px; width:71px;position: absolute; top: 296px; left: 371px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; " >
+
+   
+
+   <!-- <div id="pitch_text" style=" height: 13px; width:64px;background-color: white;position: absolute; top: 299px; left: 373px; visibility:hidden; font-size: 11px; color: black;">120%</div> -->
+
+
+
+   <img src="image/transbox.png"  id="trans_step5_roll"style=" position: absolute;left:467px; top:295px; height: 16px; width: 73px; visibility: hidden;" onclick="trans_step5_roll()" />
+
+    <input type="text" name="step5_input_roll" id="step5_input_roll" style=" height: 13px; width:71px;position: absolute; top: 296px; left: 468px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; ">
+
+    <!-- <div id="roll_text" style=" height: 13px; width:64px;background-color: white; position: absolute; top: 299px; left: 473px; visibility:hidden; font-size: 11px; color: black;">120%</div> -->
+
+
+    <img src="image/transbox.png"  id="trans_step5_yaw"style=" position: absolute;left:563px; top:295px; height: 16px; width: 76px; visibility: hidden;" onclick="trans_step5_yaw()" />
+
+     <input type="text" name="step5_input_yaw" id="step5_input_yaw" style=" height: 13px; width:71px;position: absolute; top: 296px; left: 563px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; ">
+
+     <!-- <div id="yaw_text" style=" height: 13px; width:64px;background-color: white; position: absolute; top: 299px; left: 566px; visibility:hidden; font-size: 11px; color: black;">120%</div> -->
+
+     <img src="image/transbox.png"  id="trans_step5_vertical"style=" position: absolute;left:659px; top:295px; height: 16px; width: 76px; visibility: hidden;" onclick="trans_step5_vertical()" />
+
+ <input type="text" name="step5_input_vertical" id="step5_input_vertical" style=" height: 13px; width:71px;position: absolute; top: 296px; left: 661px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; ">
+
+      <!-- <div id="vertical_text" style=" height: 13px; width:64px;background-color: white; position: absolute; top: 299px; left: 664px; visibility:hidden; font-size: 11px; color: black;">200%</div> -->
+
+       <img src="image/transbox.png"  id="trans_step5_alt1"style=" position: absolute;left:369px; top:334px; height: 16px; width: 76px; visibility: hidden;" onclick="trans_step5_alt1()" />
+
+        <input type="text" name="step5_input_alt1" id="step5_input_alt1" style=" height: 14px; width:72px;position: absolute; top:335px; left: 370px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; ">
+
+      <!-- <div id="alt_pitch_text" style=" height: 13px; width:64px;background-color: white; position: absolute; top:339px; left: 374px; visibility:hidden; font-size: 11px; color: black;">220%</div> -->
+
+      <img src="image/transbox.png"  id="trans_step5_alt2"style=" position: absolute;left:465px; top:334px; height: 16px; width: 76px; visibility: hidden;" onclick="trans_step5_alt2()" />
+
+      <input type="text" name="step5_input_alt2" id="step5_input_alt2" style=" height: 14px; width:72px;position: absolute; top:335px; left: 465px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; ">
+
+      <!-- <div id="alt_roll_text" style=" height: 13px; width:64px;background-color: white; position: absolute; top: 338px; left: 470px; visibility:hidden; font-size: 11px; color: black;">220%</div> -->
+
+       <img src="image/transbox.png"  id="trans_advance_optn"style=" position: absolute;left:188px; top:140px; height:50px; width: 72px; visibility:hidden;" onclick="trans_advance()" />
+
+        <img src="image/step61.png" id="step61_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+          <img src="image/transbox.png"  id="trans_recommand_optn1"style=" position: absolute;left:273px; top:281px; height:39px; width:51px; visibility: hidden;" onclick="trans_recommand1()" />
+
+            <img src="image/transbox.png"  id="trans_recommand_optn2"style=" position: absolute;left:373px; top:281px; height:39px; width:51px; visibility: hidden;" onclick="trans_recommand2()" />
+
+              <img src="image/transbox.png"  id="trans_recommand_optn3"style=" position: absolute;left:573px; top:281px; height:39px; width:51px; visibility: hidden;" onclick="trans_recommand3()" />
+
+                <img src="image/transbox.png"  id="trans_recommand_optn4"style=" position: absolute;left:673px; top:281px; height:39px; width:51px; visibility: hidden;" onclick="trans_recommand4()" />
+
+                   <img src="image/transbox.png"  id="trans_recommand_optn5"style=" position: absolute;left:368px; top:336px; height:26px; width:26px; visibility: hidden;" onclick="trans_recommand5()" />
+
+                      <img src="image/transbox.png"  id="trans_recommand_optn6"style=" position: absolute;left:543px; top:336px; height:26px; width:26px; visibility: hidden;" onclick="trans_recommand6()" />
+
+  <img src="image/transbox.png"  id="trans_recommand_optn"style=" position: absolute;left:473px; top:281px; height:39px; width:51px; visibility: hidden;" onclick="trans_recommand()" />
+
+  <img src="image/step6_recommand.png" id="step6_recommand" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+    <img src="image/transbox.png"  id="trans_filesave_optn"style=" position: absolute;left:112px; top:183px; height:50px; width: 72px; visibility:hidden;" onclick="trans_filesave()" />
+
+  <img src="image/file_save_iamge.png" id="file_save_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+
+  <img src="image/transbox.png"  id="trans_landing_optn"style=" position: absolute;left:248px; top:249px; height:26px; width: 34px; visibility:hidden;" onclick="trans_landing()" />
+
+  <img src="image/transbox.png"  id="trans_gohome_landing_optn"style=" position: absolute;left:490px; top:246px; height:26px; width: 34px; visibility:hidden;" onclick="trans_gohome_landing()" />
+
+  <img src="image/gohome_landing.png" id="gohome_landing_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+  <img src="image/transbox.png"  id="trans_ioc_optn"style=" position: absolute;left:189px; top:192px; height:26px; width: 61px; visibility:hidden;" onclick="trans_ioc()" />
+
+    <img src="image/ioc_image.png" id="ioc_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+    <img src="image/transbox.png"  id="trans_ioc_click"style=" position: absolute;left:260px; top:227px; height:26px; width: 27px; visibility:hidden;" onclick="trans_ioc_click()" />
+
+
+    <img src="image/ioc_click.png"  id="ioc_click_image"style=" position: absolute;left:30px; top:106px; height:456px; width:733px; visibility:hidden;" />
+
+
+ <img src="image/transbox.png"  id="trans_gimbal_optn"style=" position: absolute;left:262px; top:192px; height:26px; width: 61px; visibility:hidden;" onclick="trans_gimbal()" />
+
+
+
+    <img src="image/gimbal_image.png" id="gimbal_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+     <img src="image/transbox.png"  id="trans_gimbal_optn1"style=" position: absolute;left:263px; top:235px; height:240px; width: 464px; visibility:hidden;" onclick="trans_gimbal1()" />
+
+  <img src="image/transbox.png"  id="trans_gimbal_default"style=" position: absolute;left:667px; top:496px; height:26px; width: 61px; visibility:hidden;" onclick="trans_gimbal_default()" />
+
+   <img src="image/transbox.png"  id="trans_h3/43d_optn"style=" position: absolute;left:323px; top:192px; height:26px; width: 61px; visibility:hidden;" onclick="trans_3d_optn()" />
+
+    
+
+
+       <img src="image/3d_image.png" id="3d_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+     <img src="image/transbox.png"  id="fpv_mode"style=" position: absolute;left:355px; top:319px; height:26px; width: 16px; visibility:hidden;" onclick="fpv_mode()" />
+
+     <img src="image/transbox.png"  id="trans_voltage_optn"style=" position: absolute;left:395px; top:192px; height:26px; width: 61px; visibility:hidden;" onclick="trans_voltage_optn()" />
+
+     <img src="image/voltage_image.png" id="voltage_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+      <img src="image/transbox.png"  id="trans_on"style=" position: absolute;left:280px; top:249px; height:26px; width: 18px; visibility:hidden;" onclick="trans_on()" />
+
+       <img src="image/transbox.png"  id="trans_off"style=" position: absolute;left:500px; top:249px; height:26px; width: 18px; visibility:hidden;" onclick="trans_off()" />
+
+     <select id="mySelect" style=" border: 1px solid #cfcfdc;position: absolute;left: 396px;top: 320px; height: 16px;width: 172px;background-color: #e1e1e1;font-size: 11px; visibility: hidden;" onchange="myFunction()">
+  <option value="s1LiPo">2S LiPo</option>
+  <option value="s2LiPo">3S LiPo</option>
+  <option value="s3LiPo">4S LiPo</option>
+  <option value="s3LiPo">5S LiPo</option>
+  <option value="s4LiPo">6S LiPo</option>
+</select>
+
+      <img src="image/transbox.png"  id="trans_v1"style=" position: absolute;left:304px; top:370px; height:15px; width: 46px; visibility:hidden;" onclick="trans_v1()" />
+
+       <input type="text" name="input_v1" id="input_v1" style=" height: 14px; width:47px;position: absolute; top:370px; left:304px; visibility:hidden; font-size: 11px; color:red; border: 1px solid green; ">
+
+       <img src="image/transbox.png"  id="trans_v2"style=" position: absolute;left:379px; top:370px; height:15px; width: 46px; visibility:hidden;" onclick="trans_v2()" />
+
+         <input type="text" name="input_v2" id="input_v2" style=" height: 14px; width:47px;position: absolute; top:370px; left:378px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; " >
+
+      <img src="image/transbox.png"  id="trans_v3"style=" position: absolute;left:304px; top:455px; height:15px; width: 46px; visibility:hidden;" onclick="trans_v3()" />
+
+        <input type="text" name="input_v3" id="input_v3" style=" height: 14px; width:47px;position: absolute; top:455px; left:304px; visibility:hidden; font-size: 11px; color: red; border: 1px solid green; ">
+
+     <img src="image/transbox.png"  id="trans_v4"style=" position: absolute;left:379px; top:455px; height:15px; width: 46px; visibility:hidden;" onclick="trans_v4()" />
+
+  <input type="text" name="input_v4" id="input_v4" style=" height: 14px; width:47px;position: absolute; top:455px; left:379px; visibility:hidden; font-size: 11px; color: black; border: 1px solid green; " >
+
+ <img src="image/transbox.png"  id="trans_limit_optn1"style="border: 2px solid blue; position: absolute;left:461px; top:192px; height:26px; width: 61px; visibility:hidden;" onclick="trans_limit_optn1()" />
+     <img src="image/transbox.png"  id="trans_limit_optn"style=" position: absolute;left:461px; top:192px; height:26px; width: 61px; visibility:hidden;" onclick="trans_limit_optn()" />
+
+       <img src="image/limit_image.png" id="limit_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+        <img src="image/transbox.png"  id="trans_max_height"style=" position: absolute;left:346px; top:239px; height:19px; width: 67px; visibility:hidden;" onclick="trans_max_height()" />
+
+         <img src="image/transbox.png"  id="trans_min_height"style=" position: absolute;left:528px; top:239px; height:19px; width: 67px; visibility:hidden;" onclick="trans_min_height()" />
+
+
+  <img src="image/transbox.png"  id="trans_limit_default"style=" position: absolute;left:667px; top:496px; height:26px; width: 61px; visibility:hidden;" onclick="trans_limit_default()" />
+
+<img src="image/transbox.png"  id="trans_tools_optn"style=" position: absolute;left:253px; top:130px; height:58px; width: 61px; visibility:hidden;" onclick="trans_tools_optn()" />
+
+  <img src="image/tools_image.png" id="tools_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+<img src="image/transbox.png"  id="trans_advance1"style=" position: absolute;left:281px; top:400px; height:26px; width: 71px; visibility:hidden;" onclick="trans_advance1()" />
+
+<img src="image/tools_advance_image.png" id="tools_advance_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+<img src="image/transbox.png"  id="trans_upgrade_optn"style=" position: absolute;left:317px; top:130px; height:58px; width: 71px; visibility:hidden;" onclick="trans_upgrade()" />
+
+<img src="image/upgrade_image.png" id="upgrade_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+
+<img src="image/transbox.png"  id="trans_info_optn"style=" position: absolute;left:390px; top:133px; height:58px; width: 71px; visibility:hidden;" onclick="trans_info()" />
+
+<img src="image/info_image.png" id="info_image" style="height: 456px; width: 733px; position: absolute; left:30px; top:106px; visibility:hidden; "/>
+        
+
+
+
+
+
+
+
+
+
+
+         <span class="blink_me" id="arrowcubox2" style="position:absolute; font-size: 30px; left: 1050px; top: 575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+        <i class="fa fa-hand-o-right" id="nextButton2" style="color: #764C28; position:absolute; left: 1100px; top:575px; font-size: 35px; visibility: hidden;" onclick="navNext2()"></i>
+
+
+ </div>
+
+
+
+
+  <!-- scene 5 -->
+
+ <div class="simsubscreen" id="canvas5" style="visibility: hidden;background-image: url(image/tabletop.jpg); background-repeat: no-repeat;" ></br>
+
+
+ <div id="transwhite" style="width: 1000px; height: 40px; margin-left: 100px; position: absolute; top: 26px;" ><br>
+
+<p class="incanvas" style="font-size:px; position: absolute; left: 10px; top:00px"><strong>STEP 2:</strong></p>
+
+ <p class="incanvas" id="step2_1" style="font-size:px; position: absolute; left: 83px; top:0px;"> 1) Click on Add button to bring Drone.</p><br>
+
+ <p class="incanvas" id="step2_2" style="font-size:px; position: absolute; visibility: hidden; left: 83px; top:0px;"> 2) Click Add button to bring Remote.</p><br>
+
+ <p class="incanvas" id="step2_3" style="font-size:px; position: absolute; visibility: hidden; left: 83px; top:0px;"> 3) Click on Power button of Remote to give power supply to drone.</p><br>
+  
+ <p class="incanvas" id="step2_4" style="font-size:px; position: absolute; visibility: hidden; left: 83px; top:0px;"> 4) Click on GPS button in remote 10 times to observe the LED colour.</p><br>
+
+ <p class="incanvas" id="step2_5" style="font-size:px; position: absolute; visibility: hidden; left: 83px; top:0px;"> 5) If LED colour is yellow then click on Drone and rotate it Horizontally.</p><br>
+
+
+ <p class="incanvas" id="step2_6" style="font-size:px; position: absolute; visibility: hidden; left: 83px; top:0px;"> 6) If LED colour is green then click on Drone and rotate it Vertically.</p><br>
+
+<p class="incanvas" id="step2_7" style="font-size:px; position: absolute; visibility: hidden; left: 83px; top:0px;"> 7) Click on Next Button.</p><br>
+
+
+</div>
+
+ <input type="button" id="add_drone_button" style="position:absolute; left:940px; top:36px; cursor:pointer; visibility: ; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="add_drone()"/>
+
+ <input type="button" id="add_remote_button_canvas5" style="position:absolute; left:940px; top:36px; cursor:pointer; visibility: hidden; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="add_remote_canvas5()"/>
+
+
+ <img src="image/drone5.png" id="drone" style="height: 435px;  position: absolute; visibility:hidden; "/>
+
+  <img src="image/remote1.png" id="remote1_canvas5" style="height: 300px; width: 300px; position: absolute; left:38px; top:108px; visibility:hidden; "/>
+
+   <img src="image/remotebutton.png" id="remotebutton_canvas5" style="height: 31px; width:18px; position: absolute; left:1050px; top:510px; visibility:hidden; "/>
+
+   <img src="image/transbox.png"  id="trans_remote_poweron" style="border: 2px solid green; position: absolute;left:1029px; top:491px; height: 70px; width: 50px; visibility: hidden;" onclick="remote_poweron_canvas5()" />
+
+
+<img src="image/remotescreen.png"  id="screen_canvas5" style=" position: absolute;left:908px; top:470px; height: 61px; width: 122px; visibility: hidden;"  />
+
+
+ <img src="image/transbox.png"  id="gps_poweron_off1" style="border: 2px solid green; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off1()" />
+
+ <img src="image/transbox.png"  id="gps_poweron_off2" style="border: 2px solid blue; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off2()" />
+
+ <img src="image/transbox.png"  id="gps_poweron_off3" style="border: 2px solid red; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off3()" />
+
+ <img src="image/transbox.png"  id="gps_poweron_off4" style="border: 2px solid black;   position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off4()" />
+
+ <img src="image/transbox.png"  id="gps_poweron_off5" style="border: 2px solid green; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off5()" />
+
+
+  <img src="image/transbox.png"  id="gps_poweron_off6" style="border: 2px solid green; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off6()" />
+
+   <img src="image/transbox.png"  id="gps_poweron_off7" style="border: 2px solid green; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off7()" />
+
+    <img src="image/transbox.png"  id="gps_poweron_off8" style="border: 2px solid green; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off8()" />
+
+     <img src="image/transbox.png"  id="gps_poweron_off9" style="border: 2px solid green; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off9()" />
+
+      <img src="image/transbox.png"  id="gps_poweron_off10" style="border: 2px solid green; position: absolute;left:1029px; top:285px; height: 70px; width: 50px; visibility: hidden;" onclick="gps_poweron_off10()" />
+
+      <img src="image/naza_led2.png"  id="naza_led" style=" position: absolute;left:483px; top:80px; height:218px; visibility: hidden;"  />
+
+      <div id= "yellow_light" style=" height: 23px; width: 23px; background-color:orange; position: absolute; left: 565px; top: 179px;border-radius: 50px; visibility: hidden;"> </div>
+
+          <div id= "yellow_light1" style=" height: 23px; width: 23px; background-color: #f2c803; position: absolute; left: 565px; top: 179px;border-radius: 50px; visibility: hidden;"> </div>
+
+
+
+     <img src="image/transbox.png"  id="trans_horizontally_flip" style=" position: absolute;left: 10px; top: 165px; height: 365px; width: 400px; visibility: hidden;" onclick="trans_horizontally_flip()" />
+
+ <div id= "green_light1" class="blink_me" style=" height: 23px; width: 23px; background-color: green; position: absolute; left: 565px; top: 179px;border-radius: 50px; visibility: hidden;"> </div>
+
+ <div id= "green_light2"  style=" height: 23px; width: 23px; background-color: green; position: absolute; left: 565px; top: 179px;border-radius: 50px; visibility: hidden;"> </div>
+ 
+  <!-- <div id= green_light1 style=" height: 23px; width: 23px; background-color: yellow; position: absolute; left: 377px; top: 175px;border-radius: 50px; visibility: hidden;"> </div> -->
+
+
+ <img src="image/transbox.png"  id="trans_vertically_flip" style=" position: absolute;left: 10px; top: 165px; height: 365px; width: 400px; visibility: hidden;" onclick="trans_vertically_flip()" />
+
+
+<span id="one" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">1</span>
+
+<span id="two" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">2</span>
+
+<span id="three" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">3</span>
+
+<span id="four" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">4</span>
+
+
+<span id="five" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">5</span>
+
+
+<span id="six" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">6</span>
+
+
+<span id="seven" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">7</span>
+
+
+
+<span id="eight" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">8</span>
+
+
+
+<span id="nine" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">9</span>
+
+
+<span id="ten" style=" position: absolute; left: 1044px; top: 244px; color: red; font-size: 35px;  visibility: hidden;">10</span>
+
+
+
+
+   <span class="blink_me" id="arrowcubox3" style="position:absolute; font-size: 30px; left: 1050px; top: 575px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+        <i class="fa fa-hand-o-right" id="nextButton3" style="color: #764C28; position:absolute; left: 1100px; top:575px; font-size: 35px; visibility: hidden;" onclick="navNext3()"></i>
+
+</div>
+
+  <!-- scene 5 -->
+
+ <div class="simsubscreen" id="canvas6" style="visibility: hidden;background-image: url(image/tabletop.jpg); background-repeat: no-repeat;" ></br>
+
+
+ <div id="transwhite" style="width: 1000px; height: 40px; margin-left: 100px; position: absolute; top: 26px;" ><br>
+
+<p class="incanvas" style="font-size:px; position: absolute; left: 10px; top:00px"><strong>STEP 3:</strong></p>
+
+ <p class="incanvas" id="step3_1" style="font-size:px; position: absolute; left: 83px; top:0px; visibility: ;"> 1) Click on Add button to bring Remote.</p><br>
+
+  <p class="incanvas" id="step3_2" style="font-size:px; position: absolute; left: 83px; top:0px;visibility: hidden;"> 2) Click on Power button of drone and give power supply to drone.</p><br>
+
+   <p class="incanvas" id="step3_3" style="font-size:px; position: absolute; left: 83px; top:0px;visibility: hidden;"> 3) Click on Remote Arms to set it initially which starts the Motor.</p><br>
+
+ <p class="incanvas" id="step3_4" style="font-size:px; position: absolute; left: 83px; top:0px;visibility: hidden;"> 4) Click  again on Remote Arms to set it at initial position.</p><br>
+
+ <p class="incanvas" id="step3_5" style="font-size:px; position: absolute; left: 83px; top:0px;visibility: hidden;"> 5) Click on Throttle and raise the throttle by 10% until the drone takeoff.</p><br>
+
+ <p class="incanvas" id="step3_6" style="font-size:px; position: absolute; left: 83px; top:0px;visibility: hidden;"> 6) Click on Throttle and slowly down the throttle to land the drone.</p><br>
+
+ <p class="incanvas" id="step3_7" style="font-size:px; position: absolute; left: 83px; top:0px;visibility: hidden;"> 7) Click again on Arms to disarm it.</p><br>
+
+ <p class="incanvas" id="step3_8" style="font-size:px; position: absolute; left: 83px; top:0px;visibility: hidden;"><strong> 8) Thank You for performing.</strong></p><br>
+
+
+            
+
+</div>
+
+
+ <input type="button" id="add_remote_button_canvas6" style="position:absolute; left:940px; top:36px; cursor:pointer; visibility: ; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="add_remote_canvas6()"/>
+
+ <!-- <input type="button" id="add_drone_button_canvas6" style="position:absolute; left:940px; top:36px; cursor:pointer; visibility: ; font-size: 10px; background-color: #764C28; padding-top: 5px; color: #FFF; padding-bottom: 5px;" value="&nbsp;ADD&nbsp;" onclick="add_drone()"/> -->
+
+
+ <img src="image/drone_new.png" id="drone_canvas6" style="height: 355px;  position: absolute; top:270px; left:0px;visibility:; "/>
+
+<img src="image/remote1.png" id="remote1_canvas6" style="height: 300px; width: 300px; position: absolute; left:38px; top:108px; visibility:hidden; "/>
+
+
+ <img src="image/remotebutton.png" id="remotebutton_canvas6" style="height: 31px; width:18px; position: absolute; left:1050px; top:510px; visibility:hidden; "/>
+
+<img src="image/transbox.png"  id="trans_remote_poweron_canvas6" style="border: 2px solid green; position: absolute;left:1029px; top:491px; height: 70px; width: 50px; visibility: hidden;" onclick="remote_poweron_canvas6()" />
+
+
+<img src="image/remotescreen.png"  id="screen_canvas6" style=" position: absolute;left:908px; top:470px; height: 61px; width: 122px; visibility: hidden;"  />
+
+<img src="image/transbox.png"  id="trans_arm_pos1" style="border: 2px solid green; position: absolute;left:847px; top:366px; height: 70px; width:250px; visibility: hidden;" onclick="trans_arm_pos1()" />
+
+<img src="image/transbox.png"  id="trans_arm_pos2" style="border: 2px solid red; position: absolute;left:847px; top:366px; height: 70px; width:250px; visibility: hidden;" onclick="trans_arm_pos2()" />
+
+<img src="image/transbox.png"  id="trans_arm_pos3" style="border: 2px solid black; position: absolute;left:847px; top:366px; height: 70px; width:90px; visibility: hidden;" onclick="trans_arm_pos3()" />
+
+<img src="image/transbox.png"  id="trans_arm_pos4" style="border: 2px solid red; position: absolute;left:847px; top:366px; height: 70px; width:90px; visibility: hidden;" onclick="trans_arm_pos4()" />
+
+<img src="image/transbox.png"  id="trans_arm_pos5" style="border: 2px solid red; position: absolute;left:847px; top:366px; height: 70px; width:250px; visibility: hidden;" onclick="trans_arm_pos5()" />
+
+<!-- <img src="image/fan3.png"  id="rotate" style=" position: absolute;left:14px; top:430px; height: 99px;  visibility: ;" onclick="rotate()" /> -->
+
+<img src="image/fan_blade.png"  id="fan1" style=" position: absolute;left:365px; top:436px; height: 99px;  visibility: ;" />
+
+<img src="image/fan_blade.png"  id="fan2" style=" position: absolute;left:-9px; top:436px; height: 99px;  visibility: ;transform: rotate(344deg);" />
+
+<img src="image/fan_blade.png"  id="fan3" style=" position: absolute;left:327px; top:280px; height: 99px;  visibility: ;transform: rotate(360deg);" />
+
+<img src="image/fan_blade.png"  id="fan4" style=" position: absolute;left:45px; top:280px; height: 99px;  visibility: ;transform: rotate(344deg);" />
+
+
+<!-- <img src="image/fan_blade.png"  id="fan41" style=" position: absolute;height: 99px;  visibility:hidden;" /> -->
+
+<!-- <img src="image/fan5.png"  id="rotate" style=" position: absolute;left:318px; top:130px; height: 99px;  visibility: ;" onclick="rotate()" /> -->
+
+<!-- <img src="image/fan6.png"  id="rotate" style=" position: absolute;left:418px; top:130px; height: 99px;  visibility: ;" onclick="rotate()" /> -->
+
+
+
+<!-- <div  id="rotate" style=" height: 30px; width: 185px; position: absolute; left: 490px; top: 473px; visibility: ; border: 1px solid green; background-color: gray;transform: rotate(45deg);" onclick="rotate();"></div> -->
+
+</div>
+
+
+  </div> <!---firsstdiv--->
+
+  <div style="text-align: center; font-size: 11px; width:1200px; border:1px solid #764C28; position: relative; border-top:none; color: #FFF; background-color: #F36F21; height: 15px; padding-top: 5px; padding-bottom: 5px"><a href="#" target="_blank"  style="text-decoration: none;"><strong style="color: #FFF; font-size: 12px;"><!---Electronics Sector Skill Council of India (ESSCI)----></strong></a></div> 
+
+</body>
+</html>
